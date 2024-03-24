@@ -1,0 +1,8 @@
+Information: 14 - Now listening on: https://localhost:7136Information: 14 - Now listening on: http://localhost:5267Information: 0 - Application started. Press Ctrl+C to shut down.Information: 0 - Hosting environment: DevelopmentInformation: 0 - Content root path: C:\Users\Iuri\Desktop\WebAPI\FirstApi\FirstApiInformation: 20101 - Executed DbCommand (20ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT `c`.`Id`, `c`.`Nome`
+FROM `Categorias` AS `c`Information: 20101 - Executed DbCommand (27ms) [Parameters=[@p0='?' (Size = 50)], CommandType='Text', CommandTimeout='30']
+INSERT INTO `Categorias` (`Nome`)
+VALUES (@p0);
+SELECT `Id`
+FROM `Categorias`
+WHERE ROW_COUNT() = 1 AND `Id` = LAST_INSERT_ID();
