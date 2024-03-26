@@ -1,4 +1,5 @@
 using FirstApi.Context;
+using FirstApi.DTOs.Mapping;
 using FirstApi.Filters;
 using FirstApi.Logging;
 using FirstApi.Middlewares.ExceptionsMiddlewares;
@@ -32,6 +33,8 @@ builder.Services.AddScoped<ApiLoggingFilter>();
 builder.Logging.AddProvider(new CustomLoggerProvider(new CustomLoggerProviderConfiguration {
     LogLevel = LogLevel.Information
 }));
+
+builder.Services.AddAutoMapper(typeof(MappingProfile));
 
 var app = builder.Build();
 

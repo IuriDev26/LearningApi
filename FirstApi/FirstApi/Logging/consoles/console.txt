@@ -5,4 +5,134 @@ INSERT INTO `Categorias` (`Nome`)
 VALUES (@p0);
 SELECT `Id`
 FROM `Categorias`
-WHERE ROW_COUNT() = 1 AND `Id` = LAST_INSERT_ID();
+WHERE ROW_COUNT() = 1 AND `Id` = LAST_INSERT_ID();Information: 0 - Application is shutting down...Information: 14 - Now listening on: https://localhost:7136Information: 14 - Now listening on: http://localhost:5267Information: 0 - Application started. Press Ctrl+C to shut down.Information: 0 - Hosting environment: DevelopmentInformation: 0 - Content root path: C:\Users\Iuri\Desktop\WebAPI\LearningApi\FirstApi\FirstApiInformation: 20101 - Executed DbCommand (35ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT `c`.`Id`, `c`.`Nome`
+FROM `Categorias` AS `c`Information: 20101 - Executed DbCommand (32ms) [Parameters=[@p0='?' (Size = 50)], CommandType='Text', CommandTimeout='30']
+INSERT INTO `Categorias` (`Nome`)
+VALUES (@p0);
+SELECT `Id`
+FROM `Categorias`
+WHERE ROW_COUNT() = 1 AND `Id` = LAST_INSERT_ID();Information: 20101 - Executed DbCommand (1ms) [Parameters=[@p0='?' (Size = 50)], CommandType='Text', CommandTimeout='30']
+INSERT INTO `Categorias` (`Nome`)
+VALUES (@p0);
+SELECT `Id`
+FROM `Categorias`
+WHERE ROW_COUNT() = 1 AND `Id` = LAST_INSERT_ID();Information: 20101 - Executed DbCommand (1ms) [Parameters=[@p0='?' (Size = 50)], CommandType='Text', CommandTimeout='30']
+INSERT INTO `Categorias` (`Nome`)
+VALUES (@p0);
+SELECT `Id`
+FROM `Categorias`
+WHERE ROW_COUNT() = 1 AND `Id` = LAST_INSERT_ID();Information: 20101 - Executed DbCommand (1ms) [Parameters=[@p0='?' (Size = 50)], CommandType='Text', CommandTimeout='30']
+INSERT INTO `Categorias` (`Nome`)
+VALUES (@p0);
+SELECT `Id`
+FROM `Categorias`
+WHERE ROW_COUNT() = 1 AND `Id` = LAST_INSERT_ID();Information: 20101 - Executed DbCommand (3ms) [Parameters=[@p1='?' (DbType = Int32), @p0='?' (Size = 50)], CommandType='Text', CommandTimeout='30']
+SET AUTOCOMMIT = 1;
+UPDATE `Categorias` SET `Nome` = @p0
+WHERE `Id` = @p1;
+SELECT ROW_COUNT();Information: 20101 - Executed DbCommand (1ms) [Parameters=[@p0='?' (Size = 50)], CommandType='Text', CommandTimeout='30']
+INSERT INTO `Categorias` (`Nome`)
+VALUES (@p0);
+SELECT `Id`
+FROM `Categorias`
+WHERE ROW_COUNT() = 1 AND `Id` = LAST_INSERT_ID();Information: 0 - ---------------------------------------Information: 0 - ----------Preparando Execução----------Information: 20101 - Executed DbCommand (0ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT `c`.`Id`, `c`.`Nome`
+FROM `Categorias` AS `c`
+WHERE `c`.`Id` = @__id_0
+LIMIT 1Information: 0 - ---------------------------------------Information: 0 - ------------Action Executada-----------Information: 20101 - Executed DbCommand (1ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT `c`.`Id`, `c`.`Nome`
+FROM `Categorias` AS `c`
+WHERE `c`.`Id` = @__id_0
+LIMIT 1Information: 20101 - Executed DbCommand (3ms) [Parameters=[@p0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SET AUTOCOMMIT = 1;
+DELETE FROM `Categorias`
+WHERE `Id` = @p0;
+SELECT ROW_COUNT();Information: 20101 - Executed DbCommand (0ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT `c`.`Id`, `c`.`Nome`
+FROM `Categorias` AS `c`
+WHERE `c`.`Id` = @__id_0
+LIMIT 1Information: 20101 - Executed DbCommand (2ms) [Parameters=[@p0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SET AUTOCOMMIT = 1;
+DELETE FROM `Categorias`
+WHERE `Id` = @p0;
+SELECT ROW_COUNT();Information: 20101 - Executed DbCommand (0ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT `c`.`Id`, `c`.`Nome`
+FROM `Categorias` AS `c`
+WHERE `c`.`Id` = @__id_0
+LIMIT 1Information: 20101 - Executed DbCommand (2ms) [Parameters=[@p0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SET AUTOCOMMIT = 1;
+DELETE FROM `Categorias`
+WHERE `Id` = @p0;
+SELECT ROW_COUNT();Information: 0 - ---------------------------------------Information: 0 - ----------Preparando Execução----------Information: 20101 - Executed DbCommand (0ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT `c`.`Id`, `c`.`Nome`
+FROM `Categorias` AS `c`
+WHERE `c`.`Id` = @__id_0
+LIMIT 1Information: 0 - ---------------------------------------Information: 0 - ------------Action Executada-----------Information: 0 - ---------------------------------------Information: 0 - ----------Preparando Execução----------Information: 20101 - Executed DbCommand (0ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT `c`.`Id`, `c`.`Nome`
+FROM `Categorias` AS `c`
+WHERE `c`.`Id` = @__id_0
+LIMIT 1Information: 0 - ---------------------------------------Information: 0 - ------------Action Executada-----------Information: 20101 - Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT `p`.`Id`, `p`.`CategoriaId`, `p`.`Descricao`, `p`.`Preco`
+FROM `Produtos` AS `p`Information: 20101 - Executed DbCommand (1ms) [Parameters=[@p0='?' (DbType = Int32), @p1='?' (Size = 100), @p2='?' (DbType = Decimal)], CommandType='Text', CommandTimeout='30']
+INSERT INTO `Produtos` (`CategoriaId`, `Descricao`, `Preco`)
+VALUES (@p0, @p1, @p2);
+SELECT `Id`
+FROM `Produtos`
+WHERE ROW_COUNT() = 1 AND `Id` = LAST_INSERT_ID();Information: 20101 - Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT `p`.`Id`, `p`.`CategoriaId`, `p`.`Descricao`, `p`.`Preco`
+FROM `Produtos` AS `p`Error: 20102 - Failed executing DbCommand (5ms) [Parameters=[@p3='?' (DbType = Int32), @p0='?' (DbType = Int32), @p1='?' (Size = 100), @p2='?' (DbType = Decimal)], CommandType='Text', CommandTimeout='30']
+SET AUTOCOMMIT = 1;
+UPDATE `Produtos` SET `CategoriaId` = @p0, `Descricao` = @p1, `Preco` = @p2
+WHERE `Id` = @p3;
+SELECT ROW_COUNT();Error: 10000 - An exception occurred in the database while saving changes for context type 'FirstApi.Context.ApiContext'.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> MySqlConnector.MySqlException (0x80004005): Cannot add or update a child row: a foreign key constraint fails (`catalogodb`.`produtos`, CONSTRAINT `FK_Produtos_Categorias_CategoriaId` FOREIGN KEY (`CategoriaId`) REFERENCES `categorias` (`Id`) ON DELETE CASCADE)
+   at MySqlConnector.Core.ServerSession.ReceiveReplyAsync(IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ServerSession.cs:line 894
+   at MySqlConnector.Core.ResultSet.ReadResultSetHeaderAsync(IOBehavior ioBehavior) in /_/src/MySqlConnector/Core/ResultSet.cs:line 37
+   at MySqlConnector.MySqlDataReader.ActivateResultSet(CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlDataReader.cs:line 130
+   at MySqlConnector.MySqlDataReader.InitAsync(CommandListPosition commandListPosition, ICommandPayloadCreator payloadCreator, IDictionary`2 cachedProcedures, IMySqlCommand command, CommandBehavior behavior, Activity activity, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlDataReader.cs:line 483
+   at MySqlConnector.Core.CommandExecutor.ExecuteReaderAsync(CommandListPosition commandListPosition, ICommandPayloadCreator payloadCreator, CommandBehavior behavior, Activity activity, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/CommandExecutor.cs:line 56
+   at MySqlConnector.MySqlCommand.ExecuteReaderAsync(CommandBehavior behavior, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlCommand.cs:line 357
+   at MySqlConnector.MySqlCommand.ExecuteDbDataReader(CommandBehavior behavior) in /_/src/MySqlConnector/MySqlCommand.cs:line 290
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChanges(IList`1 entries)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(StateManager stateManager, Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.<>c.<SaveChanges>b__112_0(DbContext _, ValueTuple`2 t)
+   at Pomelo.EntityFrameworkCore.MySql.Storage.Internal.MySqlExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)Error: 1 - An unhandled exception has occurred while executing the request.Information: 20101 - Executed DbCommand (2ms) [Parameters=[@p3='?' (DbType = Int32), @p0='?' (DbType = Int32), @p1='?' (Size = 100), @p2='?' (DbType = Decimal)], CommandType='Text', CommandTimeout='30']
+SET AUTOCOMMIT = 1;
+UPDATE `Produtos` SET `CategoriaId` = @p0, `Descricao` = @p1, `Preco` = @p2
+WHERE `Id` = @p3;
+SELECT ROW_COUNT();Information: 20101 - Executed DbCommand (1ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT `p`.`Id`, `p`.`CategoriaId`, `p`.`Descricao`, `p`.`Preco`
+FROM `Produtos` AS `p`
+WHERE `p`.`Id` = @__id_0
+LIMIT 1Information: 20101 - Executed DbCommand (0ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT `p`.`Id`, `p`.`CategoriaId`, `p`.`Descricao`, `p`.`Preco`
+FROM `Produtos` AS `p`
+WHERE `p`.`Id` = @__id_0
+LIMIT 1Information: 20101 - Executed DbCommand (1ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT `p`.`Id`, `p`.`CategoriaId`, `p`.`Descricao`, `p`.`Preco`
+FROM `Produtos` AS `p`
+WHERE `p`.`CategoriaId` = @__id_0Information: 20101 - Executed DbCommand (0ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT `p`.`Id`, `p`.`CategoriaId`, `p`.`Descricao`, `p`.`Preco`
+FROM `Produtos` AS `p`
+WHERE `p`.`Id` = @__id_0
+LIMIT 1Information: 20101 - Executed DbCommand (0ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT `p`.`Id`, `p`.`CategoriaId`, `p`.`Descricao`, `p`.`Preco`
+FROM `Produtos` AS `p`
+WHERE `p`.`Id` = @__id_0
+LIMIT 1Information: 20101 - Executed DbCommand (0ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT `p`.`Id`, `p`.`CategoriaId`, `p`.`Descricao`, `p`.`Preco`
+FROM `Produtos` AS `p`
+WHERE `p`.`Id` = @__id_0
+LIMIT 1Information: 14 - Now listening on: https://localhost:7136Information: 14 - Now listening on: http://localhost:5267Information: 0 - Application started. Press Ctrl+C to shut down.Information: 0 - Hosting environment: DevelopmentInformation: 0 - Content root path: C:\Users\Iuri\Desktop\WebAPI\LearningApi\FirstApi\FirstApiInformation: 20101 - Executed DbCommand (19ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT `c`.`Id`, `c`.`Nome`
+FROM `Categorias` AS `c`

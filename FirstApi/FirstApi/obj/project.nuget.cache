@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "47VUMDesBSNfr9dZDGMpmqJUthm3fxwsz99n/5IH6azUy1C8hKLqVRlqSmTTz2wxU6bxvpHb9QILaANmN0kMuw==",
+  "dgSpecHash": "2BxzJoL2HLl09K7UKioxZ2qkM1X9MFVCfArmaACjyzlnegnsv54QXAPOBNSiXeBH6i4BXw22kKovtuOxDKQRwA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Iuri\\Desktop\\WebAPI\\FirstApi\\FirstApi\\FirstApi.csproj",
+  "projectFilePath": "C:\\Users\\Iuri\\Desktop\\WebAPI\\LearningApi\\FirstApi\\FirstApi\\FirstApi.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Iuri\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\Iuri\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\Iuri\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\6.0.0\\microsoft.bcl.asyncinterfaces.6.0.0.nupkg.sha512",
     "C:\\Users\\Iuri\\.nuget\\packages\\microsoft.codeanalysis.analyzers\\3.3.3\\microsoft.codeanalysis.analyzers.3.3.3.nupkg.sha512",
