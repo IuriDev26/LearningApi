@@ -1,9 +1,12 @@
 ﻿using AutoMapper;
 using FirstApi.DTOs.Entities;
+using FirstApi.Filtros;
 using FirstApi.Models;
+using FirstApi.Pagination;
 using FirstApi.UnitOfWork;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Newtonsoft.Json;
 
 namespace FirstApi.Controllers {
     [Route("[controller]")]
@@ -16,6 +19,7 @@ namespace FirstApi.Controllers {
         public ProdutosController(IUnitOfWork uof, IMapper mapper) {
             _uof = uof;
             _mapper = mapper;
+
         }
 
         [HttpGet]
@@ -34,9 +38,19 @@ namespace FirstApi.Controllers {
         }
 
         [HttpGet("produtospaginados")]
-        public ActionResult<IEnumerable<ProdutoDTO>> GetByPage([FromQuery] ProdutosParameters parameters) {
-            return Ok(_mapper.Map<IEnumerable<ProdutoDTO>>(_uof.ProdutoRepository.GetProdutos(parameters)));
-        
+        public ActionResult<IEnumerable<ProdutoDTO>> GetByPage([FromQuery] PaginationParameters parameters) {
+            var produtos = _uof.ProdutoRepository.GetProdutos(parameters);
+
+            return ObterProdutosPagination(produtos);
+        }
+
+        [HttpGet("Preco")]
+        public ActionResult<IEnumerable<ProdutoDTO>> FilterByPrice([FromQuery] ProdutosFiltroPreco parameters) { 
+
+            var produtos = _uof.ProdutoRepository.FiltroByPreco(parameters);
+            return ObterProdutosPagination(produtos);
+
+            
         }
 
         [HttpPost]
@@ -68,6 +82,24 @@ namespace FirstApi.Controllers {
             _uof.Commit();
 
             return Ok(deletedProduto);
+        }
+
+        private ActionResult<IEnumerable<ProdutoDTO>> ObterProdutosPagination(PagedList<Produto> produtos) {
+
+            var metadata = new {
+                produtos.PageSize,
+                produtos.TotalCount,
+                produtos.CurrentPage,
+                produtos.TotalPages,
+                produtos.HasNext,
+                produtos.HasPrevious
+            };
+
+            Response.Headers.Append("X-Filter-Preco", JsonConvert.SerializeObject(metadata));
+
+            var produtosDto = _mapper.Map<IEnumerable<ProdutoDTO>>(produtos);
+            return Ok(produtosDto);
+
         }
     }
 }

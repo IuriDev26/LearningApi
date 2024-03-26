@@ -26,7 +26,7 @@ namespace FirstApi.Logging {
         }
 
         public void WriteLog(string message) {
-            string caminhoLog = @"C:\Users\Iuri\Desktop\WebAPI\LearningApi\FirstApi\FirstApi\Logging\consoles\console.txt";
+            string caminhoLog = @"C:\Users\ESTAGIARIOTI\Documents\LearningApi\FirstApi\FirstApi\Logging\consoles\console.txt";
 
             using (StreamWriter streamWriter = new StreamWriter(caminhoLog, true)) {
                 try {
