@@ -5,5 +5,8 @@ namespace FirstApi.Repositories.Interfaces {
 
         IEnumerable<Produto> GetProdutosCategoria(int id);
 
+        IEnumerable<Produto> GetProdutos(ProdutosParameters parameters);
+
+
     }
 }

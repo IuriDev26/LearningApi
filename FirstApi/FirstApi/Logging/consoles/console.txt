@@ -135,4 +135,12 @@ FROM `Produtos` AS `p`
 WHERE `p`.`Id` = @__id_0
 LIMIT 1Information: 14 - Now listening on: https://localhost:7136Information: 14 - Now listening on: http://localhost:5267Information: 0 - Application started. Press Ctrl+C to shut down.Information: 0 - Hosting environment: DevelopmentInformation: 0 - Content root path: C:\Users\Iuri\Desktop\WebAPI\LearningApi\FirstApi\FirstApiInformation: 20101 - Executed DbCommand (19ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
 SELECT `c`.`Id`, `c`.`Nome`
-FROM `Categorias` AS `c`
+FROM `Categorias` AS `c`Information: 14 - Now listening on: https://localhost:7136Information: 14 - Now listening on: http://localhost:5267Information: 0 - Application started. Press Ctrl+C to shut down.Information: 0 - Hosting environment: DevelopmentInformation: 0 - Content root path: C:\Users\Iuri\Desktop\WebAPI\LearningApi\FirstApi\FirstApiInformation: 20101 - Executed DbCommand (20ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT `p`.`Id`, `p`.`CategoriaId`, `p`.`Descricao`, `p`.`Preco`
+FROM `Produtos` AS `p`Information: 20101 - Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT `p`.`Id`, `p`.`CategoriaId`, `p`.`Descricao`, `p`.`Preco`
+FROM `Produtos` AS `p`Information: 20101 - Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT `p`.`Id`, `p`.`CategoriaId`, `p`.`Descricao`, `p`.`Preco`
+FROM `Produtos` AS `p`Information: 20101 - Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT `p`.`Id`, `p`.`CategoriaId`, `p`.`Descricao`, `p`.`Preco`
+FROM `Produtos` AS `p`

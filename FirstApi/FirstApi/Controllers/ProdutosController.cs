@@ -33,6 +33,12 @@ namespace FirstApi.Controllers {
             return Ok(_mapper.Map<IEnumerable<ProdutoDTO>>(_uof.ProdutoRepository.GetProdutosCategoria(id)));
         }
 
+        [HttpGet("produtospaginados")]
+        public ActionResult<IEnumerable<ProdutoDTO>> GetByPage([FromQuery] ProdutosParameters parameters) {
+            return Ok(_mapper.Map<IEnumerable<ProdutoDTO>>(_uof.ProdutoRepository.GetProdutos(parameters)));
+        
+        }
+
         [HttpPost]
         public ActionResult<ProdutoDTO> Post(ProdutoDTO produtoDto) {
 

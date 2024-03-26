@@ -1,4 +1,5 @@
-﻿using System.Linq.Expressions;
+﻿using FirstApi.Models;
+using System.Linq.Expressions;
 
 namespace FirstApi.Repositories.Interfaces {
     public interface IRepository<T> {
@@ -8,6 +9,8 @@ namespace FirstApi.Repositories.Interfaces {
         T Create(T entity);
         T Update(T entity);
         T Delete(T entity);
+
+        
 
 
     }

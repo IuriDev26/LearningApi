@@ -1,4 +1,5 @@
 ﻿using FirstApi.Context;
+using FirstApi.Models;
 using FirstApi.Repositories.Interfaces;
 using Microsoft.EntityFrameworkCore;
 using System.Linq.Expressions;

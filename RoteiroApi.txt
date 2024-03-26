@@ -1,7 +1,8 @@
 models
 context
 migrations
-repositories
+DTOs and Mappings
+repositories and Paginação
 unitofwork
 controllers
 useexpcetionhandler
