@@ -23,31 +23,31 @@ namespace FirstApi.Controllers {
         }
 
         [HttpGet]
-        public ActionResult<IEnumerable<ProdutoDTO>> Get() => Ok(_mapper.Map<IEnumerable<ProdutoDTO>>(_uof.ProdutoRepository.GetAll()));
+        public async Task<ActionResult<IEnumerable<ProdutoDTO>>> Get() => Ok(_mapper.Map<IEnumerable<ProdutoDTO>>(await _uof.ProdutoRepository.GetAllAsync()));
 
         [HttpGet("{id:int}", Name = "ObterProduto")]
-        public ActionResult<ProdutoDTO> GetById(int id) {
+        public async Task<ActionResult<ProdutoDTO>> GetById(int id) {
 
-            return Ok(_mapper.Map<ProdutoDTO>(_uof.ProdutoRepository.GetById( p => p.Id == id )));
+            return Ok(_mapper.Map<ProdutoDTO>(await _uof.ProdutoRepository.GetByIdAsync( p => p.Id == id )));
 
         }
 
         [HttpGet("ByCategoria/{id:int}", Name = "ProdutosPorCategoria")]
-        public ActionResult<IEnumerable<ProdutoDTO>> ByCategoria(int id) {
-            return Ok(_mapper.Map<IEnumerable<ProdutoDTO>>(_uof.ProdutoRepository.GetProdutosCategoria(id)));
+        public async Task<ActionResult<IEnumerable<ProdutoDTO>>> ByCategoria(int id) {
+            return Ok(_mapper.Map<IEnumerable<ProdutoDTO>>(await _uof.ProdutoRepository.GetProdutosCategoriaAsync(id)));
         }
 
         [HttpGet("produtospaginados")]
-        public ActionResult<IEnumerable<ProdutoDTO>> GetByPage([FromQuery] PaginationParameters parameters) {
-            var produtos = _uof.ProdutoRepository.GetProdutos(parameters);
+        public async Task<ActionResult<IEnumerable<ProdutoDTO>>> GetByPage([FromQuery] PaginationParameters parameters) {
+            var produtos = await _uof.ProdutoRepository.GetProdutosAsync(parameters);
 
             return ObterProdutosPagination(produtos);
         }
 
         [HttpGet("Preco")]
-        public ActionResult<IEnumerable<ProdutoDTO>> FilterByPrice([FromQuery] ProdutosFiltroPreco parameters) { 
+        public async Task<ActionResult<IEnumerable<ProdutoDTO>>> FilterByPrice([FromQuery] ProdutosFiltroPreco parameters) { 
 
-            var produtos = _uof.ProdutoRepository.FiltroByPreco(parameters);
+            var produtos = await _uof.ProdutoRepository.FiltroByPrecoAsync(parameters);
             return ObterProdutosPagination(produtos);
 
             
@@ -75,9 +75,9 @@ namespace FirstApi.Controllers {
         }
 
         [HttpDelete("{id:int}")]
-        public ActionResult<ProdutoDTO> Delete(int id) {
+        public async Task<ActionResult<ProdutoDTO>> Delete(int id) {
 
-            var produto = _uof.ProdutoRepository.GetById( p => p.Id == id );
+            var produto = await _uof.ProdutoRepository.GetByIdAsync( p => p.Id == id );
             var deletedProduto = _mapper.Map<ProdutoDTO>(_uof.ProdutoRepository.Delete(produto));
             _uof.Commit();
 

@@ -24,26 +24,26 @@ namespace FirstApi.Controllers {
 
 
         [HttpGet]
-        public ActionResult<IEnumerable<CategoriaDTO>> Get() => Ok(_mapper.Map<IEnumerable<CategoriaDTO>>(_uof.CategoriaRepository.GetAll()));
+        public async Task<ActionResult<IEnumerable<CategoriaDTO>>> Get() => Ok(_mapper.Map<IEnumerable<CategoriaDTO>>(await _uof.CategoriaRepository.GetAllAsync()));
 
         [HttpGet("{id:int}", Name ="ObterCategoria")]
         [ServiceFilter(typeof(ApiLoggingFilter))]
-        public ActionResult<CategoriaDTO> GetById(int id) {
-            return Ok(_mapper.Map<CategoriaDTO>(_uof.CategoriaRepository.GetById(c => c.Id == id )));
+        public async Task<ActionResult<CategoriaDTO>> GetById(int id) {
+            return Ok(_mapper.Map<CategoriaDTO>(await _uof.CategoriaRepository.GetByIdAsync(c => c.Id == id )));
         }
 
         [HttpGet("Pagination")]
-        public ActionResult<IEnumerable<CategoriaDTO>> GetCategorias([FromQuery] PaginationParameters parameters) {
+        public async Task<ActionResult<IEnumerable<CategoriaDTO>>> GetCategorias([FromQuery] PaginationParameters parameters) {
 
-            var categorias = _uof.CategoriaRepository.GetCategorias(parameters);
+            var categorias = await _uof.CategoriaRepository.GetCategoriasAsync(parameters);
 
             return ObterCategoriaPagination(categorias);
         }
 
         [HttpGet("Nome")]
-        public ActionResult<IEnumerable<CategoriaDTO>> FilterByName([FromQuery] CategoriasFiltroNome parameters) {
+        public async Task<ActionResult<IEnumerable<CategoriaDTO>>> FilterByName([FromQuery] CategoriasFiltroNome parameters) {
 
-            var categorias = _uof.CategoriaRepository.FiltroCategoriaNome(parameters);
+            var categorias = await _uof.CategoriaRepository.FiltroCategoriaNomeAsync(parameters);
 
             return ObterCategoriaPagination(categorias);
 
@@ -69,9 +69,9 @@ namespace FirstApi.Controllers {
         }
 
         [HttpDelete("{id:int}")]
-        public ActionResult<CategoriaDTO> Delete(int id) {
+        public async Task<ActionResult<CategoriaDTO>> Delete(int id) {
 
-            var categoria = _uof.CategoriaRepository.GetById(c => c.Id == id);
+            var categoria = await _uof.CategoriaRepository.GetByIdAsync(c => c.Id == id);
             var deletedCategoria = _mapper.Map<CategoriaDTO>(_uof.CategoriaRepository.Delete(categoria));
             _uof.Commit();
             return Ok(deletedCategoria);

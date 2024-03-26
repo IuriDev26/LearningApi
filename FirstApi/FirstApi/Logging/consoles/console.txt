@@ -403,4 +403,24 @@ SELECT `c`.`Id`, `c`.`Nome`
 FROM `Categorias` AS `c`
 WHERE `c`.`Nome` LIKE @__parameters_Nome_0_contains
 ORDER BY `c`.`Nome`
+LIMIT @__p_2 OFFSET @__p_1Information: 14 - Now listening on: https://localhost:7136Information: 14 - Now listening on: http://localhost:5267Information: 0 - Application started. Press Ctrl+C to shut down.Information: 0 - Hosting environment: DevelopmentInformation: 0 - Content root path: C:\Users\Iuri\Desktop\WebAPI\LearningApi\FirstApi\FirstApiInformation: 20101 - Executed DbCommand (21ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT `c`.`Id`, `c`.`Nome`
+FROM `Categorias` AS `c`Information: 0 - ---------------------------------------Information: 0 - ----------Preparando Execução----------Information: 20101 - Executed DbCommand (31ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT `c`.`Id`, `c`.`Nome`
+FROM `Categorias` AS `c`
+WHERE `c`.`Id` = @__id_0
+LIMIT 1Information: 0 - ---------------------------------------Information: 0 - ------------Action Executada-----------Information: 20101 - Executed DbCommand (3ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT COUNT(*)
+FROM `Categorias` AS `c`Information: 20101 - Executed DbCommand (1ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT `c`.`Id`, `c`.`Nome`
+FROM `Categorias` AS `c`
+ORDER BY `c`.`Id`
+LIMIT @__p_0 OFFSET @__p_0Information: 20101 - Executed DbCommand (1ms) [Parameters=[@__parameters_Nome_0_contains='?' (Size = 50)], CommandType='Text', CommandTimeout='30']
+SELECT COUNT(*)
+FROM `Categorias` AS `c`
+WHERE `c`.`Nome` LIKE @__parameters_Nome_0_containsInformation: 20101 - Executed DbCommand (1ms) [Parameters=[@__parameters_Nome_0_contains='?' (Size = 50), @__p_2='?' (DbType = Int32), @__p_1='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT `c`.`Id`, `c`.`Nome`
+FROM `Categorias` AS `c`
+WHERE `c`.`Nome` LIKE @__parameters_Nome_0_contains
+ORDER BY `c`.`Nome`
 LIMIT @__p_2 OFFSET @__p_1

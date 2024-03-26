@@ -5,13 +5,13 @@ using FirstApi.Pagination;
 namespace FirstApi.Repositories.Interfaces {
     public interface IProdutoRepository : IRepository<Produto> {
 
-        IEnumerable<Produto> GetProdutosCategoria(int id);
+        Task<IEnumerable<Produto>> GetProdutosCategoriaAsync(int id);
 
-        IEnumerable<Produto> GetProdutosx(PaginationParameters parameters);
+        Task<IEnumerable<Produto>> GetProdutosxAsync(PaginationParameters parameters);
 
-        PagedList<Produto> GetProdutos(PaginationParameters parameters);
+        Task<PagedList<Produto>> GetProdutosAsync(PaginationParameters parameters);
 
-        PagedList<Produto> FiltroByPreco(ProdutosFiltroPreco parameters);
+        Task<PagedList<Produto>> FiltroByPrecoAsync(ProdutosFiltroPreco parameters);
 
 
     }

@@ -5,9 +5,9 @@ using FirstApi.Pagination;
 namespace FirstApi.Repositories.Interfaces {
     public interface ICategoriaRepository : IRepository<Categoria> {
 
-        PagedList<Categoria> GetCategorias(PaginationParameters parameters);
+        Task<PagedList<Categoria>> GetCategoriasAsync(PaginationParameters parameters);
 
-        PagedList<Categoria> FiltroCategoriaNome(CategoriasFiltroNome parameters);
+        Task<PagedList<Categoria>> FiltroCategoriaNomeAsync(CategoriasFiltroNome parameters);
 
 
     }
