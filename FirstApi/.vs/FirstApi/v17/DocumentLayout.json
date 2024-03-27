@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\ESTAGIARIOTI\\Documents\\LearningApi\\FirstApi\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{0C338BCD-8D6E-44E4-B83D-80CC637843FE}|FirstApi\\FirstApi.csproj|c:\\users\\estagiarioti\\documents\\learningapi\\firstapi\\firstapi\\repositories\\interfaces\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C338BCD-8D6E-44E4-B83D-80CC637843FE}|FirstApi\\FirstApi.csproj|solutionrelative:firstapi\\repositories\\interfaces\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{0C338BCD-8D6E-44E4-B83D-80CC637843FE}|FirstApi\\FirstApi.csproj|c:\\users\\estagiarioti\\documents\\learningapi\\firstapi\\firstapi\\controllers\\categoriascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0C338BCD-8D6E-44E4-B83D-80CC637843FE}|FirstApi\\FirstApi.csproj|solutionrelative:firstapi\\controllers\\categoriascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -63,19 +67,32 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "IRepository.cs",
+              "DocumentMoniker": "C:\\Users\\ESTAGIARIOTI\\Documents\\LearningApi\\FirstApi\\FirstApi\\Repositories\\Interfaces\\IRepository.cs",
+              "RelativeDocumentMoniker": "FirstApi\\Repositories\\Interfaces\\IRepository.cs",
+              "ToolTip": "C:\\Users\\ESTAGIARIOTI\\Documents\\LearningApi\\FirstApi\\FirstApi\\Repositories\\Interfaces\\IRepository.cs",
+              "RelativeToolTip": "FirstApi\\Repositories\\Interfaces\\IRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-27T11:17:24.679Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "CategoriasController.cs",
               "DocumentMoniker": "C:\\Users\\ESTAGIARIOTI\\Documents\\LearningApi\\FirstApi\\FirstApi\\Controllers\\CategoriasController.cs",
               "RelativeDocumentMoniker": "FirstApi\\Controllers\\CategoriasController.cs",
               "ToolTip": "C:\\Users\\ESTAGIARIOTI\\Documents\\LearningApi\\FirstApi\\FirstApi\\Controllers\\CategoriasController.cs",
               "RelativeToolTip": "FirstApi\\Controllers\\CategoriasController.cs",
-              "ViewState": "AQIAAAUAAAAAAAAAAAAowA4AAAA4AAAA",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAcwA4AAAA4AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-26T16:33:38.555Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "CategoriaRepository.cs",
               "DocumentMoniker": "C:\\Users\\ESTAGIARIOTI\\Documents\\LearningApi\\FirstApi\\FirstApi\\Repositories\\Implementations\\CategoriaRepository.cs",
               "RelativeDocumentMoniker": "FirstApi\\Repositories\\Implementations\\CategoriaRepository.cs",
@@ -83,12 +100,11 @@
               "RelativeToolTip": "FirstApi\\Repositories\\Implementations\\CategoriaRepository.cs",
               "ViewState": "AQIAAAMAAAAAAAAAAAAAAAcAAABLAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-26T16:29:56.195Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-26T16:29:56.195Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "ICategoriaRepository.cs",
               "DocumentMoniker": "C:\\Users\\ESTAGIARIOTI\\Documents\\LearningApi\\FirstApi\\FirstApi\\Repositories\\Interfaces\\ICategoriaRepository.cs",
               "RelativeDocumentMoniker": "FirstApi\\Repositories\\Interfaces\\ICategoriaRepository.cs",
@@ -96,12 +112,11 @@
               "RelativeToolTip": "FirstApi\\Repositories\\Interfaces\\ICategoriaRepository.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAABMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-26T16:29:16.831Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-26T16:29:16.831Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "CategoriasFiltroNome.cs",
               "DocumentMoniker": "C:\\Users\\ESTAGIARIOTI\\Documents\\LearningApi\\FirstApi\\FirstApi\\Filtros\\CategoriasFiltroNome.cs",
               "RelativeDocumentMoniker": "FirstApi\\Filtros\\CategoriasFiltroNome.cs",
@@ -109,12 +124,11 @@
               "RelativeToolTip": "FirstApi\\Filtros\\CategoriasFiltroNome.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAA8AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-26T16:26:59.703Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-26T16:26:59.703Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "Repository.cs",
               "DocumentMoniker": "C:\\Users\\ESTAGIARIOTI\\Documents\\LearningApi\\FirstApi\\FirstApi\\Repositories\\Implementations\\Repository.cs",
               "RelativeDocumentMoniker": "FirstApi\\Repositories\\Implementations\\Repository.cs",
@@ -122,12 +136,11 @@
               "RelativeToolTip": "FirstApi\\Repositories\\Implementations\\Repository.cs",
               "ViewState": "AQIAAAsAAAAAAAAAAAAQwBoAAAAoAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-26T16:07:35.563Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-26T16:07:35.563Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "ProdutosController.cs",
               "DocumentMoniker": "C:\\Users\\ESTAGIARIOTI\\Documents\\LearningApi\\FirstApi\\FirstApi\\Controllers\\ProdutosController.cs",
               "RelativeDocumentMoniker": "FirstApi\\Controllers\\ProdutosController.cs",
@@ -135,12 +148,11 @@
               "RelativeToolTip": "FirstApi\\Controllers\\ProdutosController.cs",
               "ViewState": "AQIAABkAAAAAAAAAAAA5wC8AAABVAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-26T15:53:54.161Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-26T15:53:54.161Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "PagedList.cs",
               "DocumentMoniker": "C:\\Users\\ESTAGIARIOTI\\Documents\\LearningApi\\FirstApi\\FirstApi\\Pagination\\PagedList.cs",
               "RelativeDocumentMoniker": "FirstApi\\Pagination\\PagedList.cs",
@@ -148,12 +160,11 @@
               "RelativeToolTip": "FirstApi\\Pagination\\PagedList.cs",
               "ViewState": "AQIAAAoAAAAAAAAAAAAcwBEAAAAgAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-26T15:36:52.15Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-26T15:36:52.15Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "ProdutoRepository.cs",
               "DocumentMoniker": "C:\\Users\\ESTAGIARIOTI\\Documents\\LearningApi\\FirstApi\\FirstApi\\Repositories\\Implementations\\ProdutoRepository.cs",
               "RelativeDocumentMoniker": "FirstApi\\Repositories\\Implementations\\ProdutoRepository.cs",
@@ -161,12 +172,11 @@
               "RelativeToolTip": "FirstApi\\Repositories\\Implementations\\ProdutoRepository.cs",
               "ViewState": "AQIAAA0AAAAAAAAAAAAgwBoAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-26T15:35:30.529Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-26T15:35:30.529Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "IProdutoRepository.cs",
               "DocumentMoniker": "C:\\Users\\ESTAGIARIOTI\\Documents\\LearningApi\\FirstApi\\FirstApi\\Repositories\\Interfaces\\IProdutoRepository.cs",
               "RelativeDocumentMoniker": "FirstApi\\Repositories\\Interfaces\\IProdutoRepository.cs",
@@ -174,12 +184,11 @@
               "RelativeToolTip": "FirstApi\\Repositories\\Interfaces\\IProdutoRepository.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAABIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-26T15:34:37.453Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-26T15:34:37.453Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "ProdutosFiltroPreco.cs",
               "DocumentMoniker": "C:\\Users\\ESTAGIARIOTI\\Documents\\LearningApi\\FirstApi\\FirstApi\\Filtros\\ProdutosFiltroPreco.cs",
               "RelativeDocumentMoniker": "FirstApi\\Filtros\\ProdutosFiltroPreco.cs",
@@ -187,12 +196,11 @@
               "RelativeToolTip": "FirstApi\\Filtros\\ProdutosFiltroPreco.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-26T15:32:56.137Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-26T15:32:56.137Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "PaginationParameters.cs",
               "DocumentMoniker": "C:\\Users\\ESTAGIARIOTI\\Documents\\LearningApi\\FirstApi\\FirstApi\\Models\\PaginationParameters.cs",
               "RelativeDocumentMoniker": "FirstApi\\Models\\PaginationParameters.cs",
@@ -200,8 +208,7 @@
               "RelativeToolTip": "FirstApi\\Models\\PaginationParameters.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-26T15:16:07.485Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-26T15:16:07.485Z"
             }
           ]
         }
