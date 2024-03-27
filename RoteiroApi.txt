@@ -2,7 +2,7 @@ models
 context
 migrations
 DTOs and Mappings
-repositories and Paginação
-unitofwork
+repositories and Paginação --> Pensando nos métodos assíncronos
+unitofwork(assíncrono)
 controllers
 useexpcetionhandler

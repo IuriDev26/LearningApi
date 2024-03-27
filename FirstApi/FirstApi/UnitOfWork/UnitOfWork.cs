@@ -18,8 +18,8 @@ namespace FirstApi.UnitOfWork {
 
         public ICategoriaRepository CategoriaRepository => _categoriaRepository = _categoriaRepository ?? new CategoriaRepository(_context);  
 
-        public void Commit() {
-            _context.SaveChanges();
+        public async Task CommitAsync() {
+           await _context.SaveChangesAsync();
         }
 
         public void Dispose() {

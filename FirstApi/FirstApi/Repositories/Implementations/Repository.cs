@@ -24,12 +24,12 @@ namespace FirstApi.Repositories.Implementations {
             return entity;
         }
 
-        public IEnumerable<T> GetAll() {
-            return _context.Set<T>().AsNoTracking().ToList();
+        public async Task<IEnumerable<T>> GetAllAsync() {
+            return await _context.Set<T>().AsNoTracking().ToListAsync();
         }
 
-        public T? GetById(Expression<Func<T, bool>> predicate) {
-            return _context.Set<T>().FirstOrDefault(predicate);
+        public async Task<T?> GetByIdAsync(Expression<Func<T, bool>> predicate) {
+            return await _context.Set<T>().FirstOrDefaultAsync(predicate);
         }
 
         public T Update(T entity) {

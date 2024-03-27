@@ -12,18 +12,18 @@ namespace FirstApi.Repositories.Implementations {
             
         }
 
-        public PagedList<Categoria> FiltroCategoriaNome(CategoriasFiltroNome parameters) {
+        public async Task<PagedList<Categoria>> FiltroCategoriaNomeAsync(CategoriasFiltroNome parameters) {
 
             var query = _context.Categorias.Where(c => c.Nome.Contains(parameters.Nome)).OrderBy(c => c.Nome).AsQueryable();
 
-            return PagedList<Categoria>.ToPagedList(query, parameters.PageNumber, parameters.PageSize);
+            return await PagedList<Categoria>.ToPagedListAsync(query, parameters.PageNumber, parameters.PageSize);
 
 
         }
 
-        public PagedList<Categoria> GetCategorias(PaginationParameters parameters) {
+        public async Task<PagedList<Categoria>> GetCategoriasAsync(PaginationParameters parameters) {
             var query = _context.Categorias.OrderBy(c => c.Id).AsQueryable();
-            return PagedList<Categoria>.ToPagedList(query, parameters.PageNumber, parameters.PageSize);
+            return await PagedList<Categoria>.ToPagedListAsync(query, parameters.PageNumber, parameters.PageSize);
 
 
         }
