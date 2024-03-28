@@ -10,7 +10,7 @@ namespace FirstApi.Services.Interfaces
 
         string GenerateRefreshToken();
 
-        ClaimsPrincipal GetPrinciplaFromExpiredToken(string token, IConfiguration _config);
+        ClaimsPrincipal GetPrincipalFromExpiredToken(string token, IConfiguration _config);
 
     }
 }

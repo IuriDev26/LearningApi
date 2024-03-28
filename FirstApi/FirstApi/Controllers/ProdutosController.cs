@@ -4,6 +4,7 @@ using FirstApi.Filtros;
 using FirstApi.Models;
 using FirstApi.Pagination;
 using FirstApi.UnitOfWork;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json;
@@ -21,17 +22,21 @@ namespace FirstApi.Controllers {
             _mapper = mapper;
 
         }
-
+        
+        [Authorize]
         [HttpGet]
         public async Task<ActionResult<IEnumerable<ProdutoDTO>>> Get() => Ok(_mapper.Map<IEnumerable<ProdutoDTO>>(await _uof.ProdutoRepository.GetAllAsync()));
 
         [HttpGet("{id:int}", Name = "ObterProduto")]
         public async Task<ActionResult<ProdutoDTO>> GetById(int id) {
 
+            throw new ArgumentNullException();
+
             return Ok(_mapper.Map<ProdutoDTO>(await _uof.ProdutoRepository.GetByIdAsync( p => p.Id == id )));
 
         }
 
+        [Authorize]
         [HttpGet("ByCategoria/{id:int}", Name = "ProdutosPorCategoria")]
         public async Task<ActionResult<IEnumerable<ProdutoDTO>>> ByCategoria(int id) {
             return Ok(_mapper.Map<IEnumerable<ProdutoDTO>>(await _uof.ProdutoRepository.GetProdutosCategoriaAsync(id)));

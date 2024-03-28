@@ -42,7 +42,7 @@ namespace FirstApi.Services.Implementations {
             return refreshToken;
         }
 
-        public ClaimsPrincipal GetPrinciplaFromExpiredToken(string token, IConfiguration _config) {
+        public ClaimsPrincipal GetPrincipalFromExpiredToken(string token, IConfiguration _config) {
             var key = _config.GetSection("JWT").GetValue<string>("SecretKey") ?? throw new InvalidOperationException("Invalid Secret Key");
 
             var tokenValidationParameters = new TokenValidationParameters {
@@ -65,5 +65,8 @@ namespace FirstApi.Services.Implementations {
 
             return principal;
         }
+
+        
+
     }
 }
