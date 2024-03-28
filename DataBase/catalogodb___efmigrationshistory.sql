@@ -35,7 +35,7 @@ CREATE TABLE `__efmigrationshistory` (
 
 LOCK TABLES `__efmigrationshistory` WRITE;
 /*!40000 ALTER TABLE `__efmigrationshistory` DISABLE KEYS */;
-INSERT INTO `__efmigrationshistory` VALUES ('20240323004308_FirstMigration','8.0.3'),('20240323004414_PopulaCategoria','8.0.3'),('20240323004607_PopulaProdutos','8.0.3'),('20240326144612_FirstMigrationAjuste','8.0.3');
+INSERT INTO `__efmigrationshistory` VALUES ('20240323004308_FirstMigration','8.0.3'),('20240323004414_PopulaCategoria','8.0.3'),('20240323004607_PopulaProdutos','8.0.3'),('20240326144612_FirstMigrationAjuste','8.0.3'),('20240326211053_Ajuste2','8.0.3'),('20240327125546_AjusteIdentity','8.0.3'),('20240327152643_20242703','8.0.3');
 /*!40000 ALTER TABLE `__efmigrationshistory` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
@@ -48,4 +48,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2024-03-26 13:46:02
+-- Dump completed on 2024-03-28  9:24:50
