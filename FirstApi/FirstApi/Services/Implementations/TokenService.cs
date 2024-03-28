@@ -2,6 +2,7 @@
 using Microsoft.IdentityModel.Tokens;
 using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
+using System.Security.Cryptography;
 
 namespace FirstApi.Services.Implementations {
     public class TokenService : ITokenService {
@@ -30,11 +31,39 @@ namespace FirstApi.Services.Implementations {
         }
 
         public string GenerateRefreshToken() {
-            throw new NotImplementedException();
+
+            var randomSecureNumber = new byte[128];
+
+            var randomNumberGenerator = RandomNumberGenerator.Create();
+
+            randomNumberGenerator.GetBytes(randomSecureNumber);
+
+            var refreshToken = Convert.ToBase64String(randomSecureNumber);
+            return refreshToken;
         }
 
         public ClaimsPrincipal GetPrinciplaFromExpiredToken(string token, IConfiguration _config) {
-            throw new NotImplementedException();
+            var key = _config.GetSection("JWT").GetValue<string>("SecretKey") ?? throw new InvalidOperationException("Invalid Secret Key");
+
+            var tokenValidationParameters = new TokenValidationParameters {
+                ValidateAudience = false,
+                ValidateIssuer = false,
+                ValidateIssuerSigningKey = true,
+                ValidateLifetime = false,
+                IssuerSigningKey = new SymmetricSecurityKey(System.Text.Encoding.UTF8.GetBytes(key))
+            };
+
+            var tokenHandler = new JwtSecurityTokenHandler();
+            var principal = tokenHandler.ValidateToken(token, tokenValidationParameters, out SecurityToken securityToken);
+
+            if (securityToken is not JwtSecurityToken jwtSecurityToken ||
+                                     !jwtSecurityToken.Header.Alg.Equals(
+                                         SecurityAlgorithms.HmacSha256, StringComparison.InvariantCultureIgnoreCase)) {
+                throw new SecurityTokenException("Invalid Token");
+
+            }
+
+            return principal;
         }
     }
 }
