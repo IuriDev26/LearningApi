@@ -202,7 +202,6 @@ C:\Users\Iuri\Desktop\WebAPI\LearningApi\FirstApi\FirstApi\obj\Debug\net8.0\stat
 C:\Users\Iuri\Desktop\WebAPI\LearningApi\FirstApi\FirstApi\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.FirstApi.props
 C:\Users\Iuri\Desktop\WebAPI\LearningApi\FirstApi\FirstApi\obj\Debug\net8.0\staticwebassets.pack.json
 C:\Users\Iuri\Desktop\WebAPI\LearningApi\FirstApi\FirstApi\obj\Debug\net8.0\scopedcss\bundle\FirstApi.styles.css
-C:\Users\Iuri\Desktop\WebAPI\LearningApi\FirstApi\FirstApi\obj\Debug\net8.0\FirstApi.csproj.CopyComplete
 C:\Users\Iuri\Desktop\WebAPI\LearningApi\FirstApi\FirstApi\obj\Debug\net8.0\FirstApi.dll
 C:\Users\Iuri\Desktop\WebAPI\LearningApi\FirstApi\FirstApi\obj\Debug\net8.0\refint\FirstApi.dll
 C:\Users\Iuri\Desktop\WebAPI\LearningApi\FirstApi\FirstApi\obj\Debug\net8.0\FirstApi.pdb
@@ -336,3 +335,18 @@ C:\Users\ESTAGIARIOTI\Documents\LearningApi\FirstApi\FirstApi\bin\Debug\net8.0\M
 C:\Users\ESTAGIARIOTI\Documents\LearningApi\FirstApi\FirstApi\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
 C:\Users\ESTAGIARIOTI\Documents\LearningApi\FirstApi\FirstApi\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
 C:\Users\ESTAGIARIOTI\Documents\LearningApi\FirstApi\FirstApi\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Iuri\Desktop\WebAPI\LearningApi\FirstApi\FirstApi\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\Iuri\Desktop\WebAPI\LearningApi\FirstApi\FirstApi\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\Iuri\Desktop\WebAPI\LearningApi\FirstApi\FirstApi\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\Iuri\Desktop\WebAPI\LearningApi\FirstApi\FirstApi\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\Iuri\Desktop\WebAPI\LearningApi\FirstApi\FirstApi\bin\Debug\net8.0\Microsoft.Extensions.Identity.Core.dll
+C:\Users\Iuri\Desktop\WebAPI\LearningApi\FirstApi\FirstApi\bin\Debug\net8.0\Microsoft.Extensions.Identity.Stores.dll
+C:\Users\Iuri\Desktop\WebAPI\LearningApi\FirstApi\FirstApi\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+C:\Users\Iuri\Desktop\WebAPI\LearningApi\FirstApi\FirstApi\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\Iuri\Desktop\WebAPI\LearningApi\FirstApi\FirstApi\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Iuri\Desktop\WebAPI\LearningApi\FirstApi\FirstApi\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\Iuri\Desktop\WebAPI\LearningApi\FirstApi\FirstApi\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Iuri\Desktop\WebAPI\LearningApi\FirstApi\FirstApi\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Iuri\Desktop\WebAPI\LearningApi\FirstApi\FirstApi\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Iuri\Desktop\WebAPI\LearningApi\FirstApi\FirstApi\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Iuri\Desktop\WebAPI\LearningApi\FirstApi\FirstApi\obj\Debug\net8.0\FirstApi.csproj.Up2Date

@@ -17,8 +17,8 @@ namespace FirstApi.Services.Implementations {
             var tokenDescriptor = new SecurityTokenDescriptor {
                 Subject = new ClaimsIdentity(claims),
                 Expires = DateTime.UtcNow.AddMinutes(_config.GetSection("JWT").GetValue<double>("TokenValidityInMinutes")),
-                Audience = _config.GetSection("JWT").GetValue<string>("ValidateAudience"),
-                Issuer = _config.GetSection("JWT").GetValue<string>("ValidateIssuer"),
+                Audience = _config.GetSection("JWT").GetValue<string>("ValidAudience"),
+                Issuer = _config.GetSection("JWT").GetValue<string>("ValidIssuer"),
                 SigningCredentials = signingCredentials
             };
 

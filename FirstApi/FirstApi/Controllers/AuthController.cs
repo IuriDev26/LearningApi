@@ -18,14 +18,17 @@ namespace FirstApi.Controllers {
         private readonly UserManager<ApplicationUser> _userManager;
         private readonly RoleManager<IdentityRole> _roleManager;
         private readonly IConfiguration _config;
+        private readonly ILogger<AuthController> _logger;
 
         public AuthController(ITokenService tokenService, UserManager<ApplicationUser> userManager, 
-                              RoleManager<IdentityRole> roleManager, IConfiguration config) {
+                              RoleManager<IdentityRole> roleManager, IConfiguration config,
+                              ILogger<AuthController> logger) {
             
             _tokenService = tokenService;
             _userManager = userManager;
             _roleManager = roleManager;
             _config = config;
+            _logger = logger;
         }
 
         [HttpPost]
@@ -41,6 +44,7 @@ namespace FirstApi.Controllers {
                 var authClaims = new List<Claim> {
                     new Claim(ClaimTypes.Name, user.UserName!),
                     new Claim(ClaimTypes.Email, user.Email!),
+                    new Claim("id", user.UserName!),
                     new Claim(JwtRegisteredClaimNames.Jti, Guid.NewGuid().ToString())
                 };
 
@@ -118,7 +122,7 @@ namespace FirstApi.Controllers {
                 return BadRequest("Invalid Access Token/Refresh Token");
             }
 
-            string username = principal.Identity.Name;
+            string username = principal.Identity!.Name!;
 
             var user = await _userManager.FindByNameAsync(username!);
 
@@ -158,8 +162,48 @@ namespace FirstApi.Controllers {
             await _userManager.UpdateAsync(user);
 
             return NoContent();
+        }
 
+        [HttpPost]
+        [Route("CreateRole")]
+        public async Task<IActionResult> CreateRole(string roleName) {
 
+            var roleExists = await _roleManager.RoleExistsAsync(roleName);
+            if (!roleExists) {
+                var roleResult = await _roleManager.CreateAsync(new IdentityRole(roleName));
+
+                if (roleResult.Succeeded) {
+                    _logger.LogInformation(1, "Role Added");
+                    return StatusCode(StatusCodes.Status200OK, new Response { Status = "Success", Message = $"Role: {roleName} added successfully!" });
+                }else {
+                    _logger.LogInformation(2, "Error");
+                    return StatusCode(StatusCodes.Status400BadRequest, new Response { Status = "Error", Message = $"Issue adding new {roleName} role" });
+                }
+
+            }
+
+            return StatusCode(StatusCodes.Status400BadRequest, new Response { Status = "Error", Message = $"Role: {roleName} already exists!" });
+        }
+
+        [HttpPost]
+        [Route("AddUserToRole")]
+        public async Task<IActionResult> AddUserToRole(string email, string roleName) {
+
+            var user = await _userManager.FindByEmailAsync(email);
+
+            if (user == null) {
+                return BadRequest(new Response { Status = "Error", Message = "User not found" });
+            } else {
+                var result = await _userManager.AddToRoleAsync(user, roleName);
+
+                if (result.Succeeded) {
+                    _logger.LogInformation(1, "Success");
+                    return Ok(new Response { Status = "Success", Message = $"User {user} successfully added to the role {roleName}"});
+                } else {
+                    _logger.LogInformation(2, "Error");
+                    return BadRequest(new Response { Status = "Error", Message = $"Issue adding the User {user} in role {roleName}" });
+                }
+            }
         }
         
 
