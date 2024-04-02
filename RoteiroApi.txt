@@ -6,3 +6,7 @@ repositories and Paginação --> Pensando nos métodos assíncronos
 unitofwork(assíncrono)
 controllers
 useexpcetionhandler
+Autenticação model
+Autorização jwt
+Autenticação controlador
+rate limiting
