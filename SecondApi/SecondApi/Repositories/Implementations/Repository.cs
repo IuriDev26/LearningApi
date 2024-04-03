@@ -1,6 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using SecondApi.Context;
 using SecondApi.Repositories.Interfaces;
+using System.Linq.Expressions;
 
 namespace SecondApi.Repositories.Implementations {
     public class Repository<T> : IRepository<T> where T : class {
@@ -25,14 +26,14 @@ namespace SecondApi.Repositories.Implementations {
             return entity;
         }
 
-        public async Task<IEnumerable<T>> GetAll() {
+        public async Task<IEnumerable<T>> GetAllAsync() {
 
             return await _context.Set<T>().ToListAsync();
 
         }
 
-        public Task<T?> GetById(Func<T, bool> predicate) {
-            throw new NotImplementedException();
+        public async Task<T?> GetByIdAsync(Expression<Func<T, bool>> predicate) {
+            return await _context.Set<T>().FirstOrDefaultAsync(predicate);
         }
 
         public T Update(T entity) {

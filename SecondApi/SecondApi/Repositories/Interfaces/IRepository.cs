@@ -1,9 +1,11 @@
-﻿namespace SecondApi.Repositories.Interfaces {
+﻿using System.Linq.Expressions;
+
+namespace SecondApi.Repositories.Interfaces {
     public interface IRepository<T>  {
 
-        Task<IEnumerable<T>> GetAll();
+        Task<IEnumerable<T>> GetAllAsync();
 
-        Task<T?> GetById(Func<T, bool> predicate);
+        Task<T?> GetByIdAsync(Expression<Func<T, bool>> predicate);
 
         T Create(T entity);
         T Update(T entity);

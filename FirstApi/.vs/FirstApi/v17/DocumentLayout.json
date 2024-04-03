@@ -1,53 +1,77 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Iuri\\Desktop\\WebAPI\\LearningApi\\FirstApi\\",
+  "WorkspaceRootPath": "C:\\Users\\ESTAGIARIOTI\\Documents\\LearningApi\\FirstApi\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0C338BCD-8D6E-44E4-B83D-80CC637843FE}|FirstApi\\FirstApi.csproj|c:\\users\\iuri\\desktop\\webapi\\learningapi\\firstapi\\firstapi\\repositories\\interfaces\\icategoriarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0C338BCD-8D6E-44E4-B83D-80CC637843FE}|FirstApi\\FirstApi.csproj|solutionrelative:firstapi\\repositories\\interfaces\\icategoriarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0C338BCD-8D6E-44E4-B83D-80CC637843FE}|FirstApi\\FirstApi.csproj|c:\\users\\iuri\\desktop\\webapi\\learningapi\\firstapi\\firstapi\\repositories\\interfaces\\iprodutorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0C338BCD-8D6E-44E4-B83D-80CC637843FE}|FirstApi\\FirstApi.csproj|solutionrelative:firstapi\\repositories\\interfaces\\iprodutorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0C338BCD-8D6E-44E4-B83D-80CC637843FE}|FirstApi\\FirstApi.csproj|c:\\users\\iuri\\desktop\\webapi\\learningapi\\firstapi\\firstapi\\repositories\\interfaces\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0C338BCD-8D6E-44E4-B83D-80CC637843FE}|FirstApi\\FirstApi.csproj|solutionrelative:firstapi\\repositories\\interfaces\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0C338BCD-8D6E-44E4-B83D-80CC637843FE}|FirstApi\\FirstApi.csproj|c:\\users\\iuri\\desktop\\webapi\\learningapi\\firstapi\\firstapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0C338BCD-8D6E-44E4-B83D-80CC637843FE}|FirstApi\\FirstApi.csproj|solutionrelative:firstapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0C338BCD-8D6E-44E4-B83D-80CC637843FE}|FirstApi\\FirstApi.csproj|c:\\users\\iuri\\desktop\\webapi\\learningapi\\firstapi\\firstapi\\dtos\\mapping\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0C338BCD-8D6E-44E4-B83D-80CC637843FE}|FirstApi\\FirstApi.csproj|solutionrelative:firstapi\\dtos\\mapping\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0C338BCD-8D6E-44E4-B83D-80CC637843FE}|FirstApi\\FirstApi.csproj|c:\\users\\iuri\\desktop\\webapi\\learningapi\\firstapi\\firstapi\\models\\produto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0C338BCD-8D6E-44E4-B83D-80CC637843FE}|FirstApi\\FirstApi.csproj|solutionrelative:firstapi\\models\\produto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0C338BCD-8D6E-44E4-B83D-80CC637843FE}|FirstApi\\FirstApi.csproj|c:\\users\\iuri\\desktop\\webapi\\learningapi\\firstapi\\firstapi\\models\\categoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0C338BCD-8D6E-44E4-B83D-80CC637843FE}|FirstApi\\FirstApi.csproj|solutionrelative:firstapi\\models\\categoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0C338BCD-8D6E-44E4-B83D-80CC637843FE}|FirstApi\\FirstApi.csproj|c:\\users\\iuri\\desktop\\webapi\\learningapi\\firstapi\\firstapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0C338BCD-8D6E-44E4-B83D-80CC637843FE}|FirstApi\\FirstApi.csproj|c:\\users\\estagiarioti\\documents\\learningapi\\firstapi\\firstapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0C338BCD-8D6E-44E4-B83D-80CC637843FE}|FirstApi\\FirstApi.csproj|solutionrelative:firstapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0C338BCD-8D6E-44E4-B83D-80CC637843FE}|FirstApi\\FirstApi.csproj|c:\\users\\iuri\\desktop\\webapi\\learningapi\\firstapi\\firstapi\\controllers\\produtoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0C338BCD-8D6E-44E4-B83D-80CC637843FE}|FirstApi\\FirstApi.csproj|c:\\users\\estagiarioti\\documents\\learningapi\\firstapi\\firstapi\\unitofwork\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C338BCD-8D6E-44E4-B83D-80CC637843FE}|FirstApi\\FirstApi.csproj|solutionrelative:firstapi\\unitofwork\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C338BCD-8D6E-44E4-B83D-80CC637843FE}|FirstApi\\FirstApi.csproj|c:\\users\\estagiarioti\\documents\\learningapi\\firstapi\\firstapi\\unitofwork\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C338BCD-8D6E-44E4-B83D-80CC637843FE}|FirstApi\\FirstApi.csproj|solutionrelative:firstapi\\unitofwork\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C338BCD-8D6E-44E4-B83D-80CC637843FE}|FirstApi\\FirstApi.csproj|c:\\users\\estagiarioti\\documents\\learningapi\\firstapi\\firstapi\\pagination\\pagedlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C338BCD-8D6E-44E4-B83D-80CC637843FE}|FirstApi\\FirstApi.csproj|solutionrelative:firstapi\\pagination\\pagedlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C338BCD-8D6E-44E4-B83D-80CC637843FE}|FirstApi\\FirstApi.csproj|c:\\users\\estagiarioti\\documents\\learningapi\\firstapi\\firstapi\\repositories\\implementations\\categoriarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C338BCD-8D6E-44E4-B83D-80CC637843FE}|FirstApi\\FirstApi.csproj|solutionrelative:firstapi\\repositories\\implementations\\categoriarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C338BCD-8D6E-44E4-B83D-80CC637843FE}|FirstApi\\FirstApi.csproj|c:\\users\\estagiarioti\\documents\\learningapi\\firstapi\\firstapi\\repositories\\implementations\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C338BCD-8D6E-44E4-B83D-80CC637843FE}|FirstApi\\FirstApi.csproj|solutionrelative:firstapi\\repositories\\implementations\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C338BCD-8D6E-44E4-B83D-80CC637843FE}|FirstApi\\FirstApi.csproj|c:\\users\\estagiarioti\\documents\\learningapi\\firstapi\\firstapi\\repositories\\interfaces\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C338BCD-8D6E-44E4-B83D-80CC637843FE}|FirstApi\\FirstApi.csproj|solutionrelative:firstapi\\repositories\\interfaces\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C338BCD-8D6E-44E4-B83D-80CC637843FE}|FirstApi\\FirstApi.csproj|c:\\users\\estagiarioti\\documents\\learningapi\\firstapi\\firstapi\\repositories\\implementations\\produtorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C338BCD-8D6E-44E4-B83D-80CC637843FE}|FirstApi\\FirstApi.csproj|solutionrelative:firstapi\\repositories\\implementations\\produtorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C338BCD-8D6E-44E4-B83D-80CC637843FE}|FirstApi\\FirstApi.csproj|c:\\users\\estagiarioti\\documents\\learningapi\\firstapi\\firstapi\\repositories\\interfaces\\iprodutorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C338BCD-8D6E-44E4-B83D-80CC637843FE}|FirstApi\\FirstApi.csproj|solutionrelative:firstapi\\repositories\\interfaces\\iprodutorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C338BCD-8D6E-44E4-B83D-80CC637843FE}|FirstApi\\FirstApi.csproj|c:\\users\\estagiarioti\\documents\\learningapi\\firstapi\\firstapi\\repositories\\interfaces\\icategoriarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C338BCD-8D6E-44E4-B83D-80CC637843FE}|FirstApi\\FirstApi.csproj|solutionrelative:firstapi\\repositories\\interfaces\\icategoriarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C338BCD-8D6E-44E4-B83D-80CC637843FE}|FirstApi\\FirstApi.csproj|c:\\users\\estagiarioti\\documents\\learningapi\\firstapi\\firstapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C338BCD-8D6E-44E4-B83D-80CC637843FE}|FirstApi\\FirstApi.csproj|solutionrelative:firstapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C338BCD-8D6E-44E4-B83D-80CC637843FE}|FirstApi\\FirstApi.csproj|c:\\users\\estagiarioti\\documents\\learningapi\\firstapi\\firstapi\\dtos\\mapping\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C338BCD-8D6E-44E4-B83D-80CC637843FE}|FirstApi\\FirstApi.csproj|solutionrelative:firstapi\\dtos\\mapping\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C338BCD-8D6E-44E4-B83D-80CC637843FE}|FirstApi\\FirstApi.csproj|c:\\users\\estagiarioti\\documents\\learningapi\\firstapi\\firstapi\\models\\produto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C338BCD-8D6E-44E4-B83D-80CC637843FE}|FirstApi\\FirstApi.csproj|solutionrelative:firstapi\\models\\produto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C338BCD-8D6E-44E4-B83D-80CC637843FE}|FirstApi\\FirstApi.csproj|c:\\users\\estagiarioti\\documents\\learningapi\\firstapi\\firstapi\\models\\categoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C338BCD-8D6E-44E4-B83D-80CC637843FE}|FirstApi\\FirstApi.csproj|solutionrelative:firstapi\\models\\categoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C338BCD-8D6E-44E4-B83D-80CC637843FE}|FirstApi\\FirstApi.csproj|c:\\users\\estagiarioti\\documents\\learningapi\\firstapi\\firstapi\\controllers\\produtoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0C338BCD-8D6E-44E4-B83D-80CC637843FE}|FirstApi\\FirstApi.csproj|solutionrelative:firstapi\\controllers\\produtoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0C338BCD-8D6E-44E4-B83D-80CC637843FE}|FirstApi\\FirstApi.csproj|c:\\users\\iuri\\desktop\\webapi\\learningapi\\firstapi\\firstapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{0C338BCD-8D6E-44E4-B83D-80CC637843FE}|FirstApi\\FirstApi.csproj|c:\\users\\estagiarioti\\documents\\learningapi\\firstapi\\firstapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{0C338BCD-8D6E-44E4-B83D-80CC637843FE}|FirstApi\\FirstApi.csproj|solutionrelative:firstapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0C338BCD-8D6E-44E4-B83D-80CC637843FE}|FirstApi\\FirstApi.csproj|c:\\users\\iuri\\desktop\\webapi\\learningapi\\firstapi\\firstapi\\logging\\custommerlogger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0C338BCD-8D6E-44E4-B83D-80CC637843FE}|FirstApi\\FirstApi.csproj|c:\\users\\estagiarioti\\documents\\learningapi\\firstapi\\firstapi\\logging\\custommerlogger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0C338BCD-8D6E-44E4-B83D-80CC637843FE}|FirstApi\\FirstApi.csproj|solutionrelative:firstapi\\logging\\custommerlogger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0C338BCD-8D6E-44E4-B83D-80CC637843FE}|FirstApi\\FirstApi.csproj|c:\\users\\iuri\\desktop\\webapi\\learningapi\\firstapi\\firstapi\\controllers\\categoriascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0C338BCD-8D6E-44E4-B83D-80CC637843FE}|FirstApi\\FirstApi.csproj|c:\\users\\estagiarioti\\documents\\learningapi\\firstapi\\firstapi\\controllers\\categoriascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0C338BCD-8D6E-44E4-B83D-80CC637843FE}|FirstApi\\FirstApi.csproj|solutionrelative:firstapi\\controllers\\categoriascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -58,15 +82,97 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 18,
           "Children": [
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
+              "Title": "UnitOfWork.cs",
+              "DocumentMoniker": "C:\\Users\\ESTAGIARIOTI\\Documents\\LearningApi\\FirstApi\\FirstApi\\UnitOfWork\\UnitOfWork.cs",
+              "RelativeDocumentMoniker": "FirstApi\\UnitOfWork\\UnitOfWork.cs",
+              "ToolTip": "C:\\Users\\ESTAGIARIOTI\\Documents\\LearningApi\\FirstApi\\FirstApi\\UnitOfWork\\UnitOfWork.cs",
+              "RelativeToolTip": "FirstApi\\UnitOfWork\\UnitOfWork.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-03T14:02:14.831Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IUnitOfWork.cs",
+              "DocumentMoniker": "C:\\Users\\ESTAGIARIOTI\\Documents\\LearningApi\\FirstApi\\FirstApi\\UnitOfWork\\IUnitOfWork.cs",
+              "RelativeDocumentMoniker": "FirstApi\\UnitOfWork\\IUnitOfWork.cs",
+              "ToolTip": "C:\\Users\\ESTAGIARIOTI\\Documents\\LearningApi\\FirstApi\\FirstApi\\UnitOfWork\\IUnitOfWork.cs",
+              "RelativeToolTip": "FirstApi\\UnitOfWork\\IUnitOfWork.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-03T13:57:55.581Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CategoriaRepository.cs",
+              "DocumentMoniker": "C:\\Users\\ESTAGIARIOTI\\Documents\\LearningApi\\FirstApi\\FirstApi\\Repositories\\Implementations\\CategoriaRepository.cs",
+              "RelativeDocumentMoniker": "FirstApi\\Repositories\\Implementations\\CategoriaRepository.cs",
+              "ToolTip": "C:\\Users\\ESTAGIARIOTI\\Documents\\LearningApi\\FirstApi\\FirstApi\\Repositories\\Implementations\\CategoriaRepository.cs",
+              "RelativeToolTip": "FirstApi\\Repositories\\Implementations\\CategoriaRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAcwA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-03T13:53:42.478Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PagedList.cs",
+              "DocumentMoniker": "C:\\Users\\ESTAGIARIOTI\\Documents\\LearningApi\\FirstApi\\FirstApi\\Pagination\\PagedList.cs",
+              "RelativeDocumentMoniker": "FirstApi\\Pagination\\PagedList.cs",
+              "ToolTip": "C:\\Users\\ESTAGIARIOTI\\Documents\\LearningApi\\FirstApi\\FirstApi\\Pagination\\PagedList.cs",
+              "RelativeToolTip": "FirstApi\\Pagination\\PagedList.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAA5wBkAAAA/AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-03T13:41:04.041Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Repository.cs",
+              "DocumentMoniker": "C:\\Users\\ESTAGIARIOTI\\Documents\\LearningApi\\FirstApi\\FirstApi\\Repositories\\Implementations\\Repository.cs",
+              "RelativeDocumentMoniker": "FirstApi\\Repositories\\Implementations\\Repository.cs",
+              "ToolTip": "C:\\Users\\ESTAGIARIOTI\\Documents\\LearningApi\\FirstApi\\FirstApi\\Repositories\\Implementations\\Repository.cs",
+              "RelativeToolTip": "FirstApi\\Repositories\\Implementations\\Repository.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAgwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-03T13:35:31.003Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ProdutoRepository.cs",
+              "DocumentMoniker": "C:\\Users\\ESTAGIARIOTI\\Documents\\LearningApi\\FirstApi\\FirstApi\\Repositories\\Implementations\\ProdutoRepository.cs",
+              "RelativeDocumentMoniker": "FirstApi\\Repositories\\Implementations\\ProdutoRepository.cs",
+              "ToolTip": "C:\\Users\\ESTAGIARIOTI\\Documents\\LearningApi\\FirstApi\\FirstApi\\Repositories\\Implementations\\ProdutoRepository.cs",
+              "RelativeToolTip": "FirstApi\\Repositories\\Implementations\\ProdutoRepository.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAxwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-03T13:30:21.634Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "ICategoriaRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Iuri\\Desktop\\WebAPI\\LearningApi\\FirstApi\\FirstApi\\Repositories\\Interfaces\\ICategoriaRepository.cs",
+              "DocumentMoniker": "C:\\Users\\ESTAGIARIOTI\\Documents\\LearningApi\\FirstApi\\FirstApi\\Repositories\\Interfaces\\ICategoriaRepository.cs",
               "RelativeDocumentMoniker": "FirstApi\\Repositories\\Interfaces\\ICategoriaRepository.cs",
-              "ToolTip": "C:\\Users\\Iuri\\Desktop\\WebAPI\\LearningApi\\FirstApi\\FirstApi\\Repositories\\Interfaces\\ICategoriaRepository.cs",
+              "ToolTip": "C:\\Users\\ESTAGIARIOTI\\Documents\\LearningApi\\FirstApi\\FirstApi\\Repositories\\Interfaces\\ICategoriaRepository.cs",
               "RelativeToolTip": "FirstApi\\Repositories\\Interfaces\\ICategoriaRepository.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -75,11 +181,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 8,
               "Title": "IProdutoRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Iuri\\Desktop\\WebAPI\\LearningApi\\FirstApi\\FirstApi\\Repositories\\Interfaces\\IProdutoRepository.cs",
+              "DocumentMoniker": "C:\\Users\\ESTAGIARIOTI\\Documents\\LearningApi\\FirstApi\\FirstApi\\Repositories\\Interfaces\\IProdutoRepository.cs",
               "RelativeDocumentMoniker": "FirstApi\\Repositories\\Interfaces\\IProdutoRepository.cs",
-              "ToolTip": "C:\\Users\\Iuri\\Desktop\\WebAPI\\LearningApi\\FirstApi\\FirstApi\\Repositories\\Interfaces\\IProdutoRepository.cs",
+              "ToolTip": "C:\\Users\\ESTAGIARIOTI\\Documents\\LearningApi\\FirstApi\\FirstApi\\Repositories\\Interfaces\\IProdutoRepository.cs",
               "RelativeToolTip": "FirstApi\\Repositories\\Interfaces\\IProdutoRepository.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -88,11 +194,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
               "Title": "IRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Iuri\\Desktop\\WebAPI\\LearningApi\\FirstApi\\FirstApi\\Repositories\\Interfaces\\IRepository.cs",
+              "DocumentMoniker": "C:\\Users\\ESTAGIARIOTI\\Documents\\LearningApi\\FirstApi\\FirstApi\\Repositories\\Interfaces\\IRepository.cs",
               "RelativeDocumentMoniker": "FirstApi\\Repositories\\Interfaces\\IRepository.cs",
-              "ToolTip": "C:\\Users\\Iuri\\Desktop\\WebAPI\\LearningApi\\FirstApi\\FirstApi\\Repositories\\Interfaces\\IRepository.cs",
+              "ToolTip": "C:\\Users\\ESTAGIARIOTI\\Documents\\LearningApi\\FirstApi\\FirstApi\\Repositories\\Interfaces\\IRepository.cs",
               "RelativeToolTip": "FirstApi\\Repositories\\Interfaces\\IRepository.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -101,37 +207,35 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 11,
               "Title": "MappingProfile.cs",
-              "DocumentMoniker": "C:\\Users\\Iuri\\Desktop\\WebAPI\\LearningApi\\FirstApi\\FirstApi\\DTOs\\Mapping\\MappingProfile.cs",
+              "DocumentMoniker": "C:\\Users\\ESTAGIARIOTI\\Documents\\LearningApi\\FirstApi\\FirstApi\\DTOs\\Mapping\\MappingProfile.cs",
               "RelativeDocumentMoniker": "FirstApi\\DTOs\\Mapping\\MappingProfile.cs",
-              "ToolTip": "C:\\Users\\Iuri\\Desktop\\WebAPI\\LearningApi\\FirstApi\\FirstApi\\DTOs\\Mapping\\MappingProfile.cs",
+              "ToolTip": "C:\\Users\\ESTAGIARIOTI\\Documents\\LearningApi\\FirstApi\\FirstApi\\DTOs\\Mapping\\MappingProfile.cs",
               "RelativeToolTip": "FirstApi\\DTOs\\Mapping\\MappingProfile.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-02T20:42:06.735Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-02T20:42:06.735Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 12,
               "Title": "Produto.cs",
-              "DocumentMoniker": "C:\\Users\\Iuri\\Desktop\\WebAPI\\LearningApi\\FirstApi\\FirstApi\\Models\\Produto.cs",
+              "DocumentMoniker": "C:\\Users\\ESTAGIARIOTI\\Documents\\LearningApi\\FirstApi\\FirstApi\\Models\\Produto.cs",
               "RelativeDocumentMoniker": "FirstApi\\Models\\Produto.cs",
-              "ToolTip": "C:\\Users\\Iuri\\Desktop\\WebAPI\\LearningApi\\FirstApi\\FirstApi\\Models\\Produto.cs",
+              "ToolTip": "C:\\Users\\ESTAGIARIOTI\\Documents\\LearningApi\\FirstApi\\FirstApi\\Models\\Produto.cs",
               "RelativeToolTip": "FirstApi\\Models\\Produto.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-02T20:07:36.457Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-02T20:07:36.457Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 13,
               "Title": "Categoria.cs",
-              "DocumentMoniker": "C:\\Users\\Iuri\\Desktop\\WebAPI\\LearningApi\\FirstApi\\FirstApi\\Models\\Categoria.cs",
+              "DocumentMoniker": "C:\\Users\\ESTAGIARIOTI\\Documents\\LearningApi\\FirstApi\\FirstApi\\Models\\Categoria.cs",
               "RelativeDocumentMoniker": "FirstApi\\Models\\Categoria.cs",
-              "ToolTip": "C:\\Users\\Iuri\\Desktop\\WebAPI\\LearningApi\\FirstApi\\FirstApi\\Models\\Categoria.cs",
+              "ToolTip": "C:\\Users\\ESTAGIARIOTI\\Documents\\LearningApi\\FirstApi\\FirstApi\\Models\\Categoria.cs",
               "RelativeToolTip": "FirstApi\\Models\\Categoria.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -139,11 +243,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 15,
               "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\Iuri\\Desktop\\WebAPI\\LearningApi\\FirstApi\\FirstApi\\appsettings.json",
+              "DocumentMoniker": "C:\\Users\\ESTAGIARIOTI\\Documents\\LearningApi\\FirstApi\\FirstApi\\appsettings.json",
               "RelativeDocumentMoniker": "FirstApi\\appsettings.json",
-              "ToolTip": "C:\\Users\\Iuri\\Desktop\\WebAPI\\LearningApi\\FirstApi\\FirstApi\\appsettings.json",
+              "ToolTip": "C:\\Users\\ESTAGIARIOTI\\Documents\\LearningApi\\FirstApi\\FirstApi\\appsettings.json",
               "RelativeToolTip": "FirstApi\\appsettings.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAzAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
@@ -151,11 +255,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 16,
               "Title": "CustommerLogger.cs",
-              "DocumentMoniker": "C:\\Users\\Iuri\\Desktop\\WebAPI\\LearningApi\\FirstApi\\FirstApi\\Logging\\CustommerLogger.cs",
+              "DocumentMoniker": "C:\\Users\\ESTAGIARIOTI\\Documents\\LearningApi\\FirstApi\\FirstApi\\Logging\\CustommerLogger.cs",
               "RelativeDocumentMoniker": "FirstApi\\Logging\\CustommerLogger.cs",
-              "ToolTip": "C:\\Users\\Iuri\\Desktop\\WebAPI\\LearningApi\\FirstApi\\FirstApi\\Logging\\CustommerLogger.cs",
+              "ToolTip": "C:\\Users\\ESTAGIARIOTI\\Documents\\LearningApi\\FirstApi\\FirstApi\\Logging\\CustommerLogger.cs",
               "RelativeToolTip": "FirstApi\\Logging\\CustommerLogger.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAsAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -163,11 +267,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 17,
               "Title": "CategoriasController.cs",
-              "DocumentMoniker": "C:\\Users\\Iuri\\Desktop\\WebAPI\\LearningApi\\FirstApi\\FirstApi\\Controllers\\CategoriasController.cs",
+              "DocumentMoniker": "C:\\Users\\ESTAGIARIOTI\\Documents\\LearningApi\\FirstApi\\FirstApi\\Controllers\\CategoriasController.cs",
               "RelativeDocumentMoniker": "FirstApi\\Controllers\\CategoriasController.cs",
-              "ToolTip": "C:\\Users\\Iuri\\Desktop\\WebAPI\\LearningApi\\FirstApi\\FirstApi\\Controllers\\CategoriasController.cs",
+              "ToolTip": "C:\\Users\\ESTAGIARIOTI\\Documents\\LearningApi\\FirstApi\\FirstApi\\Controllers\\CategoriasController.cs",
               "RelativeToolTip": "FirstApi\\Controllers\\CategoriasController.cs",
               "ViewState": "AQIAAAwAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -175,11 +279,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 14,
               "Title": "ProdutosController.cs",
-              "DocumentMoniker": "C:\\Users\\Iuri\\Desktop\\WebAPI\\LearningApi\\FirstApi\\FirstApi\\Controllers\\ProdutosController.cs",
+              "DocumentMoniker": "C:\\Users\\ESTAGIARIOTI\\Documents\\LearningApi\\FirstApi\\FirstApi\\Controllers\\ProdutosController.cs",
               "RelativeDocumentMoniker": "FirstApi\\Controllers\\ProdutosController.cs",
-              "ToolTip": "C:\\Users\\Iuri\\Desktop\\WebAPI\\LearningApi\\FirstApi\\FirstApi\\Controllers\\ProdutosController.cs",
+              "ToolTip": "C:\\Users\\ESTAGIARIOTI\\Documents\\LearningApi\\FirstApi\\FirstApi\\Controllers\\ProdutosController.cs",
               "RelativeToolTip": "FirstApi\\Controllers\\ProdutosController.cs",
               "ViewState": "AQIAAAwAAAAAAAAAAAAAABUAAAAXAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -187,28 +291,28 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 10,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Iuri\\Desktop\\WebAPI\\LearningApi\\FirstApi\\FirstApi\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\ESTAGIARIOTI\\Documents\\LearningApi\\FirstApi\\FirstApi\\Program.cs",
               "RelativeDocumentMoniker": "FirstApi\\Program.cs",
-              "ToolTip": "C:\\Users\\Iuri\\Desktop\\WebAPI\\LearningApi\\FirstApi\\FirstApi\\Program.cs",
+              "ToolTip": "C:\\Users\\ESTAGIARIOTI\\Documents\\LearningApi\\FirstApi\\FirstApi\\Program.cs",
               "RelativeToolTip": "FirstApi\\Program.cs",
               "ViewState": "AQIAAEIAAAAAAAAAAAAAAB0AAAA0AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-01T22:42:48.76Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-01T22:42:48.76Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 0,
               "Title": "AuthController.cs",
-              "DocumentMoniker": "C:\\Users\\Iuri\\Desktop\\WebAPI\\LearningApi\\FirstApi\\FirstApi\\Controllers\\AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\ESTAGIARIOTI\\Documents\\LearningApi\\FirstApi\\FirstApi\\Controllers\\AuthController.cs",
               "RelativeDocumentMoniker": "FirstApi\\Controllers\\AuthController.cs",
-              "ToolTip": "C:\\Users\\Iuri\\Desktop\\WebAPI\\LearningApi\\FirstApi\\FirstApi\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\ESTAGIARIOTI\\Documents\\LearningApi\\FirstApi\\FirstApi\\Controllers\\AuthController.cs",
               "RelativeToolTip": "FirstApi\\Controllers\\AuthController.cs",
-              "ViewState": "AQIAAFAAAAAAAAAAAAAwwCoAAAAAAAAA",
+              "ViewState": "AQIAAFAAAAAAAAAAAAAwwGcAAAAiAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-28T16:09:58.505Z"
+              "WhenOpened": "2024-03-28T16:09:58.505Z",
+              "EditorCaption": ""
             }
           ]
         }
