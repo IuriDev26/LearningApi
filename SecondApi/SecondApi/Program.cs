@@ -1,6 +1,9 @@
+using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using SecondApi.Context;
 using SecondApi.DTOs.Mapping;
+using SecondApi.Middlewares;
+using SecondApi.Models;
 using SecondApi.Repositories.Implementations;
 using SecondApi.Repositories.Interfaces;
 using SecondApi.UnitOfWork;
@@ -29,12 +32,20 @@ builder.Services.AddScoped(typeof(IRepository<>), typeof(Repository<>));
 builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
 
 builder.Services.AddAutoMapper(typeof(ApiMappingProfileDTOs));
+builder.Services.AddIdentity<ApplicationUser, IdentityRole>().
+    AddEntityFrameworkStores<ApiContext>().
+    AddDefaultTokenProviders();
+
+
 var app = builder.Build();
+
+
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment()) {
     app.UseSwagger();
     app.UseSwaggerUI();
+    app.ConfigureExceptionHandler();
 }
 
 app.UseHttpsRedirection();

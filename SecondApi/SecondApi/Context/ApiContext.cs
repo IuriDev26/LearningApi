@@ -1,8 +1,9 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore;
 using SecondApi.Models;
 
 namespace SecondApi.Context {
-    public class ApiContext : DbContext {
+    public class ApiContext : IdentityDbContext<ApplicationUser> {
 
         public ApiContext(DbContextOptions<ApiContext> options) : base(options) 
         {
@@ -12,6 +13,10 @@ namespace SecondApi.Context {
         public DbSet<Categoria> Categorias { get; set; }
         public DbSet<Produto> Produtos { get; set; }
 
+
+        protected override void OnModelCreating(ModelBuilder builder) {
+            base.OnModelCreating(builder);
+        }
 
     }
 }

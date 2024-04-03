@@ -1,4 +1,5 @@
 ﻿using AutoMapper;
+using Microsoft.AspNetCore.Cors;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using SecondApi.DTOs.Entities;
@@ -6,6 +7,7 @@ using SecondApi.Models;
 using SecondApi.UnitOfWork;
 
 namespace SecondApi.Controllers {
+    [DisableCors]
     [Route("[controller]")]
     [ApiController]
     public class CategoriasController : ControllerBase {

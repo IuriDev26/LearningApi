@@ -1,94 +1,18 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\ESTAGIARIOTI\\Documents\\LearningApi\\SecondApi\\",
+  "WorkspaceRootPath": "C:\\Users\\Iuri\\Desktop\\WebAPI\\LearningApi\\SecondApi\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E76B0236-AF4B-4AA0-A14E-28E75B01992D}|SecondApi\\SecondApi.csproj|c:\\users\\estagiarioti\\documents\\learningapi\\secondapi\\secondapi\\unitofwork\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E76B0236-AF4B-4AA0-A14E-28E75B01992D}|SecondApi\\SecondApi.csproj|solutionrelative:secondapi\\unitofwork\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E76B0236-AF4B-4AA0-A14E-28E75B01992D}|SecondApi\\SecondApi.csproj|c:\\users\\iuri\\desktop\\webapi\\learningapi\\secondapi\\secondapi\\services\\implementations\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E76B0236-AF4B-4AA0-A14E-28E75B01992D}|SecondApi\\SecondApi.csproj|solutionrelative:secondapi\\services\\implementations\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E76B0236-AF4B-4AA0-A14E-28E75B01992D}|SecondApi\\SecondApi.csproj|c:\\users\\estagiarioti\\documents\\learningapi\\secondapi\\secondapi\\repositories\\implementations\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E76B0236-AF4B-4AA0-A14E-28E75B01992D}|SecondApi\\SecondApi.csproj|solutionrelative:secondapi\\repositories\\implementations\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E76B0236-AF4B-4AA0-A14E-28E75B01992D}|SecondApi\\SecondApi.csproj|c:\\users\\estagiarioti\\documents\\learningapi\\secondapi\\secondapi\\controllers\\produtoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E76B0236-AF4B-4AA0-A14E-28E75B01992D}|SecondApi\\SecondApi.csproj|solutionrelative:secondapi\\controllers\\produtoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E76B0236-AF4B-4AA0-A14E-28E75B01992D}|SecondApi\\SecondApi.csproj|c:\\users\\estagiarioti\\documents\\learningapi\\secondapi\\secondapi\\controllers\\categoriascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E76B0236-AF4B-4AA0-A14E-28E75B01992D}|SecondApi\\SecondApi.csproj|solutionrelative:secondapi\\controllers\\categoriascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E76B0236-AF4B-4AA0-A14E-28E75B01992D}|SecondApi\\SecondApi.csproj|c:\\users\\estagiarioti\\documents\\learningapi\\secondapi\\secondapi\\repositories\\implementations\\produtorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E76B0236-AF4B-4AA0-A14E-28E75B01992D}|SecondApi\\SecondApi.csproj|solutionrelative:secondapi\\repositories\\implementations\\produtorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E76B0236-AF4B-4AA0-A14E-28E75B01992D}|SecondApi\\SecondApi.csproj|c:\\users\\estagiarioti\\documents\\learningapi\\secondapi\\secondapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E76B0236-AF4B-4AA0-A14E-28E75B01992D}|SecondApi\\SecondApi.csproj|solutionrelative:secondapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E76B0236-AF4B-4AA0-A14E-28E75B01992D}|SecondApi\\SecondApi.csproj|c:\\users\\estagiarioti\\documents\\learningapi\\secondapi\\secondapi\\repositories\\interfaces\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E76B0236-AF4B-4AA0-A14E-28E75B01992D}|SecondApi\\SecondApi.csproj|solutionrelative:secondapi\\repositories\\interfaces\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E76B0236-AF4B-4AA0-A14E-28E75B01992D}|SecondApi\\SecondApi.csproj|c:\\users\\estagiarioti\\documents\\learningapi\\secondapi\\secondapi\\unitofwork\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E76B0236-AF4B-4AA0-A14E-28E75B01992D}|SecondApi\\SecondApi.csproj|solutionrelative:secondapi\\unitofwork\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E76B0236-AF4B-4AA0-A14E-28E75B01992D}|SecondApi\\SecondApi.csproj|c:\\users\\estagiarioti\\documents\\learningapi\\secondapi\\secondapi\\dtos\\entities\\response.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E76B0236-AF4B-4AA0-A14E-28E75B01992D}|SecondApi\\SecondApi.csproj|solutionrelative:secondapi\\dtos\\entities\\response.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E76B0236-AF4B-4AA0-A14E-28E75B01992D}|SecondApi\\SecondApi.csproj|c:\\users\\estagiarioti\\documents\\learningapi\\secondapi\\secondapi\\repositories\\implementations\\categoriarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E76B0236-AF4B-4AA0-A14E-28E75B01992D}|SecondApi\\SecondApi.csproj|solutionrelative:secondapi\\repositories\\implementations\\categoriarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E76B0236-AF4B-4AA0-A14E-28E75B01992D}|SecondApi\\SecondApi.csproj|c:\\users\\estagiarioti\\documents\\learningapi\\secondapi\\secondapi\\models\\categoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E76B0236-AF4B-4AA0-A14E-28E75B01992D}|SecondApi\\SecondApi.csproj|solutionrelative:secondapi\\models\\categoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E76B0236-AF4B-4AA0-A14E-28E75B01992D}|SecondApi\\SecondApi.csproj|c:\\users\\estagiarioti\\documents\\learningapi\\secondapi\\secondapi\\repositories\\interfaces\\icategoriarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E76B0236-AF4B-4AA0-A14E-28E75B01992D}|SecondApi\\SecondApi.csproj|solutionrelative:secondapi\\repositories\\interfaces\\icategoriarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E76B0236-AF4B-4AA0-A14E-28E75B01992D}|SecondApi\\SecondApi.csproj|c:\\users\\estagiarioti\\documents\\learningapi\\secondapi\\secondapi\\pagination\\pagedlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E76B0236-AF4B-4AA0-A14E-28E75B01992D}|SecondApi\\SecondApi.csproj|solutionrelative:secondapi\\pagination\\pagedlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E76B0236-AF4B-4AA0-A14E-28E75B01992D}|SecondApi\\SecondApi.csproj|c:\\users\\estagiarioti\\documents\\learningapi\\secondapi\\secondapi\\repositories\\interfaces\\iprodutorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E76B0236-AF4B-4AA0-A14E-28E75B01992D}|SecondApi\\SecondApi.csproj|solutionrelative:secondapi\\repositories\\interfaces\\iprodutorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E76B0236-AF4B-4AA0-A14E-28E75B01992D}|SecondApi\\SecondApi.csproj|c:\\users\\estagiarioti\\documents\\learningapi\\secondapi\\secondapi\\dtos\\mapping\\apimappingprofiledtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E76B0236-AF4B-4AA0-A14E-28E75B01992D}|SecondApi\\SecondApi.csproj|solutionrelative:secondapi\\dtos\\mapping\\apimappingprofiledtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E76B0236-AF4B-4AA0-A14E-28E75B01992D}|SecondApi\\SecondApi.csproj|c:\\users\\estagiarioti\\documents\\learningapi\\secondapi\\secondapi\\dtos\\entities\\produtodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E76B0236-AF4B-4AA0-A14E-28E75B01992D}|SecondApi\\SecondApi.csproj|solutionrelative:secondapi\\dtos\\entities\\produtodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E76B0236-AF4B-4AA0-A14E-28E75B01992D}|SecondApi\\SecondApi.csproj|c:\\users\\estagiarioti\\documents\\learningapi\\secondapi\\secondapi\\models\\produto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E76B0236-AF4B-4AA0-A14E-28E75B01992D}|SecondApi\\SecondApi.csproj|solutionrelative:secondapi\\models\\produto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E76B0236-AF4B-4AA0-A14E-28E75B01992D}|SecondApi\\SecondApi.csproj|c:\\users\\estagiarioti\\documents\\learningapi\\secondapi\\secondapi\\dtos\\entities\\categoriadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E76B0236-AF4B-4AA0-A14E-28E75B01992D}|SecondApi\\SecondApi.csproj|solutionrelative:secondapi\\dtos\\entities\\categoriadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E76B0236-AF4B-4AA0-A14E-28E75B01992D}|SecondApi\\SecondApi.csproj|c:\\users\\estagiarioti\\documents\\learningapi\\secondapi\\secondapi\\migrations\\20240402203033_populaprodutos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E76B0236-AF4B-4AA0-A14E-28E75B01992D}|SecondApi\\SecondApi.csproj|solutionrelative:secondapi\\migrations\\20240402203033_populaprodutos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E76B0236-AF4B-4AA0-A14E-28E75B01992D}|SecondApi\\SecondApi.csproj|c:\\users\\estagiarioti\\documents\\learningapi\\secondapi\\secondapi\\migrations\\20240402202653_populacategorias.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E76B0236-AF4B-4AA0-A14E-28E75B01992D}|SecondApi\\SecondApi.csproj|solutionrelative:secondapi\\migrations\\20240402202653_populacategorias.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E76B0236-AF4B-4AA0-A14E-28E75B01992D}|SecondApi\\SecondApi.csproj|c:\\users\\estagiarioti\\documents\\learningapi\\secondapi\\secondapi\\context\\apicontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E76B0236-AF4B-4AA0-A14E-28E75B01992D}|SecondApi\\SecondApi.csproj|solutionrelative:secondapi\\context\\apicontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E76B0236-AF4B-4AA0-A14E-28E75B01992D}|SecondApi\\SecondApi.csproj|c:\\users\\estagiarioti\\documents\\learningapi\\secondapi\\secondapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{E76B0236-AF4B-4AA0-A14E-28E75B01992D}|SecondApi\\SecondApi.csproj|c:\\users\\iuri\\desktop\\webapi\\learningapi\\secondapi\\secondapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{E76B0236-AF4B-4AA0-A14E-28E75B01992D}|SecondApi\\SecondApi.csproj|solutionrelative:secondapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E76B0236-AF4B-4AA0-A14E-28E75B01992D}|SecondApi\\SecondApi.csproj|c:\\users\\iuri\\desktop\\webapi\\learningapi\\secondapi\\secondapi\\services\\interfaces\\itokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E76B0236-AF4B-4AA0-A14E-28E75B01992D}|SecondApi\\SecondApi.csproj|solutionrelative:secondapi\\services\\interfaces\\itokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -98,289 +22,46 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 1,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
-            },
-            {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "CategoriasController.cs",
-              "DocumentMoniker": "C:\\Users\\ESTAGIARIOTI\\Documents\\LearningApi\\SecondApi\\SecondApi\\Controllers\\CategoriasController.cs",
-              "RelativeDocumentMoniker": "SecondApi\\Controllers\\CategoriasController.cs",
-              "ToolTip": "C:\\Users\\ESTAGIARIOTI\\Documents\\LearningApi\\SecondApi\\SecondApi\\Controllers\\CategoriasController.cs",
-              "RelativeToolTip": "SecondApi\\Controllers\\CategoriasController.cs",
-              "ViewState": "AQIAAD4AAAAAAAAAAAAcwEYAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-03T15:47:27.73Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Response.cs",
-              "DocumentMoniker": "C:\\Users\\ESTAGIARIOTI\\Documents\\LearningApi\\SecondApi\\SecondApi\\DTOs\\Entities\\Response.cs",
-              "RelativeDocumentMoniker": "SecondApi\\DTOs\\Entities\\Response.cs",
-              "ToolTip": "C:\\Users\\ESTAGIARIOTI\\Documents\\LearningApi\\SecondApi\\SecondApi\\DTOs\\Entities\\Response.cs",
-              "RelativeToolTip": "SecondApi\\DTOs\\Entities\\Response.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-03T15:19:19.518Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ProdutosController.cs",
-              "DocumentMoniker": "C:\\Users\\ESTAGIARIOTI\\Documents\\LearningApi\\SecondApi\\SecondApi\\Controllers\\ProdutosController.cs",
-              "RelativeDocumentMoniker": "SecondApi\\Controllers\\ProdutosController.cs",
-              "ToolTip": "C:\\Users\\ESTAGIARIOTI\\Documents\\LearningApi\\SecondApi\\SecondApi\\Controllers\\ProdutosController.cs",
-              "RelativeToolTip": "SecondApi\\Controllers\\ProdutosController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEUAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-03T14:35:43.034Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "IUnitOfWork.cs",
-              "DocumentMoniker": "C:\\Users\\ESTAGIARIOTI\\Documents\\LearningApi\\SecondApi\\SecondApi\\UnitOfWork\\IUnitOfWork.cs",
-              "RelativeDocumentMoniker": "SecondApi\\UnitOfWork\\IUnitOfWork.cs",
-              "ToolTip": "C:\\Users\\ESTAGIARIOTI\\Documents\\LearningApi\\SecondApi\\SecondApi\\UnitOfWork\\IUnitOfWork.cs",
-              "RelativeToolTip": "SecondApi\\UnitOfWork\\IUnitOfWork.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAyAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-03T13:56:55.201Z",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Iuri\\Desktop\\WebAPI\\LearningApi\\SecondApi\\SecondApi\\appsettings.json",
+              "RelativeDocumentMoniker": "SecondApi\\appsettings.json",
+              "ToolTip": "C:\\Users\\Iuri\\Desktop\\WebAPI\\LearningApi\\SecondApi\\SecondApi\\appsettings.json",
+              "RelativeToolTip": "SecondApi\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-04-03T21:46:02.406Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "UnitOfWork.cs",
-              "DocumentMoniker": "C:\\Users\\ESTAGIARIOTI\\Documents\\LearningApi\\SecondApi\\SecondApi\\UnitOfWork\\UnitOfWork.cs",
-              "RelativeDocumentMoniker": "SecondApi\\UnitOfWork\\UnitOfWork.cs",
-              "ToolTip": "C:\\Users\\ESTAGIARIOTI\\Documents\\LearningApi\\SecondApi\\SecondApi\\UnitOfWork\\UnitOfWork.cs",
-              "RelativeToolTip": "SecondApi\\UnitOfWork\\UnitOfWork.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
+              "Title": "TokenService.cs",
+              "DocumentMoniker": "C:\\Users\\Iuri\\Desktop\\WebAPI\\LearningApi\\SecondApi\\SecondApi\\Services\\Implementations\\TokenService.cs",
+              "RelativeDocumentMoniker": "SecondApi\\Services\\Implementations\\TokenService.cs",
+              "ToolTip": "C:\\Users\\Iuri\\Desktop\\WebAPI\\LearningApi\\SecondApi\\SecondApi\\Services\\Implementations\\TokenService.cs",
+              "RelativeToolTip": "SecondApi\\Services\\Implementations\\TokenService.cs",
+              "ViewState": "AQIAACoAAAAAAAAAAAApwDgAAAA9AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-03T13:56:42.838Z",
+              "WhenOpened": "2024-04-03T21:11:12.754Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "PagedList.cs",
-              "DocumentMoniker": "C:\\Users\\ESTAGIARIOTI\\Documents\\LearningApi\\SecondApi\\SecondApi\\Pagination\\PagedList.cs",
-              "RelativeDocumentMoniker": "SecondApi\\Pagination\\PagedList.cs",
-              "ToolTip": "C:\\Users\\ESTAGIARIOTI\\Documents\\LearningApi\\SecondApi\\SecondApi\\Pagination\\PagedList.cs",
-              "RelativeToolTip": "SecondApi\\Pagination\\PagedList.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAAAAAA",
+              "DocumentIndex": 2,
+              "Title": "ITokenService.cs",
+              "DocumentMoniker": "C:\\Users\\Iuri\\Desktop\\WebAPI\\LearningApi\\SecondApi\\SecondApi\\Services\\Interfaces\\ITokenService.cs",
+              "RelativeDocumentMoniker": "SecondApi\\Services\\Interfaces\\ITokenService.cs",
+              "ToolTip": "C:\\Users\\Iuri\\Desktop\\WebAPI\\LearningApi\\SecondApi\\SecondApi\\Services\\Interfaces\\ITokenService.cs",
+              "RelativeToolTip": "SecondApi\\Services\\Interfaces\\ITokenService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAA9AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-03T13:43:18.433Z",
+              "WhenOpened": "2024-04-03T21:11:02.938Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "CategoriaRepository.cs",
-              "DocumentMoniker": "C:\\Users\\ESTAGIARIOTI\\Documents\\LearningApi\\SecondApi\\SecondApi\\Repositories\\Implementations\\CategoriaRepository.cs",
-              "RelativeDocumentMoniker": "SecondApi\\Repositories\\Implementations\\CategoriaRepository.cs",
-              "ToolTip": "C:\\Users\\ESTAGIARIOTI\\Documents\\LearningApi\\SecondApi\\SecondApi\\Repositories\\Implementations\\CategoriaRepository.cs",
-              "RelativeToolTip": "SecondApi\\Repositories\\Implementations\\CategoriaRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAyAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-03T13:31:40.08Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ProdutoRepository.cs",
-              "DocumentMoniker": "C:\\Users\\ESTAGIARIOTI\\Documents\\LearningApi\\SecondApi\\SecondApi\\Repositories\\Implementations\\ProdutoRepository.cs",
-              "RelativeDocumentMoniker": "SecondApi\\Repositories\\Implementations\\ProdutoRepository.cs",
-              "ToolTip": "C:\\Users\\ESTAGIARIOTI\\Documents\\LearningApi\\SecondApi\\SecondApi\\Repositories\\Implementations\\ProdutoRepository.cs",
-              "RelativeToolTip": "SecondApi\\Repositories\\Implementations\\ProdutoRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAoAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-03T13:28:23.931Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Repository.cs",
-              "DocumentMoniker": "C:\\Users\\ESTAGIARIOTI\\Documents\\LearningApi\\SecondApi\\SecondApi\\Repositories\\Implementations\\Repository.cs",
-              "RelativeDocumentMoniker": "SecondApi\\Repositories\\Implementations\\Repository.cs",
-              "ToolTip": "C:\\Users\\ESTAGIARIOTI\\Documents\\LearningApi\\SecondApi\\SecondApi\\Repositories\\Implementations\\Repository.cs",
-              "RelativeToolTip": "SecondApi\\Repositories\\Implementations\\Repository.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAACMAAAA+AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-02T20:55:35.505Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "IRepository.cs",
-              "DocumentMoniker": "C:\\Users\\ESTAGIARIOTI\\Documents\\LearningApi\\SecondApi\\SecondApi\\Repositories\\Interfaces\\IRepository.cs",
-              "RelativeDocumentMoniker": "SecondApi\\Repositories\\Interfaces\\IRepository.cs",
-              "ToolTip": "C:\\Users\\ESTAGIARIOTI\\Documents\\LearningApi\\SecondApi\\SecondApi\\Repositories\\Interfaces\\IRepository.cs",
-              "RelativeToolTip": "SecondApi\\Repositories\\Interfaces\\IRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAcAAAAdAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-02T20:48:44.17Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "ICategoriaRepository.cs",
-              "DocumentMoniker": "C:\\Users\\ESTAGIARIOTI\\Documents\\LearningApi\\SecondApi\\SecondApi\\Repositories\\Interfaces\\ICategoriaRepository.cs",
-              "RelativeDocumentMoniker": "SecondApi\\Repositories\\Interfaces\\ICategoriaRepository.cs",
-              "ToolTip": "C:\\Users\\ESTAGIARIOTI\\Documents\\LearningApi\\SecondApi\\SecondApi\\Repositories\\Interfaces\\ICategoriaRepository.cs",
-              "RelativeToolTip": "SecondApi\\Repositories\\Interfaces\\ICategoriaRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAABBAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-02T20:48:30.539Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "IProdutoRepository.cs",
-              "DocumentMoniker": "C:\\Users\\ESTAGIARIOTI\\Documents\\LearningApi\\SecondApi\\SecondApi\\Repositories\\Interfaces\\IProdutoRepository.cs",
-              "RelativeDocumentMoniker": "SecondApi\\Repositories\\Interfaces\\IProdutoRepository.cs",
-              "ToolTip": "C:\\Users\\ESTAGIARIOTI\\Documents\\LearningApi\\SecondApi\\SecondApi\\Repositories\\Interfaces\\IProdutoRepository.cs",
-              "RelativeToolTip": "SecondApi\\Repositories\\Interfaces\\IProdutoRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAABAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-02T20:48:13.936Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "ApiMappingProfileDTOs.cs",
-              "DocumentMoniker": "C:\\Users\\ESTAGIARIOTI\\Documents\\LearningApi\\SecondApi\\SecondApi\\DTOs\\Mapping\\ApiMappingProfileDTOs.cs",
-              "RelativeDocumentMoniker": "SecondApi\\DTOs\\Mapping\\ApiMappingProfileDTOs.cs",
-              "ToolTip": "C:\\Users\\ESTAGIARIOTI\\Documents\\LearningApi\\SecondApi\\SecondApi\\DTOs\\Mapping\\ApiMappingProfileDTOs.cs",
-              "RelativeToolTip": "SecondApi\\DTOs\\Mapping\\ApiMappingProfileDTOs.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-02T20:41:55.004Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "CategoriaDTO.cs",
-              "DocumentMoniker": "C:\\Users\\ESTAGIARIOTI\\Documents\\LearningApi\\SecondApi\\SecondApi\\DTOs\\Entities\\CategoriaDTO.cs",
-              "RelativeDocumentMoniker": "SecondApi\\DTOs\\Entities\\CategoriaDTO.cs",
-              "ToolTip": "C:\\Users\\ESTAGIARIOTI\\Documents\\LearningApi\\SecondApi\\SecondApi\\DTOs\\Entities\\CategoriaDTO.cs",
-              "RelativeToolTip": "SecondApi\\DTOs\\Entities\\CategoriaDTO.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAApAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-02T20:39:05.077Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "ProdutoDTO.cs",
-              "DocumentMoniker": "C:\\Users\\ESTAGIARIOTI\\Documents\\LearningApi\\SecondApi\\SecondApi\\DTOs\\Entities\\ProdutoDTO.cs",
-              "RelativeDocumentMoniker": "SecondApi\\DTOs\\Entities\\ProdutoDTO.cs",
-              "ToolTip": "C:\\Users\\ESTAGIARIOTI\\Documents\\LearningApi\\SecondApi\\SecondApi\\DTOs\\Entities\\ProdutoDTO.cs",
-              "RelativeToolTip": "SecondApi\\DTOs\\Entities\\ProdutoDTO.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAA2AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-02T20:38:55.568Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "20240402203033_PopulaProdutos.cs",
-              "DocumentMoniker": "C:\\Users\\ESTAGIARIOTI\\Documents\\LearningApi\\SecondApi\\SecondApi\\Migrations\\20240402203033_PopulaProdutos.cs",
-              "RelativeDocumentMoniker": "SecondApi\\Migrations\\20240402203033_PopulaProdutos.cs",
-              "ToolTip": "C:\\Users\\ESTAGIARIOTI\\Documents\\LearningApi\\SecondApi\\SecondApi\\Migrations\\20240402203033_PopulaProdutos.cs",
-              "RelativeToolTip": "SecondApi\\Migrations\\20240402203033_PopulaProdutos.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAaAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-02T20:30:37.383Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "20240402202653_PopulaCategorias.cs",
-              "DocumentMoniker": "C:\\Users\\ESTAGIARIOTI\\Documents\\LearningApi\\SecondApi\\SecondApi\\Migrations\\20240402202653_PopulaCategorias.cs",
-              "RelativeDocumentMoniker": "SecondApi\\Migrations\\20240402202653_PopulaCategorias.cs",
-              "ToolTip": "C:\\Users\\ESTAGIARIOTI\\Documents\\LearningApi\\SecondApi\\SecondApi\\Migrations\\20240402202653_PopulaCategorias.cs",
-              "RelativeToolTip": "SecondApi\\Migrations\\20240402202653_PopulaCategorias.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAABFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-02T20:26:57.188Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\ESTAGIARIOTI\\Documents\\LearningApi\\SecondApi\\SecondApi\\Program.cs",
-              "RelativeDocumentMoniker": "SecondApi\\Program.cs",
-              "ToolTip": "C:\\Users\\ESTAGIARIOTI\\Documents\\LearningApi\\SecondApi\\SecondApi\\Program.cs",
-              "RelativeToolTip": "SecondApi\\Program.cs",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAAABQAAAA0AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-02T20:12:34.993Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\ESTAGIARIOTI\\Documents\\LearningApi\\SecondApi\\SecondApi\\appsettings.json",
-              "RelativeDocumentMoniker": "SecondApi\\appsettings.json",
-              "ToolTip": "C:\\Users\\ESTAGIARIOTI\\Documents\\LearningApi\\SecondApi\\SecondApi\\appsettings.json",
-              "RelativeToolTip": "SecondApi\\appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAfAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-04-02T20:12:49.196Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "ApiContext.cs",
-              "DocumentMoniker": "C:\\Users\\ESTAGIARIOTI\\Documents\\LearningApi\\SecondApi\\SecondApi\\Context\\ApiContext.cs",
-              "RelativeDocumentMoniker": "SecondApi\\Context\\ApiContext.cs",
-              "ToolTip": "C:\\Users\\ESTAGIARIOTI\\Documents\\LearningApi\\SecondApi\\SecondApi\\Context\\ApiContext.cs",
-              "RelativeToolTip": "SecondApi\\Context\\ApiContext.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAA+AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-02T20:11:11.49Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Categoria.cs",
-              "DocumentMoniker": "C:\\Users\\ESTAGIARIOTI\\Documents\\LearningApi\\SecondApi\\SecondApi\\Models\\Categoria.cs",
-              "RelativeDocumentMoniker": "SecondApi\\Models\\Categoria.cs",
-              "ToolTip": "C:\\Users\\ESTAGIARIOTI\\Documents\\LearningApi\\SecondApi\\SecondApi\\Models\\Categoria.cs",
-              "RelativeToolTip": "SecondApi\\Models\\Categoria.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAcAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-02T20:05:49.15Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "Produto.cs",
-              "DocumentMoniker": "C:\\Users\\ESTAGIARIOTI\\Documents\\LearningApi\\SecondApi\\SecondApi\\Models\\Produto.cs",
-              "RelativeDocumentMoniker": "SecondApi\\Models\\Produto.cs",
-              "ToolTip": "C:\\Users\\ESTAGIARIOTI\\Documents\\LearningApi\\SecondApi\\SecondApi\\Models\\Produto.cs",
-              "RelativeToolTip": "SecondApi\\Models\\Produto.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAABUAAAAsAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-02T20:01:50.937Z"
             }
           ]
         }
