@@ -9,7 +9,7 @@ namespace SecondApi.Services.Interfaces {
 
         string GenerateRefreshToken();
 
-        ClaimsPrincipal GetClaimsPrincipalFromExpiredToken();
+        ClaimsPrincipal GetClaimsPrincipalFromExpiredToken(string token, IConfiguration _confi);
 
 
     }

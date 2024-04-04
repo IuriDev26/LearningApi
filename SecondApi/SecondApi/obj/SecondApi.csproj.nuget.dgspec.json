@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Iuri\\Desktop\\WebAPI\\LearningApi\\SecondApi\\SecondApi\\SecondApi.csproj": {}
+    "C:\\Users\\ESTAGIARIOTI\\Documents\\LearningApi\\SecondApi\\SecondApi\\SecondApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Iuri\\Desktop\\WebAPI\\LearningApi\\SecondApi\\SecondApi\\SecondApi.csproj": {
+    "C:\\Users\\ESTAGIARIOTI\\Documents\\LearningApi\\SecondApi\\SecondApi\\SecondApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Iuri\\Desktop\\WebAPI\\LearningApi\\SecondApi\\SecondApi\\SecondApi.csproj",
+        "projectUniqueName": "C:\\Users\\ESTAGIARIOTI\\Documents\\LearningApi\\SecondApi\\SecondApi\\SecondApi.csproj",
         "projectName": "SecondApi",
-        "projectPath": "C:\\Users\\Iuri\\Desktop\\WebAPI\\LearningApi\\SecondApi\\SecondApi\\SecondApi.csproj",
-        "packagesPath": "C:\\Users\\Iuri\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Iuri\\Desktop\\WebAPI\\LearningApi\\SecondApi\\SecondApi\\obj\\",
+        "projectPath": "C:\\Users\\ESTAGIARIOTI\\Documents\\LearningApi\\SecondApi\\SecondApi\\SecondApi.csproj",
+        "packagesPath": "C:\\Users\\ESTAGIARIOTI\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ESTAGIARIOTI\\Documents\\LearningApi\\SecondApi\\SecondApi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Iuri\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ESTAGIARIOTI\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

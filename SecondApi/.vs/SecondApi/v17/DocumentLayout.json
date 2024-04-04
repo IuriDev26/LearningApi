@@ -1,18 +1,38 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Iuri\\Desktop\\WebAPI\\LearningApi\\SecondApi\\",
+  "WorkspaceRootPath": "C:\\Users\\ESTAGIARIOTI\\Documents\\LearningApi\\SecondApi\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E76B0236-AF4B-4AA0-A14E-28E75B01992D}|SecondApi\\SecondApi.csproj|c:\\users\\iuri\\desktop\\webapi\\learningapi\\secondapi\\secondapi\\services\\implementations\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E76B0236-AF4B-4AA0-A14E-28E75B01992D}|SecondApi\\SecondApi.csproj|c:\\users\\estagiarioti\\documents\\learningapi\\secondapi\\secondapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E76B0236-AF4B-4AA0-A14E-28E75B01992D}|SecondApi\\SecondApi.csproj|solutionrelative:secondapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E76B0236-AF4B-4AA0-A14E-28E75B01992D}|SecondApi\\SecondApi.csproj|c:\\users\\estagiarioti\\documents\\learningapi\\secondapi\\secondapi\\services\\implementations\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E76B0236-AF4B-4AA0-A14E-28E75B01992D}|SecondApi\\SecondApi.csproj|solutionrelative:secondapi\\services\\implementations\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E76B0236-AF4B-4AA0-A14E-28E75B01992D}|SecondApi\\SecondApi.csproj|c:\\users\\iuri\\desktop\\webapi\\learningapi\\secondapi\\secondapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{E76B0236-AF4B-4AA0-A14E-28E75B01992D}|SecondApi\\SecondApi.csproj|c:\\users\\estagiarioti\\documents\\learningapi\\secondapi\\secondapi\\controllers\\categoriascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E76B0236-AF4B-4AA0-A14E-28E75B01992D}|SecondApi\\SecondApi.csproj|solutionrelative:secondapi\\controllers\\categoriascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E76B0236-AF4B-4AA0-A14E-28E75B01992D}|SecondApi\\SecondApi.csproj|c:\\users\\estagiarioti\\documents\\learningapi\\secondapi\\secondapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E76B0236-AF4B-4AA0-A14E-28E75B01992D}|SecondApi\\SecondApi.csproj|solutionrelative:secondapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E76B0236-AF4B-4AA0-A14E-28E75B01992D}|SecondApi\\SecondApi.csproj|c:\\users\\estagiarioti\\documents\\learningapi\\secondapi\\secondapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{E76B0236-AF4B-4AA0-A14E-28E75B01992D}|SecondApi\\SecondApi.csproj|solutionrelative:secondapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E76B0236-AF4B-4AA0-A14E-28E75B01992D}|SecondApi\\SecondApi.csproj|c:\\users\\iuri\\desktop\\webapi\\learningapi\\secondapi\\secondapi\\services\\interfaces\\itokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E76B0236-AF4B-4AA0-A14E-28E75B01992D}|SecondApi\\SecondApi.csproj|solutionrelative:secondapi\\services\\interfaces\\itokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E76B0236-AF4B-4AA0-A14E-28E75B01992D}|SecondApi\\SecondApi.csproj|c:\\users\\estagiarioti\\documents\\learningapi\\secondapi\\secondapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{E76B0236-AF4B-4AA0-A14E-28E75B01992D}|SecondApi\\SecondApi.csproj|solutionrelative:secondapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E76B0236-AF4B-4AA0-A14E-28E75B01992D}|SecondApi\\SecondApi.csproj|c:\\users\\estagiarioti\\documents\\learningapi\\secondapi\\secondapi\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{E76B0236-AF4B-4AA0-A14E-28E75B01992D}|SecondApi\\SecondApi.csproj|solutionrelative:secondapi\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E76B0236-AF4B-4AA0-A14E-28E75B01992D}|SecondApi\\SecondApi.csproj|c:\\users\\estagiarioti\\documents\\learningapi\\secondapi\\secondapi\\middlewares\\configureexceptionmiddlewareextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E76B0236-AF4B-4AA0-A14E-28E75B01992D}|SecondApi\\SecondApi.csproj|solutionrelative:secondapi\\middlewares\\configureexceptionmiddlewareextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,45 +42,114 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 7,
           "Children": [
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\Iuri\\Desktop\\WebAPI\\LearningApi\\SecondApi\\SecondApi\\appsettings.json",
-              "RelativeDocumentMoniker": "SecondApi\\appsettings.json",
-              "ToolTip": "C:\\Users\\Iuri\\Desktop\\WebAPI\\LearningApi\\SecondApi\\SecondApi\\appsettings.json",
-              "RelativeToolTip": "SecondApi\\appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAQAAAA",
+              "DocumentIndex": 6,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\ESTAGIARIOTI\\Documents\\LearningApi\\SecondApi\\SecondApi\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "SecondApi\\appsettings.Development.json",
+              "ToolTip": "C:\\Users\\ESTAGIARIOTI\\Documents\\LearningApi\\SecondApi\\SecondApi\\appsettings.Development.json",
+              "RelativeToolTip": "SecondApi\\appsettings.Development.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-04-03T21:46:02.406Z",
+              "WhenOpened": "2024-04-04T14:44:41.987Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "TokenService.cs",
-              "DocumentMoniker": "C:\\Users\\Iuri\\Desktop\\WebAPI\\LearningApi\\SecondApi\\SecondApi\\Services\\Implementations\\TokenService.cs",
+              "DocumentMoniker": "C:\\Users\\ESTAGIARIOTI\\Documents\\LearningApi\\SecondApi\\SecondApi\\Services\\Implementations\\TokenService.cs",
               "RelativeDocumentMoniker": "SecondApi\\Services\\Implementations\\TokenService.cs",
-              "ToolTip": "C:\\Users\\Iuri\\Desktop\\WebAPI\\LearningApi\\SecondApi\\SecondApi\\Services\\Implementations\\TokenService.cs",
+              "ToolTip": "C:\\Users\\ESTAGIARIOTI\\Documents\\LearningApi\\SecondApi\\SecondApi\\Services\\Implementations\\TokenService.cs",
               "RelativeToolTip": "SecondApi\\Services\\Implementations\\TokenService.cs",
-              "ViewState": "AQIAACoAAAAAAAAAAAApwDgAAAA9AAAA",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAjwBsAAABIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-03T21:11:12.754Z",
+              "WhenOpened": "2024-04-04T14:31:38.41Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "ITokenService.cs",
-              "DocumentMoniker": "C:\\Users\\Iuri\\Desktop\\WebAPI\\LearningApi\\SecondApi\\SecondApi\\Services\\Interfaces\\ITokenService.cs",
-              "RelativeDocumentMoniker": "SecondApi\\Services\\Interfaces\\ITokenService.cs",
-              "ToolTip": "C:\\Users\\Iuri\\Desktop\\WebAPI\\LearningApi\\SecondApi\\SecondApi\\Services\\Interfaces\\ITokenService.cs",
-              "RelativeToolTip": "SecondApi\\Services\\Interfaces\\ITokenService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAA9AAAA",
+              "Title": "CategoriasController.cs",
+              "DocumentMoniker": "C:\\Users\\ESTAGIARIOTI\\Documents\\LearningApi\\SecondApi\\SecondApi\\Controllers\\CategoriasController.cs",
+              "RelativeDocumentMoniker": "SecondApi\\Controllers\\CategoriasController.cs",
+              "ToolTip": "C:\\Users\\ESTAGIARIOTI\\Documents\\LearningApi\\SecondApi\\SecondApi\\Controllers\\CategoriasController.cs",
+              "RelativeToolTip": "SecondApi\\Controllers\\CategoriasController.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAAAQwCMAAAAdAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-03T21:11:02.938Z",
+              "WhenOpened": "2024-04-04T14:21:52.316Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ConfigureExceptionMiddlewareExtensions.cs",
+              "DocumentMoniker": "C:\\Users\\ESTAGIARIOTI\\Documents\\LearningApi\\SecondApi\\SecondApi\\Middlewares\\ConfigureExceptionMiddlewareExtensions.cs",
+              "RelativeDocumentMoniker": "SecondApi\\Middlewares\\ConfigureExceptionMiddlewareExtensions.cs",
+              "ToolTip": "C:\\Users\\ESTAGIARIOTI\\Documents\\LearningApi\\SecondApi\\SecondApi\\Middlewares\\ConfigureExceptionMiddlewareExtensions.cs",
+              "RelativeToolTip": "SecondApi\\Middlewares\\ConfigureExceptionMiddlewareExtensions.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-04T13:59:55.749Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\ESTAGIARIOTI\\Documents\\LearningApi\\SecondApi\\SecondApi\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "SecondApi\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\ESTAGIARIOTI\\Documents\\LearningApi\\SecondApi\\SecondApi\\Properties\\launchSettings.json",
+              "RelativeToolTip": "SecondApi\\Properties\\launchSettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-04-04T13:36:25.959Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\ESTAGIARIOTI\\Documents\\LearningApi\\SecondApi\\SecondApi\\appsettings.json",
+              "RelativeDocumentMoniker": "SecondApi\\appsettings.json",
+              "ToolTip": "C:\\Users\\ESTAGIARIOTI\\Documents\\LearningApi\\SecondApi\\SecondApi\\appsettings.json",
+              "RelativeToolTip": "SecondApi\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-04-04T12:27:36.191Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\ESTAGIARIOTI\\Documents\\LearningApi\\SecondApi\\SecondApi\\Program.cs",
+              "RelativeDocumentMoniker": "SecondApi\\Program.cs",
+              "ToolTip": "C:\\Users\\ESTAGIARIOTI\\Documents\\LearningApi\\SecondApi\\SecondApi\\Program.cs",
+              "RelativeToolTip": "SecondApi\\Program.cs",
+              "ViewState": "AQIAAC8AAAAAAAAAAAAAADoAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-04T12:23:04.71Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\ESTAGIARIOTI\\Documents\\LearningApi\\SecondApi\\SecondApi\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "SecondApi\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\ESTAGIARIOTI\\Documents\\LearningApi\\SecondApi\\SecondApi\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "SecondApi\\Controllers\\AuthController.cs",
+              "ViewState": "AQIAABkAAAAAAAAAAAAgwDIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-04T11:58:05.864Z",
               "EditorCaption": ""
             }
           ]

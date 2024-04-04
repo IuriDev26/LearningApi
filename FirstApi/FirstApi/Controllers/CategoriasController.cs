@@ -30,6 +30,9 @@ namespace FirstApi.Controllers {
         [HttpGet("{id:int}", Name ="ObterCategoria")]
         [ServiceFilter(typeof(ApiLoggingFilter))]
         public async Task<ActionResult<CategoriaDTO>> GetById(int id) {
+            
+            throw new NotImplementedException();
+
             return Ok(_mapper.Map<CategoriaDTO>(await _uof.CategoriaRepository.GetByIdAsync(c => c.Id == id )));
         }
 

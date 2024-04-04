@@ -44,7 +44,7 @@ namespace SecondApi.Services.Implementations {
 
             var key = _config.GetSection("JWT").GetValue<string>("SecurityKey");
 
-            var securityKey = System.Text.Encoding.UTF8.GetBytes(key);
+            var securityKey = System.Text.Encoding.UTF8.GetBytes(key!);
 
             var tokenValidationParameters = new TokenValidationParameters() {
                 ValidateAudience = false,
@@ -57,7 +57,13 @@ namespace SecondApi.Services.Implementations {
             var tokenHandler = new JwtSecurityTokenHandler();
             var principal = tokenHandler.ValidateToken(token, tokenValidationParameters, out SecurityToken securityToken);
 
-            if ( securityToken is not JwtSecurityToken ||  )
+            if ( securityToken is not JwtSecurityToken jwtSecurityToken ||  
+                                      !jwtSecurityToken.Header.Alg.Equals(
+                                          SecurityAlgorithms.HmacSha256, StringComparison.InvariantCultureIgnoreCase)) {
+                throw new SecurityTokenException("Invalid Token");
+            }
+
+            return principal;
         }
     }
 }

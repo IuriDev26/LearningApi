@@ -1,4 +1,6 @@
 ﻿using AutoMapper;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Cors;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
@@ -7,7 +9,7 @@ using SecondApi.Models;
 using SecondApi.UnitOfWork;
 
 namespace SecondApi.Controllers {
-    [DisableCors]
+    
     [Route("[controller]")]
     [ApiController]
     public class CategoriasController : ControllerBase {
@@ -22,6 +24,7 @@ namespace SecondApi.Controllers {
 
 
         [HttpGet]
+        [Authorize( AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme )]
         public async Task<ActionResult<IEnumerable<CategoriaDTO>>> GetAll() {
 
             var categorias = await _uof.CategoriaRepository.GetAllAsync();
@@ -40,6 +43,7 @@ namespace SecondApi.Controllers {
         }
 
         [HttpPost]
+        [Authorize( AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme, Policy = "AdminOnly" )]
         public async Task<ActionResult<CategoriaDTO>> Create(CategoriaDTO categoriaDto) {
 
             if ( categoriaDto == null ) { 
