@@ -1,0 +1,92 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ESTAGIARIOTI\\Documents\\LearningApi\\ThirdAPI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{755B22FC-217D-4ACC-978E-06FBE61A85CF}|ThirdAPI.Infrastructure\\ThirdAPI.Infrastructure.csproj|c:\\users\\estagiarioti\\documents\\learningapi\\thirdapi\\thirdapi.infrastructure\\entitiesconfigurations\\categoriaconfigurantion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{755B22FC-217D-4ACC-978E-06FBE61A85CF}|ThirdAPI.Infrastructure\\ThirdAPI.Infrastructure.csproj|solutionrelative:thirdapi.infrastructure\\entitiesconfigurations\\categoriaconfigurantion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{755B22FC-217D-4ACC-978E-06FBE61A85CF}|ThirdAPI.Infrastructure\\ThirdAPI.Infrastructure.csproj|c:\\users\\estagiarioti\\documents\\learningapi\\thirdapi\\thirdapi.infrastructure\\context\\apicontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{755B22FC-217D-4ACC-978E-06FBE61A85CF}|ThirdAPI.Infrastructure\\ThirdAPI.Infrastructure.csproj|solutionrelative:thirdapi.infrastructure\\context\\apicontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18753F3E-6172-41F9-82C4-717F4CC2A262}|ThirdAPI.Application\\ThirdAPI.Application.csproj|c:\\users\\estagiarioti\\documents\\learningapi\\thirdapi\\thirdapi.application\\services\\categoriaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{18753F3E-6172-41F9-82C4-717F4CC2A262}|ThirdAPI.Application\\ThirdAPI.Application.csproj|solutionrelative:thirdapi.application\\services\\categoriaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18753F3E-6172-41F9-82C4-717F4CC2A262}|ThirdAPI.Application\\ThirdAPI.Application.csproj|c:\\users\\estagiarioti\\documents\\learningapi\\thirdapi\\thirdapi.application\\services\\produtoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{18753F3E-6172-41F9-82C4-717F4CC2A262}|ThirdAPI.Application\\ThirdAPI.Application.csproj|solutionrelative:thirdapi.application\\services\\produtoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CategoriaConfigurantion.cs",
+              "DocumentMoniker": "C:\\Users\\ESTAGIARIOTI\\Documents\\LearningApi\\ThirdAPI\\ThirdAPI.Infrastructure\\EntitiesConfigurations\\CategoriaConfigurantion.cs",
+              "RelativeDocumentMoniker": "ThirdAPI.Infrastructure\\EntitiesConfigurations\\CategoriaConfigurantion.cs",
+              "ToolTip": "C:\\Users\\ESTAGIARIOTI\\Documents\\LearningApi\\ThirdAPI\\ThirdAPI.Infrastructure\\EntitiesConfigurations\\CategoriaConfigurantion.cs",
+              "RelativeToolTip": "ThirdAPI.Infrastructure\\EntitiesConfigurations\\CategoriaConfigurantion.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-08T16:46:57.999Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ApiContext.cs",
+              "DocumentMoniker": "C:\\Users\\ESTAGIARIOTI\\Documents\\LearningApi\\ThirdAPI\\ThirdAPI.Infrastructure\\Context\\ApiContext.cs",
+              "RelativeDocumentMoniker": "ThirdAPI.Infrastructure\\Context\\ApiContext.cs",
+              "ToolTip": "C:\\Users\\ESTAGIARIOTI\\Documents\\LearningApi\\ThirdAPI\\ThirdAPI.Infrastructure\\Context\\ApiContext.cs",
+              "RelativeToolTip": "ThirdAPI.Infrastructure\\Context\\ApiContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-08T16:38:03.912Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ProdutoService.cs",
+              "DocumentMoniker": "C:\\Users\\ESTAGIARIOTI\\Documents\\LearningApi\\ThirdAPI\\ThirdAPI.Application\\Services\\ProdutoService.cs",
+              "RelativeDocumentMoniker": "ThirdAPI.Application\\Services\\ProdutoService.cs",
+              "ToolTip": "C:\\Users\\ESTAGIARIOTI\\Documents\\LearningApi\\ThirdAPI\\ThirdAPI.Application\\Services\\ProdutoService.cs",
+              "RelativeToolTip": "ThirdAPI.Application\\Services\\ProdutoService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-08T16:29:21.137Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CategoriaService.cs",
+              "DocumentMoniker": "C:\\Users\\ESTAGIARIOTI\\Documents\\LearningApi\\ThirdAPI\\ThirdAPI.Application\\Services\\CategoriaService.cs",
+              "RelativeDocumentMoniker": "ThirdAPI.Application\\Services\\CategoriaService.cs",
+              "ToolTip": "C:\\Users\\ESTAGIARIOTI\\Documents\\LearningApi\\ThirdAPI\\ThirdAPI.Application\\Services\\CategoriaService.cs",
+              "RelativeToolTip": "ThirdAPI.Application\\Services\\CategoriaService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAABDAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-08T16:13:49.81Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

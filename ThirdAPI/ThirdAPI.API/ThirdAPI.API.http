@@ -1,0 +1,6 @@
+@ThirdAPI.API_HostAddress = http://localhost:5210
+
+GET {{ThirdAPI.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
