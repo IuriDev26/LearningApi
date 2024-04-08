@@ -9,6 +9,7 @@ using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json;
+using System.Collections.Generic;
 
 namespace FirstApi.Controllers {
     [Route("[controller]")]
@@ -24,9 +25,17 @@ namespace FirstApi.Controllers {
 
         }
         
-        [Authorize( AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme, Policy = "AdminOnly" )]
+        //[Authorize( AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme, Policy = "AdminOnly" )]
         [HttpGet]
-        public async Task<ActionResult<IEnumerable<ProdutoDTO>>> Get() => Ok(_mapper.Map<IEnumerable<ProdutoDTO>>(await _uof.ProdutoRepository.GetAllAsync()));
+        public async Task<ActionResult<IEnumerable<ProdutoDTO>>> Get() {
+
+            var produtos = await _uof.ProdutoRepository.GetAllAsync();
+
+            var produtosDto = _mapper.Map<IEnumerable<ProdutoDTO>>(produtos);
+
+            return Ok(produtosDto);
+
+        } 
 
         [HttpGet("{id:int}", Name = "ObterProduto")]
         public async Task<ActionResult<ProdutoDTO>> GetById(int id) {

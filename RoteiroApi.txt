@@ -10,3 +10,6 @@ Autenticação model
 Autorização jwt
 Autenticação controlador
 rate limiting
+
+
+Criação de roles

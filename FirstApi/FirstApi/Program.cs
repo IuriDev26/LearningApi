@@ -1,3 +1,4 @@
+using Asp.Versioning;
 using FirstApi.Context;
 using FirstApi.DTOs.Mapping;
 using FirstApi.Filters;
@@ -13,6 +14,7 @@ using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
+using Microsoft.OpenApi.Models;
 using System.Text;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -22,7 +24,9 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
-builder.Services.AddSwaggerGen();
+builder.Services.AddSwaggerGen( c => {
+    c.SwaggerDoc("v1", new OpenApiInfo { Title = "FirstApi", Version = "v1" });
+} );
 
 var connectionString = builder.Configuration.GetConnectionString("MySQL2");
 builder.Services.AddDbContext<ApiContext>(options => {
@@ -75,6 +79,21 @@ builder.Services.AddAuthorization(options => {
 
 
 });
+
+
+builder.Services.AddApiVersioning(options => {
+
+    options.DefaultApiVersion = new ApiVersion(1, 0);
+    options.AssumeDefaultVersionWhenUnspecified = true;
+    options.ReportApiVersions = true;
+    options.ApiVersionReader = ApiVersionReader.Combine(
+        new QueryStringApiVersionReader(),
+        new UrlSegmentApiVersionReader());
+}).AddApiExplorer( options => {
+    options.GroupNameFormat = "'v'VVV";
+    options.SubstituteApiVersionInUrl = true;
+} );
+
 
 
 builder.Services.AddAutoMapper(typeof(MappingProfile));

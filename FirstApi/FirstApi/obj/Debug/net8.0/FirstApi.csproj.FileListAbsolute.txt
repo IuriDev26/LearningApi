@@ -350,3 +350,7 @@ C:\Users\Iuri\Desktop\WebAPI\LearningApi\FirstApi\FirstApi\bin\Debug\net8.0\Micr
 C:\Users\Iuri\Desktop\WebAPI\LearningApi\FirstApi\FirstApi\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
 C:\Users\Iuri\Desktop\WebAPI\LearningApi\FirstApi\FirstApi\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
 C:\Users\Iuri\Desktop\WebAPI\LearningApi\FirstApi\FirstApi\obj\Debug\net8.0\FirstApi.csproj.Up2Date
+C:\Users\ESTAGIARIOTI\Documents\LearningApi\FirstApi\FirstApi\bin\Debug\net8.0\Asp.Versioning.Abstractions.dll
+C:\Users\ESTAGIARIOTI\Documents\LearningApi\FirstApi\FirstApi\bin\Debug\net8.0\Asp.Versioning.Http.dll
+C:\Users\ESTAGIARIOTI\Documents\LearningApi\FirstApi\FirstApi\bin\Debug\net8.0\Asp.Versioning.Mvc.dll
+C:\Users\ESTAGIARIOTI\Documents\LearningApi\FirstApi\FirstApi\bin\Debug\net8.0\Asp.Versioning.Mvc.ApiExplorer.dll

@@ -1,9 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "kMoyfHIcHS4CHTx7Hb4IdJQcmfXO3/5v+cKIYxm9hnIA1ZG/1VmRmiZ1AamMHh6RkeZDeS2Ih4kOK5CiLbgUrQ==",
+  "dgSpecHash": "Je0P++xoYhbI5t/o6BMm2P9Y09ntrjmAlKuCAqIdtCx8nG8qRkPIMgTj0vFnA8r0BvhjCTQz2C2KA0uEDgm2VQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\ESTAGIARIOTI\\Documents\\LearningApi\\FirstApi\\FirstApi\\FirstApi.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\ESTAGIARIOTI\\.nuget\\packages\\asp.versioning.abstractions\\8.1.0\\asp.versioning.abstractions.8.1.0.nupkg.sha512",
+    "C:\\Users\\ESTAGIARIOTI\\.nuget\\packages\\asp.versioning.http\\8.1.0\\asp.versioning.http.8.1.0.nupkg.sha512",
+    "C:\\Users\\ESTAGIARIOTI\\.nuget\\packages\\asp.versioning.mvc\\8.1.0\\asp.versioning.mvc.8.1.0.nupkg.sha512",
+    "C:\\Users\\ESTAGIARIOTI\\.nuget\\packages\\asp.versioning.mvc.apiexplorer\\8.1.0\\asp.versioning.mvc.apiexplorer.8.1.0.nupkg.sha512",
     "C:\\Users\\ESTAGIARIOTI\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\ESTAGIARIOTI\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\ESTAGIARIOTI\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\8.0.3\\microsoft.aspnetcore.authentication.jwtbearer.8.0.3.nupkg.sha512",
