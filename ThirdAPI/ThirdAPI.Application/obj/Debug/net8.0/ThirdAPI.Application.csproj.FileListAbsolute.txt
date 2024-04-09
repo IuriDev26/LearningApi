@@ -1,0 +1,16 @@
+C:\Users\ESTAGIARIOTI\Documents\LearningApi\ThirdAPI\ThirdAPI.Application\bin\Debug\net8.0\ThirdAPI.Application.deps.json
+C:\Users\ESTAGIARIOTI\Documents\LearningApi\ThirdAPI\ThirdAPI.Application\bin\Debug\net8.0\ThirdAPI.Application.dll
+C:\Users\ESTAGIARIOTI\Documents\LearningApi\ThirdAPI\ThirdAPI.Application\bin\Debug\net8.0\ThirdAPI.Application.pdb
+C:\Users\ESTAGIARIOTI\Documents\LearningApi\ThirdAPI\ThirdAPI.Application\bin\Debug\net8.0\ThirdAPI.Domain.dll
+C:\Users\ESTAGIARIOTI\Documents\LearningApi\ThirdAPI\ThirdAPI.Application\bin\Debug\net8.0\ThirdAPI.Domain.pdb
+C:\Users\ESTAGIARIOTI\Documents\LearningApi\ThirdAPI\ThirdAPI.Application\obj\Debug\net8.0\ThirdAPI.Application.csproj.AssemblyReference.cache
+C:\Users\ESTAGIARIOTI\Documents\LearningApi\ThirdAPI\ThirdAPI.Application\obj\Debug\net8.0\ThirdAPI.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ESTAGIARIOTI\Documents\LearningApi\ThirdAPI\ThirdAPI.Application\obj\Debug\net8.0\ThirdAPI.Application.AssemblyInfoInputs.cache
+C:\Users\ESTAGIARIOTI\Documents\LearningApi\ThirdAPI\ThirdAPI.Application\obj\Debug\net8.0\ThirdAPI.Application.AssemblyInfo.cs
+C:\Users\ESTAGIARIOTI\Documents\LearningApi\ThirdAPI\ThirdAPI.Application\obj\Debug\net8.0\ThirdAPI.Application.csproj.CoreCompileInputs.cache
+C:\Users\ESTAGIARIOTI\Documents\LearningApi\ThirdAPI\ThirdAPI.Application\obj\Debug\net8.0\ThirdAPI.Application.sourcelink.json
+C:\Users\ESTAGIARIOTI\Documents\LearningApi\ThirdAPI\ThirdAPI.Application\obj\Debug\net8.0\ThirdAPI.0D246A0A.Up2Date
+C:\Users\ESTAGIARIOTI\Documents\LearningApi\ThirdAPI\ThirdAPI.Application\obj\Debug\net8.0\ThirdAPI.Application.dll
+C:\Users\ESTAGIARIOTI\Documents\LearningApi\ThirdAPI\ThirdAPI.Application\obj\Debug\net8.0\refint\ThirdAPI.Application.dll
+C:\Users\ESTAGIARIOTI\Documents\LearningApi\ThirdAPI\ThirdAPI.Application\obj\Debug\net8.0\ThirdAPI.Application.pdb
+C:\Users\ESTAGIARIOTI\Documents\LearningApi\ThirdAPI\ThirdAPI.Application\obj\Debug\net8.0\ref\ThirdAPI.Application.dll

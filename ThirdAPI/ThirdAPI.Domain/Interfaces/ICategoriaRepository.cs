@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using ThirdAPI.Domain.Entities;
+﻿using ThirdAPI.Domain.Entities;
 
 namespace ThirdAPI.Domain.Interfaces {
     public interface ICategoriaRepository {

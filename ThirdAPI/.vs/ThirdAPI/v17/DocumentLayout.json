@@ -3,20 +3,44 @@
   "WorkspaceRootPath": "C:\\Users\\ESTAGIARIOTI\\Documents\\LearningApi\\ThirdAPI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{755B22FC-217D-4ACC-978E-06FBE61A85CF}|ThirdAPI.Infrastructure\\ThirdAPI.Infrastructure.csproj|c:\\users\\estagiarioti\\documents\\learningapi\\thirdapi\\thirdapi.infrastructure\\entitiesconfigurations\\categoriaconfigurantion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{755B22FC-217D-4ACC-978E-06FBE61A85CF}|ThirdAPI.Infrastructure\\ThirdAPI.Infrastructure.csproj|solutionrelative:thirdapi.infrastructure\\entitiesconfigurations\\categoriaconfigurantion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{755B22FC-217D-4ACC-978E-06FBE61A85CF}|ThirdAPI.Infrastructure\\ThirdAPI.Infrastructure.csproj|c:\\users\\estagiarioti\\documents\\learningapi\\thirdapi\\thirdapi.infrastructure\\context\\apicontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{755B22FC-217D-4ACC-978E-06FBE61A85CF}|ThirdAPI.Infrastructure\\ThirdAPI.Infrastructure.csproj|solutionrelative:thirdapi.infrastructure\\context\\apicontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{18753F3E-6172-41F9-82C4-717F4CC2A262}|ThirdAPI.Application\\ThirdAPI.Application.csproj|c:\\users\\estagiarioti\\documents\\learningapi\\thirdapi\\thirdapi.application\\services\\categoriaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{18753F3E-6172-41F9-82C4-717F4CC2A262}|ThirdAPI.Application\\ThirdAPI.Application.csproj|solutionrelative:thirdapi.application\\services\\categoriaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{755B22FC-217D-4ACC-978E-06FBE61A85CF}|ThirdAPI.Infrastructure\\ThirdAPI.Infrastructure.csproj|c:\\users\\estagiarioti\\documents\\learningapi\\thirdapi\\thirdapi.infrastructure\\repositories\\produtorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{755B22FC-217D-4ACC-978E-06FBE61A85CF}|ThirdAPI.Infrastructure\\ThirdAPI.Infrastructure.csproj|solutionrelative:thirdapi.infrastructure\\repositories\\produtorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{18753F3E-6172-41F9-82C4-717F4CC2A262}|ThirdAPI.Application\\ThirdAPI.Application.csproj|c:\\users\\estagiarioti\\documents\\learningapi\\thirdapi\\thirdapi.application\\services\\produtoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{18753F3E-6172-41F9-82C4-717F4CC2A262}|ThirdAPI.Application\\ThirdAPI.Application.csproj|solutionrelative:thirdapi.application\\services\\produtoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97CD4980-5705-4B1E-94F4-89FAFAC17A58}|ThirdAPI.API\\ThirdAPI.API.csproj|c:\\users\\estagiarioti\\documents\\learningapi\\thirdapi\\thirdapi.api\\controllers\\produtoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97CD4980-5705-4B1E-94F4-89FAFAC17A58}|ThirdAPI.API\\ThirdAPI.API.csproj|solutionrelative:thirdapi.api\\controllers\\produtoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97CD4980-5705-4B1E-94F4-89FAFAC17A58}|ThirdAPI.API\\ThirdAPI.API.csproj|c:\\users\\estagiarioti\\documents\\learningapi\\thirdapi\\thirdapi.api\\controllers\\categoriascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97CD4980-5705-4B1E-94F4-89FAFAC17A58}|ThirdAPI.API\\ThirdAPI.API.csproj|solutionrelative:thirdapi.api\\controllers\\categoriascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18753F3E-6172-41F9-82C4-717F4CC2A262}|ThirdAPI.Application\\ThirdAPI.Application.csproj|c:\\users\\estagiarioti\\documents\\learningapi\\thirdapi\\thirdapi.application\\mappings\\thirdapiprofilemappings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{18753F3E-6172-41F9-82C4-717F4CC2A262}|ThirdAPI.Application\\ThirdAPI.Application.csproj|solutionrelative:thirdapi.application\\mappings\\thirdapiprofilemappings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{755B22FC-217D-4ACC-978E-06FBE61A85CF}|ThirdAPI.Infrastructure\\ThirdAPI.Infrastructure.csproj|c:\\users\\estagiarioti\\documents\\learningapi\\thirdapi\\thirdapi.infrastructure\\migrations\\20240409145237_firstmigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{755B22FC-217D-4ACC-978E-06FBE61A85CF}|ThirdAPI.Infrastructure\\ThirdAPI.Infrastructure.csproj|solutionrelative:thirdapi.infrastructure\\migrations\\20240409145237_firstmigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{755B22FC-217D-4ACC-978E-06FBE61A85CF}|ThirdAPI.Infrastructure\\ThirdAPI.Infrastructure.csproj|c:\\users\\estagiarioti\\documents\\learningapi\\thirdapi\\thirdapi.infrastructure\\migrations\\20240409145600_populaprodutos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{755B22FC-217D-4ACC-978E-06FBE61A85CF}|ThirdAPI.Infrastructure\\ThirdAPI.Infrastructure.csproj|solutionrelative:thirdapi.infrastructure\\migrations\\20240409145600_populaprodutos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18753F3E-6172-41F9-82C4-717F4CC2A262}|ThirdAPI.Application\\ThirdAPI.Application.csproj|c:\\users\\estagiarioti\\documents\\learningapi\\thirdapi\\thirdapi.application\\dtos\\produtodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{18753F3E-6172-41F9-82C4-717F4CC2A262}|ThirdAPI.Application\\ThirdAPI.Application.csproj|solutionrelative:thirdapi.application\\dtos\\produtodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FACDD102-4043-4DB4-990B-A57EDDF1969C}|ThirdAPI.Domain\\ThirdAPI.Domain.csproj|c:\\users\\estagiarioti\\documents\\learningapi\\thirdapi\\thirdapi.domain\\entities\\produto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FACDD102-4043-4DB4-990B-A57EDDF1969C}|ThirdAPI.Domain\\ThirdAPI.Domain.csproj|solutionrelative:thirdapi.domain\\entities\\produto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3506DDC3-1A90-4BEF-9816-17F2E7E0E1F4}|ThirdAPI.CrossCutting\\ThirdAPI.CrossCutting.csproj|c:\\users\\estagiarioti\\documents\\learningapi\\thirdapi\\thirdapi.crosscutting\\ioc\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3506DDC3-1A90-4BEF-9816-17F2E7E0E1F4}|ThirdAPI.CrossCutting\\ThirdAPI.CrossCutting.csproj|solutionrelative:thirdapi.crosscutting\\ioc\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,7 +50,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -34,54 +58,132 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "CategoriaConfigurantion.cs",
-              "DocumentMoniker": "C:\\Users\\ESTAGIARIOTI\\Documents\\LearningApi\\ThirdAPI\\ThirdAPI.Infrastructure\\EntitiesConfigurations\\CategoriaConfigurantion.cs",
-              "RelativeDocumentMoniker": "ThirdAPI.Infrastructure\\EntitiesConfigurations\\CategoriaConfigurantion.cs",
-              "ToolTip": "C:\\Users\\ESTAGIARIOTI\\Documents\\LearningApi\\ThirdAPI\\ThirdAPI.Infrastructure\\EntitiesConfigurations\\CategoriaConfigurantion.cs",
-              "RelativeToolTip": "ThirdAPI.Infrastructure\\EntitiesConfigurations\\CategoriaConfigurantion.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAABMAAAAAAAAA",
+              "DocumentIndex": 3,
+              "Title": "CategoriasController.cs",
+              "DocumentMoniker": "C:\\Users\\ESTAGIARIOTI\\Documents\\LearningApi\\ThirdAPI\\ThirdAPI.API\\Controllers\\CategoriasController.cs",
+              "RelativeDocumentMoniker": "ThirdAPI.API\\Controllers\\CategoriasController.cs",
+              "ToolTip": "C:\\Users\\ESTAGIARIOTI\\Documents\\LearningApi\\ThirdAPI\\ThirdAPI.API\\Controllers\\CategoriasController.cs",
+              "RelativeToolTip": "ThirdAPI.API\\Controllers\\CategoriasController.cs",
+              "ViewState": "AQIAABoAAAAAAAAAAAAwwCMAAABAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-08T16:46:57.999Z",
+              "WhenOpened": "2024-04-09T16:31:42.158Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "20240409145600_PopulaProdutos.cs",
+              "DocumentMoniker": "C:\\Users\\ESTAGIARIOTI\\Documents\\LearningApi\\ThirdAPI\\ThirdAPI.Infrastructure\\Migrations\\20240409145600_PopulaProdutos.cs",
+              "RelativeDocumentMoniker": "ThirdAPI.Infrastructure\\Migrations\\20240409145600_PopulaProdutos.cs",
+              "ToolTip": "C:\\Users\\ESTAGIARIOTI\\Documents\\LearningApi\\ThirdAPI\\ThirdAPI.Infrastructure\\Migrations\\20240409145600_PopulaProdutos.cs",
+              "RelativeToolTip": "ThirdAPI.Infrastructure\\Migrations\\20240409145600_PopulaProdutos.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABEAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-09T16:27:58.404Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "20240409145237_FirstMigration.cs",
+              "DocumentMoniker": "C:\\Users\\ESTAGIARIOTI\\Documents\\LearningApi\\ThirdAPI\\ThirdAPI.Infrastructure\\Migrations\\20240409145237_FirstMigration.cs",
+              "RelativeDocumentMoniker": "ThirdAPI.Infrastructure\\Migrations\\20240409145237_FirstMigration.cs",
+              "ToolTip": "C:\\Users\\ESTAGIARIOTI\\Documents\\LearningApi\\ThirdAPI\\ThirdAPI.Infrastructure\\Migrations\\20240409145237_FirstMigration.cs",
+              "RelativeToolTip": "ThirdAPI.Infrastructure\\Migrations\\20240409145237_FirstMigration.cs",
+              "ViewState": "AQIAACUAAAAAAAAAAAAgwCsAAABAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-09T16:27:45.335Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ProdutoDTO.cs",
+              "DocumentMoniker": "C:\\Users\\ESTAGIARIOTI\\Documents\\LearningApi\\ThirdAPI\\ThirdAPI.Application\\DTOs\\ProdutoDTO.cs",
+              "RelativeDocumentMoniker": "ThirdAPI.Application\\DTOs\\ProdutoDTO.cs",
+              "ToolTip": "C:\\Users\\ESTAGIARIOTI\\Documents\\LearningApi\\ThirdAPI\\ThirdAPI.Application\\DTOs\\ProdutoDTO.cs",
+              "RelativeToolTip": "ThirdAPI.Application\\DTOs\\ProdutoDTO.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAowCIAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-09T15:39:22.374Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "ApiContext.cs",
-              "DocumentMoniker": "C:\\Users\\ESTAGIARIOTI\\Documents\\LearningApi\\ThirdAPI\\ThirdAPI.Infrastructure\\Context\\ApiContext.cs",
-              "RelativeDocumentMoniker": "ThirdAPI.Infrastructure\\Context\\ApiContext.cs",
-              "ToolTip": "C:\\Users\\ESTAGIARIOTI\\Documents\\LearningApi\\ThirdAPI\\ThirdAPI.Infrastructure\\Context\\ApiContext.cs",
-              "RelativeToolTip": "ThirdAPI.Infrastructure\\Context\\ApiContext.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-08T16:38:03.912Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
               "Title": "ProdutoService.cs",
               "DocumentMoniker": "C:\\Users\\ESTAGIARIOTI\\Documents\\LearningApi\\ThirdAPI\\ThirdAPI.Application\\Services\\ProdutoService.cs",
               "RelativeDocumentMoniker": "ThirdAPI.Application\\Services\\ProdutoService.cs",
               "ToolTip": "C:\\Users\\ESTAGIARIOTI\\Documents\\LearningApi\\ThirdAPI\\ThirdAPI.Application\\Services\\ProdutoService.cs",
               "RelativeToolTip": "ThirdAPI.Application\\Services\\ProdutoService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAgAAAA",
+              "ViewState": "AQIAAAwAAAAAAAAAAIA6wBwAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-08T16:29:21.137Z",
+              "WhenOpened": "2024-04-09T15:46:26.666Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ThirdApiProfileMappings.cs",
+              "DocumentMoniker": "C:\\Users\\ESTAGIARIOTI\\Documents\\LearningApi\\ThirdAPI\\ThirdAPI.Application\\Mappings\\ThirdApiProfileMappings.cs",
+              "RelativeDocumentMoniker": "ThirdAPI.Application\\Mappings\\ThirdApiProfileMappings.cs",
+              "ToolTip": "C:\\Users\\ESTAGIARIOTI\\Documents\\LearningApi\\ThirdAPI\\ThirdAPI.Application\\Mappings\\ThirdApiProfileMappings.cs",
+              "RelativeToolTip": "ThirdAPI.Application\\Mappings\\ThirdApiProfileMappings.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-09T15:37:38.488Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProdutoRepository.cs",
+              "DocumentMoniker": "C:\\Users\\ESTAGIARIOTI\\Documents\\LearningApi\\ThirdAPI\\ThirdAPI.Infrastructure\\Repositories\\ProdutoRepository.cs",
+              "RelativeDocumentMoniker": "ThirdAPI.Infrastructure\\Repositories\\ProdutoRepository.cs",
+              "ToolTip": "C:\\Users\\ESTAGIARIOTI\\Documents\\LearningApi\\ThirdAPI\\ThirdAPI.Infrastructure\\Repositories\\ProdutoRepository.cs",
+              "RelativeToolTip": "ThirdAPI.Infrastructure\\Repositories\\ProdutoRepository.cs",
+              "ViewState": "AQIAAB0AAAAAAAAAAAAIwCwAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-09T15:07:16.099Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Produto.cs",
+              "DocumentMoniker": "C:\\Users\\ESTAGIARIOTI\\Documents\\LearningApi\\ThirdAPI\\ThirdAPI.Domain\\Entities\\Produto.cs",
+              "RelativeDocumentMoniker": "ThirdAPI.Domain\\Entities\\Produto.cs",
+              "ToolTip": "C:\\Users\\ESTAGIARIOTI\\Documents\\LearningApi\\ThirdAPI\\ThirdAPI.Domain\\Entities\\Produto.cs",
+              "RelativeToolTip": "ThirdAPI.Domain\\Entities\\Produto.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAADwvw4AAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-09T14:57:04.293Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "CategoriaService.cs",
-              "DocumentMoniker": "C:\\Users\\ESTAGIARIOTI\\Documents\\LearningApi\\ThirdAPI\\ThirdAPI.Application\\Services\\CategoriaService.cs",
-              "RelativeDocumentMoniker": "ThirdAPI.Application\\Services\\CategoriaService.cs",
-              "ToolTip": "C:\\Users\\ESTAGIARIOTI\\Documents\\LearningApi\\ThirdAPI\\ThirdAPI.Application\\Services\\CategoriaService.cs",
-              "RelativeToolTip": "ThirdAPI.Application\\Services\\CategoriaService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAABDAAAA",
+              "Title": "ProdutosController.cs",
+              "DocumentMoniker": "C:\\Users\\ESTAGIARIOTI\\Documents\\LearningApi\\ThirdAPI\\ThirdAPI.API\\Controllers\\ProdutosController.cs",
+              "RelativeDocumentMoniker": "ThirdAPI.API\\Controllers\\ProdutosController.cs",
+              "ToolTip": "C:\\Users\\ESTAGIARIOTI\\Documents\\LearningApi\\ThirdAPI\\ThirdAPI.API\\Controllers\\ProdutosController.cs",
+              "RelativeToolTip": "ThirdAPI.API\\Controllers\\ProdutosController.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAgwBkAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-08T16:13:49.81Z",
+              "WhenOpened": "2024-04-09T14:05:06.74Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "DependencyInjection.cs",
+              "DocumentMoniker": "C:\\Users\\ESTAGIARIOTI\\Documents\\LearningApi\\ThirdAPI\\ThirdAPI.CrossCutting\\IoC\\DependencyInjection.cs",
+              "RelativeDocumentMoniker": "ThirdAPI.CrossCutting\\IoC\\DependencyInjection.cs",
+              "ToolTip": "C:\\Users\\ESTAGIARIOTI\\Documents\\LearningApi\\ThirdAPI\\ThirdAPI.CrossCutting\\IoC\\DependencyInjection.cs",
+              "RelativeToolTip": "ThirdAPI.CrossCutting\\IoC\\DependencyInjection.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAAB8AAABBAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-09T14:00:40.504Z",
               "EditorCaption": ""
             }
           ]

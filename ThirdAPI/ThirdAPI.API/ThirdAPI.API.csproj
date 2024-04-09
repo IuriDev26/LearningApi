@@ -7,15 +7,22 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="8.0.3">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="8.0.3">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.5.0" />
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Controllers\" />
-  </ItemGroup>
-
-  <ItemGroup>
+    <ProjectReference Include="..\ThirdAPI.Application\ThirdAPI.Application.csproj" />
     <ProjectReference Include="..\ThirdAPI.CrossCutting\ThirdAPI.CrossCutting.csproj" />
+    <ProjectReference Include="..\ThirdAPI.Domain\ThirdAPI.Domain.csproj" />
+    <ProjectReference Include="..\ThirdAPI.Infrastructure\ThirdAPI.Infrastructure.csproj" />
   </ItemGroup>
 
 </Project>

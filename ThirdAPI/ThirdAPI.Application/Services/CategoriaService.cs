@@ -1,10 +1,11 @@
 ﻿using AutoMapper;
 using ThirdAPI.Application.DTOs;
+using ThirdAPI.Application.Interfaces;
 using ThirdAPI.Domain.Entities;
 using ThirdAPI.Domain.Interfaces;
 
 namespace ThirdAPI.Application.Services {
-    public class CategoriaService {
+    public class CategoriaService : ICategoriaService{
 
         private readonly ICategoriaRepository _categoriaRepository;
         private readonly IMapper _mapper;

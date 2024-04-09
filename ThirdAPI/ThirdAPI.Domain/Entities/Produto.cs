@@ -32,9 +32,9 @@ namespace ThirdAPI.Domain.Entities {
 
             DomainValidationException.When( string.IsNullOrEmpty(imagemUrl), "Nome da imagem é obrigatório" );
 
-            DomainValidationException.When(preco <= Decimal.Zero, "O preço é obrigatório");
+            DomainValidationException.When(preco < Decimal.Zero, "O preço é obrigatório");
 
-            DomainValidationException.When(estoque == Decimal.Zero, "O estoque é obrigatório");
+            DomainValidationException.When(estoque < Decimal.Zero, "O estoque é obrigatório");
 
             
         }

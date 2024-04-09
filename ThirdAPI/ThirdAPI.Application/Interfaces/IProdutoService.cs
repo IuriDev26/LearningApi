@@ -12,8 +12,7 @@ namespace ThirdAPI.Application.Interfaces {
         Task<ProdutoDTO> GetByIdAsync(int id);
         Task<ProdutoDTO> Create(ProdutoDTO produtoDto);
         Task<ProdutoDTO> Update(ProdutoDTO produtoDto);
-        Task<ProdutoDTO> Delete(int id);
-
+        Task<ProdutoDTO> Delete(ProdutoDTO produtoDto);
 
     }
 }

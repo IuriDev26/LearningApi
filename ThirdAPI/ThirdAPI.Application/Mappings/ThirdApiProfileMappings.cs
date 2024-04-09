@@ -13,8 +13,13 @@ namespace ThirdAPI.Application.Mappings {
 
         public ThirdApiProfileMappings() { 
         
-            CreateMap<Produto, ProdutoDTO>().ReverseMap();
-            CreateMap<Categoria, CategoriaDTO>().ReverseMap();
+            CreateMap<ProdutoDTO, Produto>()
+                .ConstructUsing( src => new Produto(src.Nome, src.Descricao, src.Preco, src.ImagemUrl, src.Estoque, src.DataCadastro ))
+                .ReverseMap();
+
+            CreateMap<CategoriaDTO, Categoria>()
+                .ConstructUsing( src => new Categoria(src.Nome, src.ImagemUrl, src.Id ))
+                .ReverseMap();
         
         }
 

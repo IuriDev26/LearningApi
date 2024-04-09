@@ -1,10 +1,11 @@
 ﻿using AutoMapper;
 using ThirdAPI.Application.DTOs;
+using ThirdAPI.Application.Interfaces;
 using ThirdAPI.Domain.Entities;
 using ThirdAPI.Domain.Interfaces;
 
 namespace ThirdAPI.Application.Services {
-    public class ProdutoService {
+    public class ProdutoService : IProdutoService {
 
         private readonly IProdutoRepository _produtoRepository;
         private readonly IMapper _mapper;
@@ -47,7 +48,7 @@ namespace ThirdAPI.Application.Services {
 
             var produto = _mapper.Map<Produto>(produtoDto);
 
-            var produtoAtualizado = await _produtoRepository.Create(produto);
+            var produtoAtualizado = await _produtoRepository.Update(produto);
 
             return _mapper.Map<ProdutoDTO>(produtoAtualizado);
 
@@ -58,7 +59,7 @@ namespace ThirdAPI.Application.Services {
 
             var produto = _mapper.Map<Produto>(produtoDto);
 
-            var produtoDeleteado = await _produtoRepository.Create(produto);
+            var produtoDeleteado = await _produtoRepository.Delete(produto);
 
             return _mapper.Map<ProdutoDTO>(produtoDeleteado);
 
