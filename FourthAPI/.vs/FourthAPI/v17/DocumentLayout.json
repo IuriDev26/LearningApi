@@ -1,0 +1,228 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ESTAGIARIOTI\\Documents\\LearningApi\\FourthAPI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{003AD09C-C4DF-4BA7-9C36-69D037D8A621}|FourthAPI.Application\\FourthAPI.Application.csproj|c:\\users\\estagiarioti\\documents\\learningapi\\fourthapi\\fourthapi.application\\mappings\\apicontextmappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{003AD09C-C4DF-4BA7-9C36-69D037D8A621}|FourthAPI.Application\\FourthAPI.Application.csproj|solutionrelative:fourthapi.application\\mappings\\apicontextmappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{003AD09C-C4DF-4BA7-9C36-69D037D8A621}|FourthAPI.Application\\FourthAPI.Application.csproj|c:\\users\\estagiarioti\\documents\\learningapi\\fourthapi\\fourthapi.application\\dtos\\categoriadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{003AD09C-C4DF-4BA7-9C36-69D037D8A621}|FourthAPI.Application\\FourthAPI.Application.csproj|solutionrelative:fourthapi.application\\dtos\\categoriadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0EC0FADF-1100-4823-A864-031507AE170D}|FourthAPI.Domain\\FourthAPI.Domain.csproj|c:\\users\\estagiarioti\\documents\\learningapi\\fourthapi\\fourthapi.domain\\entities\\categoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0EC0FADF-1100-4823-A864-031507AE170D}|FourthAPI.Domain\\FourthAPI.Domain.csproj|solutionrelative:fourthapi.domain\\entities\\categoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{003AD09C-C4DF-4BA7-9C36-69D037D8A621}|FourthAPI.Application\\FourthAPI.Application.csproj|c:\\users\\estagiarioti\\documents\\learningapi\\fourthapi\\fourthapi.application\\dtos\\produtodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{003AD09C-C4DF-4BA7-9C36-69D037D8A621}|FourthAPI.Application\\FourthAPI.Application.csproj|solutionrelative:fourthapi.application\\dtos\\produtodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0EC0FADF-1100-4823-A864-031507AE170D}|FourthAPI.Domain\\FourthAPI.Domain.csproj|c:\\users\\estagiarioti\\documents\\learningapi\\fourthapi\\fourthapi.domain\\entities\\produto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0EC0FADF-1100-4823-A864-031507AE170D}|FourthAPI.Domain\\FourthAPI.Domain.csproj|solutionrelative:fourthapi.domain\\entities\\produto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8925B69-AA0F-4214-8ADF-C2E05E3B6A79}|FourthAPI.Infrastructure\\FourthAPI.Infrastructure.csproj|c:\\users\\estagiarioti\\documents\\learningapi\\fourthapi\\fourthapi.infrastructure\\repositories\\categoriarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8925B69-AA0F-4214-8ADF-C2E05E3B6A79}|FourthAPI.Infrastructure\\FourthAPI.Infrastructure.csproj|solutionrelative:fourthapi.infrastructure\\repositories\\categoriarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8925B69-AA0F-4214-8ADF-C2E05E3B6A79}|FourthAPI.Infrastructure\\FourthAPI.Infrastructure.csproj|c:\\users\\estagiarioti\\documents\\learningapi\\fourthapi\\fourthapi.infrastructure\\repositories\\produtorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8925B69-AA0F-4214-8ADF-C2E05E3B6A79}|FourthAPI.Infrastructure\\FourthAPI.Infrastructure.csproj|solutionrelative:fourthapi.infrastructure\\repositories\\produtorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0EC0FADF-1100-4823-A864-031507AE170D}|FourthAPI.Domain\\FourthAPI.Domain.csproj|c:\\users\\estagiarioti\\documents\\learningapi\\fourthapi\\fourthapi.domain\\interfaces\\iprodutorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0EC0FADF-1100-4823-A864-031507AE170D}|FourthAPI.Domain\\FourthAPI.Domain.csproj|solutionrelative:fourthapi.domain\\interfaces\\iprodutorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8925B69-AA0F-4214-8ADF-C2E05E3B6A79}|FourthAPI.Infrastructure\\FourthAPI.Infrastructure.csproj|c:\\users\\estagiarioti\\documents\\learningapi\\fourthapi\\fourthapi.infrastructure\\context\\apicontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8925B69-AA0F-4214-8ADF-C2E05E3B6A79}|FourthAPI.Infrastructure\\FourthAPI.Infrastructure.csproj|solutionrelative:fourthapi.infrastructure\\context\\apicontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8925B69-AA0F-4214-8ADF-C2E05E3B6A79}|FourthAPI.Infrastructure\\FourthAPI.Infrastructure.csproj|c:\\users\\estagiarioti\\documents\\learningapi\\fourthapi\\fourthapi.infrastructure\\entitiesconfigurations\\categoriaconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8925B69-AA0F-4214-8ADF-C2E05E3B6A79}|FourthAPI.Infrastructure\\FourthAPI.Infrastructure.csproj|solutionrelative:fourthapi.infrastructure\\entitiesconfigurations\\categoriaconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8925B69-AA0F-4214-8ADF-C2E05E3B6A79}|FourthAPI.Infrastructure\\FourthAPI.Infrastructure.csproj|c:\\users\\estagiarioti\\documents\\learningapi\\fourthapi\\fourthapi.infrastructure\\fourthapi.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{F8925B69-AA0F-4214-8ADF-C2E05E3B6A79}|FourthAPI.Infrastructure\\FourthAPI.Infrastructure.csproj|solutionrelative:fourthapi.infrastructure\\fourthapi.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8925B69-AA0F-4214-8ADF-C2E05E3B6A79}|FourthAPI.Infrastructure\\FourthAPI.Infrastructure.csproj|c:\\users\\estagiarioti\\documents\\learningapi\\fourthapi\\fourthapi.infrastructure\\entitiesconfigurations\\produtoconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8925B69-AA0F-4214-8ADF-C2E05E3B6A79}|FourthAPI.Infrastructure\\FourthAPI.Infrastructure.csproj|solutionrelative:fourthapi.infrastructure\\entitiesconfigurations\\produtoconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 1471,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ApiContextMappingProfile.cs",
+              "DocumentMoniker": "C:\\Users\\ESTAGIARIOTI\\Documents\\LearningApi\\FourthAPI\\FourthAPI.Application\\Mappings\\ApiContextMappingProfile.cs",
+              "RelativeDocumentMoniker": "FourthAPI.Application\\Mappings\\ApiContextMappingProfile.cs",
+              "ToolTip": "C:\\Users\\ESTAGIARIOTI\\Documents\\LearningApi\\FourthAPI\\FourthAPI.Application\\Mappings\\ApiContextMappingProfile.cs",
+              "RelativeToolTip": "FourthAPI.Application\\Mappings\\ApiContextMappingProfile.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-10T16:58:05.137Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Categoria.cs",
+              "DocumentMoniker": "C:\\Users\\ESTAGIARIOTI\\Documents\\LearningApi\\FourthAPI\\FourthAPI.Domain\\Entities\\Categoria.cs",
+              "RelativeDocumentMoniker": "FourthAPI.Domain\\Entities\\Categoria.cs",
+              "ToolTip": "C:\\Users\\ESTAGIARIOTI\\Documents\\LearningApi\\FourthAPI\\FourthAPI.Domain\\Entities\\Categoria.cs",
+              "RelativeToolTip": "FourthAPI.Domain\\Entities\\Categoria.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-10T16:56:31.149Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CategoriaDTO.cs",
+              "DocumentMoniker": "C:\\Users\\ESTAGIARIOTI\\Documents\\LearningApi\\FourthAPI\\FourthAPI.Application\\DTOs\\CategoriaDTO.cs",
+              "RelativeDocumentMoniker": "FourthAPI.Application\\DTOs\\CategoriaDTO.cs",
+              "ToolTip": "C:\\Users\\ESTAGIARIOTI\\Documents\\LearningApi\\FourthAPI\\FourthAPI.Application\\DTOs\\CategoriaDTO.cs",
+              "RelativeToolTip": "FourthAPI.Application\\DTOs\\CategoriaDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-10T16:51:27.49Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ProdutoDTO.cs",
+              "DocumentMoniker": "C:\\Users\\ESTAGIARIOTI\\Documents\\LearningApi\\FourthAPI\\FourthAPI.Application\\DTOs\\ProdutoDTO.cs",
+              "RelativeDocumentMoniker": "FourthAPI.Application\\DTOs\\ProdutoDTO.cs",
+              "ToolTip": "C:\\Users\\ESTAGIARIOTI\\Documents\\LearningApi\\FourthAPI\\FourthAPI.Application\\DTOs\\ProdutoDTO.cs",
+              "RelativeToolTip": "FourthAPI.Application\\DTOs\\ProdutoDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-10T16:51:19.298Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CategoriaRepository.cs",
+              "DocumentMoniker": "C:\\Users\\ESTAGIARIOTI\\Documents\\LearningApi\\FourthAPI\\FourthAPI.Infrastructure\\Repositories\\CategoriaRepository.cs",
+              "RelativeDocumentMoniker": "FourthAPI.Infrastructure\\Repositories\\CategoriaRepository.cs",
+              "ToolTip": "C:\\Users\\ESTAGIARIOTI\\Documents\\LearningApi\\FourthAPI\\FourthAPI.Infrastructure\\Repositories\\CategoriaRepository.cs",
+              "RelativeToolTip": "FourthAPI.Infrastructure\\Repositories\\CategoriaRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-10T16:41:57.761Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IProdutoRepository.cs",
+              "DocumentMoniker": "C:\\Users\\ESTAGIARIOTI\\Documents\\LearningApi\\FourthAPI\\FourthAPI.Domain\\Interfaces\\IProdutoRepository.cs",
+              "RelativeDocumentMoniker": "FourthAPI.Domain\\Interfaces\\IProdutoRepository.cs",
+              "ToolTip": "C:\\Users\\ESTAGIARIOTI\\Documents\\LearningApi\\FourthAPI\\FourthAPI.Domain\\Interfaces\\IProdutoRepository.cs",
+              "RelativeToolTip": "FourthAPI.Domain\\Interfaces\\IProdutoRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-10T16:32:22.118Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ProdutoRepository.cs",
+              "DocumentMoniker": "C:\\Users\\ESTAGIARIOTI\\Documents\\LearningApi\\FourthAPI\\FourthAPI.Infrastructure\\Repositories\\ProdutoRepository.cs",
+              "RelativeDocumentMoniker": "FourthAPI.Infrastructure\\Repositories\\ProdutoRepository.cs",
+              "ToolTip": "C:\\Users\\ESTAGIARIOTI\\Documents\\LearningApi\\FourthAPI\\FourthAPI.Infrastructure\\Repositories\\ProdutoRepository.cs",
+              "RelativeToolTip": "FourthAPI.Infrastructure\\Repositories\\ProdutoRepository.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAgwA0AAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-10T16:28:27.423Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "CategoriaConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\ESTAGIARIOTI\\Documents\\LearningApi\\FourthAPI\\FourthAPI.Infrastructure\\EntitiesConfigurations\\CategoriaConfiguration.cs",
+              "RelativeDocumentMoniker": "FourthAPI.Infrastructure\\EntitiesConfigurations\\CategoriaConfiguration.cs",
+              "ToolTip": "C:\\Users\\ESTAGIARIOTI\\Documents\\LearningApi\\FourthAPI\\FourthAPI.Infrastructure\\EntitiesConfigurations\\CategoriaConfiguration.cs",
+              "RelativeToolTip": "FourthAPI.Infrastructure\\EntitiesConfigurations\\CategoriaConfiguration.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-10T16:16:04.636Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Produto.cs",
+              "DocumentMoniker": "C:\\Users\\ESTAGIARIOTI\\Documents\\LearningApi\\FourthAPI\\FourthAPI.Domain\\Entities\\Produto.cs",
+              "RelativeDocumentMoniker": "FourthAPI.Domain\\Entities\\Produto.cs",
+              "ToolTip": "C:\\Users\\ESTAGIARIOTI\\Documents\\LearningApi\\FourthAPI\\FourthAPI.Domain\\Entities\\Produto.cs",
+              "RelativeToolTip": "FourthAPI.Domain\\Entities\\Produto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-10T16:13:25.915Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ProdutoConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\ESTAGIARIOTI\\Documents\\LearningApi\\FourthAPI\\FourthAPI.Infrastructure\\EntitiesConfigurations\\ProdutoConfiguration.cs",
+              "RelativeDocumentMoniker": "FourthAPI.Infrastructure\\EntitiesConfigurations\\ProdutoConfiguration.cs",
+              "ToolTip": "C:\\Users\\ESTAGIARIOTI\\Documents\\LearningApi\\FourthAPI\\FourthAPI.Infrastructure\\EntitiesConfigurations\\ProdutoConfiguration.cs",
+              "RelativeToolTip": "FourthAPI.Infrastructure\\EntitiesConfigurations\\ProdutoConfiguration.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAsAAABDAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-10T16:02:49.844Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ApiContext.cs",
+              "DocumentMoniker": "C:\\Users\\ESTAGIARIOTI\\Documents\\LearningApi\\FourthAPI\\FourthAPI.Infrastructure\\Context\\ApiContext.cs",
+              "RelativeDocumentMoniker": "FourthAPI.Infrastructure\\Context\\ApiContext.cs",
+              "ToolTip": "C:\\Users\\ESTAGIARIOTI\\Documents\\LearningApi\\FourthAPI\\FourthAPI.Infrastructure\\Context\\ApiContext.cs",
+              "RelativeToolTip": "FourthAPI.Infrastructure\\Context\\ApiContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-10T15:59:00.796Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "FourthAPI.Infrastructure",
+              "DocumentMoniker": "C:\\Users\\ESTAGIARIOTI\\Documents\\LearningApi\\FourthAPI\\FourthAPI.Infrastructure\\FourthAPI.Infrastructure.csproj",
+              "RelativeDocumentMoniker": "FourthAPI.Infrastructure\\FourthAPI.Infrastructure.csproj",
+              "ToolTip": "C:\\Users\\ESTAGIARIOTI\\Documents\\LearningApi\\FourthAPI\\FourthAPI.Infrastructure\\FourthAPI.Infrastructure.csproj",
+              "RelativeToolTip": "FourthAPI.Infrastructure\\FourthAPI.Infrastructure.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-04-10T15:58:38.986Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

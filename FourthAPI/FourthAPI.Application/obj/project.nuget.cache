@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "JIactBhIem9Au4PcCuly9qFRvuelGwqCDVqZOJExs3P1iR32eMstqfhN3HS9n3Teu3XjKQ0oZ4TA3X7q7ei6Zw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\ESTAGIARIOTI\\Documents\\LearningApi\\FourthAPI\\FourthAPI.Application\\FourthAPI.Application.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ESTAGIARIOTI\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
+    "C:\\Users\\ESTAGIARIOTI\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\ESTAGIARIOTI\\.nuget\\packages\\microsoft.extensions.options\\6.0.0\\microsoft.extensions.options.6.0.0.nupkg.sha512",
+    "C:\\Users\\ESTAGIARIOTI\\.nuget\\packages\\microsoft.extensions.primitives\\6.0.0\\microsoft.extensions.primitives.6.0.0.nupkg.sha512",
+    "C:\\Users\\ESTAGIARIOTI\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
