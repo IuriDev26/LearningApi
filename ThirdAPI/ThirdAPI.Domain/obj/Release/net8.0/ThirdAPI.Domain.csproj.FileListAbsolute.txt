@@ -1,0 +1,12 @@
+C:\Users\ESTAGIARIOTI\Documents\LearningApi\ThirdAPI\ThirdAPI.Domain\bin\Release\net8.0\ThirdAPI.Domain.deps.json
+C:\Users\ESTAGIARIOTI\Documents\LearningApi\ThirdAPI\ThirdAPI.Domain\bin\Release\net8.0\ThirdAPI.Domain.dll
+C:\Users\ESTAGIARIOTI\Documents\LearningApi\ThirdAPI\ThirdAPI.Domain\bin\Release\net8.0\ThirdAPI.Domain.pdb
+C:\Users\ESTAGIARIOTI\Documents\LearningApi\ThirdAPI\ThirdAPI.Domain\obj\Release\net8.0\ThirdAPI.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ESTAGIARIOTI\Documents\LearningApi\ThirdAPI\ThirdAPI.Domain\obj\Release\net8.0\ThirdAPI.Domain.AssemblyInfoInputs.cache
+C:\Users\ESTAGIARIOTI\Documents\LearningApi\ThirdAPI\ThirdAPI.Domain\obj\Release\net8.0\ThirdAPI.Domain.AssemblyInfo.cs
+C:\Users\ESTAGIARIOTI\Documents\LearningApi\ThirdAPI\ThirdAPI.Domain\obj\Release\net8.0\ThirdAPI.Domain.csproj.CoreCompileInputs.cache
+C:\Users\ESTAGIARIOTI\Documents\LearningApi\ThirdAPI\ThirdAPI.Domain\obj\Release\net8.0\ThirdAPI.Domain.sourcelink.json
+C:\Users\ESTAGIARIOTI\Documents\LearningApi\ThirdAPI\ThirdAPI.Domain\obj\Release\net8.0\ThirdAPI.Domain.dll
+C:\Users\ESTAGIARIOTI\Documents\LearningApi\ThirdAPI\ThirdAPI.Domain\obj\Release\net8.0\refint\ThirdAPI.Domain.dll
+C:\Users\ESTAGIARIOTI\Documents\LearningApi\ThirdAPI\ThirdAPI.Domain\obj\Release\net8.0\ThirdAPI.Domain.pdb
+C:\Users\ESTAGIARIOTI\Documents\LearningApi\ThirdAPI\ThirdAPI.Domain\obj\Release\net8.0\ref\ThirdAPI.Domain.dll

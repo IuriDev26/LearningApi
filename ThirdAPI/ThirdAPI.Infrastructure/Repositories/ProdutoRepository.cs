@@ -35,14 +35,14 @@ namespace ThirdAPI.Infrastructure.Repositories {
 
         public async Task<IEnumerable<Produto>> GetAllAsync() {
 
-            var produtos = await _context.Produtos.ToListAsync();
+            var produtos = await _context.Produtos.AsNoTracking().ToListAsync();
             return produtos;
 
         }
 
         public async Task<Produto?> GetByIdAsync(int id) {
 
-            return await _context.Produtos.FirstOrDefaultAsync(p => p.Id == id);
+            return await _context.Produtos.AsNoTracking().FirstOrDefaultAsync(p => p.Id == id);
 
         }
 
@@ -50,6 +50,10 @@ namespace ThirdAPI.Infrastructure.Repositories {
             
             _context.Produtos.Update(produto);
             await _context.SaveChangesAsync();
+
+            
+
+
             return produto;
         }
     }
