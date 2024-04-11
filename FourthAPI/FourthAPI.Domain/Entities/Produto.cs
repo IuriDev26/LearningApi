@@ -31,7 +31,6 @@ namespace FourthAPI.Domain.Entities {
             Descricao = descricao;
             Preco = preco;
             Estoque = estoque;
-            DataCadastro = dataCadastro;
             CategoriaId = categoriaId;
 
         }

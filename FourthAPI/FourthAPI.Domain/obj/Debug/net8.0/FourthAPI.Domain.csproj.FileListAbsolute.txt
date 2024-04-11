@@ -1,0 +1,12 @@
+C:\Users\ESTAGIARIOTI\Documents\LearningApi\FourthAPI\FourthAPI.Domain\obj\Debug\net8.0\FourthAPI.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ESTAGIARIOTI\Documents\LearningApi\FourthAPI\FourthAPI.Domain\obj\Debug\net8.0\FourthAPI.Domain.AssemblyInfoInputs.cache
+C:\Users\ESTAGIARIOTI\Documents\LearningApi\FourthAPI\FourthAPI.Domain\obj\Debug\net8.0\FourthAPI.Domain.AssemblyInfo.cs
+C:\Users\ESTAGIARIOTI\Documents\LearningApi\FourthAPI\FourthAPI.Domain\obj\Debug\net8.0\FourthAPI.Domain.csproj.CoreCompileInputs.cache
+C:\Users\ESTAGIARIOTI\Documents\LearningApi\FourthAPI\FourthAPI.Domain\obj\Debug\net8.0\FourthAPI.Domain.sourcelink.json
+C:\Users\ESTAGIARIOTI\Documents\LearningApi\FourthAPI\FourthAPI.Domain\bin\Debug\net8.0\FourthAPI.Domain.deps.json
+C:\Users\ESTAGIARIOTI\Documents\LearningApi\FourthAPI\FourthAPI.Domain\bin\Debug\net8.0\FourthAPI.Domain.dll
+C:\Users\ESTAGIARIOTI\Documents\LearningApi\FourthAPI\FourthAPI.Domain\bin\Debug\net8.0\FourthAPI.Domain.pdb
+C:\Users\ESTAGIARIOTI\Documents\LearningApi\FourthAPI\FourthAPI.Domain\obj\Debug\net8.0\FourthAPI.Domain.dll
+C:\Users\ESTAGIARIOTI\Documents\LearningApi\FourthAPI\FourthAPI.Domain\obj\Debug\net8.0\refint\FourthAPI.Domain.dll
+C:\Users\ESTAGIARIOTI\Documents\LearningApi\FourthAPI\FourthAPI.Domain\obj\Debug\net8.0\FourthAPI.Domain.pdb
+C:\Users\ESTAGIARIOTI\Documents\LearningApi\FourthAPI\FourthAPI.Domain\obj\Debug\net8.0\ref\FourthAPI.Domain.dll
