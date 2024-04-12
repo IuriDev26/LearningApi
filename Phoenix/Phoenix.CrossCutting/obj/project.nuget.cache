@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "yOqCHA7IQjsm8637lHbUJJjm7vmwhQpuN9LFBV1eMSUYhZmDuyE1qF2VOUXcEjqOcOq2cGY2ARQFmB5yo1L/lQ==",
+  "dgSpecHash": "QJAtzSc6GP2BePDnN/gQD/3exveL5Q9ZKpW4uiMum1MGgWuabA8VKxGWi86lHJO3Ftpvk9GXRhNhgFZZh6hU9w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ESTAGIARIOTI\\Documents\\LearningApi\\Phoenix\\Phoenix.CrossCutting\\Phoenix.CrossCutting.csproj",
+  "projectFilePath": "/home/iuridev26/Development/Framework.NET/WebAPI/LearningAPI/Phoenix/Phoenix.CrossCutting/Phoenix.CrossCutting.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

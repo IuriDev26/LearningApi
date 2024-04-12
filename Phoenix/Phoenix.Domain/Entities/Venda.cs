@@ -15,13 +15,13 @@ namespace Phoenix.Domain.Entities
         public DateTime DataVenda { get; private set; }
         public Cliente? Cliente { get; private set; }
         public int ClienteId { get; private set; }
-        public ICollection<VendaProduto>? VendaProduto { get; private set; }
+        public ICollection<VendaProduto>? VendaProdutos { get; private set; }
 
         public Venda(int clienteId, IEnumerable<Produto> produtos) {
 
 
             ValidateDomain(clienteId, produtos);
-                       
+            VendaProdutos = new List<VendaProduto>();
         }
 
         private void ValidateDomain(int clienteId, IEnumerable<Produto> produtos) {
@@ -32,7 +32,7 @@ namespace Phoenix.Domain.Entities
             foreach (Produto produto in produtos) {
 
                 VendaProduto vendaProduto = new VendaProduto(this, produto);
-                VendaProduto?.Add(vendaProduto);
+                VendaProdutos?.Add(vendaProduto);
 
             }
 

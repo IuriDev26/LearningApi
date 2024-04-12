@@ -12,12 +12,14 @@ namespace Phoenix.Domain.Entities
         public string? Nome { get; private set; }
         public string? Descricao { get; private set; }
         public ICollection<CargoAtividade> CargoAtividades { get; private set; }
+        public ICollection<FuncionarioCargo> FuncionarioCargos { get; private set; }
 
         public Cargo(string? nome, string? descricao) {
             
             Nome = nome;
             Descricao = descricao;
             CargoAtividades = new List<CargoAtividade>();
+            FuncionarioCargos = new List<FuncionarioCargo>();
         }
 
         public void AddAtividades(List<Atividade> atividades) {

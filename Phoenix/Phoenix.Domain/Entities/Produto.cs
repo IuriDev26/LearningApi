@@ -25,7 +25,8 @@ namespace Phoenix.Domain.Entities
         public Produto(string? descricao, decimal precoVenda, decimal precoCompra, int estoque, Fornecedor fornecedor) {
             
             ValidateDomain(descricao, precoVenda, precoCompra, estoque, fornecedor);
-
+            VendaProdutos = new List<VendaProduto>();
+            CompraProdutos = new List<CompraProduto>();
         }
 
 
