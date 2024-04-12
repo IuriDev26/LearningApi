@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("FirstApixUnitTestes")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+13002ac9c4d5c27d8c2868f090e01a7158eaf0db")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1378fd9a8ab6f35cd867f1dc1d02c8bb16feea1c")]
 [assembly: System.Reflection.AssemblyProductAttribute("FirstApixUnitTestes")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FirstApixUnitTestes")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

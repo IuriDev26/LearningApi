@@ -1,0 +1,12 @@
+C:\Users\ESTAGIARIOTI\Documents\LearningApi\Phoenix\Phoenix.Domain\bin\Debug\net8.0\Phoenix.Domain.deps.json
+C:\Users\ESTAGIARIOTI\Documents\LearningApi\Phoenix\Phoenix.Domain\bin\Debug\net8.0\Phoenix.Domain.dll
+C:\Users\ESTAGIARIOTI\Documents\LearningApi\Phoenix\Phoenix.Domain\bin\Debug\net8.0\Phoenix.Domain.pdb
+C:\Users\ESTAGIARIOTI\Documents\LearningApi\Phoenix\Phoenix.Domain\obj\Debug\net8.0\Phoenix.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ESTAGIARIOTI\Documents\LearningApi\Phoenix\Phoenix.Domain\obj\Debug\net8.0\Phoenix.Domain.AssemblyInfoInputs.cache
+C:\Users\ESTAGIARIOTI\Documents\LearningApi\Phoenix\Phoenix.Domain\obj\Debug\net8.0\Phoenix.Domain.AssemblyInfo.cs
+C:\Users\ESTAGIARIOTI\Documents\LearningApi\Phoenix\Phoenix.Domain\obj\Debug\net8.0\Phoenix.Domain.csproj.CoreCompileInputs.cache
+C:\Users\ESTAGIARIOTI\Documents\LearningApi\Phoenix\Phoenix.Domain\obj\Debug\net8.0\Phoenix.Domain.sourcelink.json
+C:\Users\ESTAGIARIOTI\Documents\LearningApi\Phoenix\Phoenix.Domain\obj\Debug\net8.0\Phoenix.Domain.dll
+C:\Users\ESTAGIARIOTI\Documents\LearningApi\Phoenix\Phoenix.Domain\obj\Debug\net8.0\refint\Phoenix.Domain.dll
+C:\Users\ESTAGIARIOTI\Documents\LearningApi\Phoenix\Phoenix.Domain\obj\Debug\net8.0\Phoenix.Domain.pdb
+C:\Users\ESTAGIARIOTI\Documents\LearningApi\Phoenix\Phoenix.Domain\obj\Debug\net8.0\ref\Phoenix.Domain.dll
