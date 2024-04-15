@@ -1,37 +1,48 @@
 {
   "format": 1,
   "restore": {
-    "/home/iuridev26/Development/Framework.NET/WebAPI/LearningAPI/Phoenix/Phoenix.API/Phoenix.API.csproj": {}
+    "C:\\Users\\ESTAGIARIOTI\\Documents\\LearningApi\\Phoenix\\Phoenix.API\\Phoenix.API.csproj": {}
   },
   "projects": {
-    "/home/iuridev26/Development/Framework.NET/WebAPI/LearningAPI/Phoenix/Phoenix.API/Phoenix.API.csproj": {
+    "C:\\Users\\ESTAGIARIOTI\\Documents\\LearningApi\\Phoenix\\Phoenix.API\\Phoenix.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/iuridev26/Development/Framework.NET/WebAPI/LearningAPI/Phoenix/Phoenix.API/Phoenix.API.csproj",
+        "projectUniqueName": "C:\\Users\\ESTAGIARIOTI\\Documents\\LearningApi\\Phoenix\\Phoenix.API\\Phoenix.API.csproj",
         "projectName": "Phoenix.API",
-        "projectPath": "/home/iuridev26/Development/Framework.NET/WebAPI/LearningAPI/Phoenix/Phoenix.API/Phoenix.API.csproj",
-        "packagesPath": "/home/iuridev26/.nuget/packages/",
-        "outputPath": "/home/iuridev26/Development/Framework.NET/WebAPI/LearningAPI/Phoenix/Phoenix.API/obj/",
+        "projectPath": "C:\\Users\\ESTAGIARIOTI\\Documents\\LearningApi\\Phoenix\\Phoenix.API\\Phoenix.API.csproj",
+        "packagesPath": "C:\\Users\\ESTAGIARIOTI\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ESTAGIARIOTI\\Documents\\LearningApi\\Phoenix\\Phoenix.API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/iuridev26/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\ESTAGIARIOTI\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\ESTAGIARIOTI\\Documents\\LearningApi\\Phoenix\\Phoenix.CrossCutting\\Phoenix.CrossCutting.csproj": {
+                "projectPath": "C:\\Users\\ESTAGIARIOTI\\Documents\\LearningApi\\Phoenix\\Phoenix.CrossCutting\\Phoenix.CrossCutting.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -62,7 +73,293 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/home/iuridev26/.dotnet/sdk/8.0.204/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\ESTAGIARIOTI\\Documents\\LearningApi\\Phoenix\\Phoenix.Application\\Phoenix.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ESTAGIARIOTI\\Documents\\LearningApi\\Phoenix\\Phoenix.Application\\Phoenix.Application.csproj",
+        "projectName": "Phoenix.Application",
+        "projectPath": "C:\\Users\\ESTAGIARIOTI\\Documents\\LearningApi\\Phoenix\\Phoenix.Application\\Phoenix.Application.csproj",
+        "packagesPath": "C:\\Users\\ESTAGIARIOTI\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ESTAGIARIOTI\\Documents\\LearningApi\\Phoenix\\Phoenix.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ESTAGIARIOTI\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\ESTAGIARIOTI\\Documents\\LearningApi\\Phoenix\\Phoenix.Domain\\Phoenix.Domain.csproj": {
+                "projectPath": "C:\\Users\\ESTAGIARIOTI\\Documents\\LearningApi\\Phoenix\\Phoenix.Domain\\Phoenix.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\ESTAGIARIOTI\\Documents\\LearningApi\\Phoenix\\Phoenix.CrossCutting\\Phoenix.CrossCutting.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ESTAGIARIOTI\\Documents\\LearningApi\\Phoenix\\Phoenix.CrossCutting\\Phoenix.CrossCutting.csproj",
+        "projectName": "Phoenix.CrossCutting",
+        "projectPath": "C:\\Users\\ESTAGIARIOTI\\Documents\\LearningApi\\Phoenix\\Phoenix.CrossCutting\\Phoenix.CrossCutting.csproj",
+        "packagesPath": "C:\\Users\\ESTAGIARIOTI\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ESTAGIARIOTI\\Documents\\LearningApi\\Phoenix\\Phoenix.CrossCutting\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ESTAGIARIOTI\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\ESTAGIARIOTI\\Documents\\LearningApi\\Phoenix\\Phoenix.Application\\Phoenix.Application.csproj": {
+                "projectPath": "C:\\Users\\ESTAGIARIOTI\\Documents\\LearningApi\\Phoenix\\Phoenix.Application\\Phoenix.Application.csproj"
+              },
+              "C:\\Users\\ESTAGIARIOTI\\Documents\\LearningApi\\Phoenix\\Phoenix.Domain\\Phoenix.Domain.csproj": {
+                "projectPath": "C:\\Users\\ESTAGIARIOTI\\Documents\\LearningApi\\Phoenix\\Phoenix.Domain\\Phoenix.Domain.csproj"
+              },
+              "C:\\Users\\ESTAGIARIOTI\\Documents\\LearningApi\\Phoenix\\Phoenix.Infrastructure\\Phoenix.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\ESTAGIARIOTI\\Documents\\LearningApi\\Phoenix\\Phoenix.Infrastructure\\Phoenix.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\ESTAGIARIOTI\\Documents\\LearningApi\\Phoenix\\Phoenix.Domain\\Phoenix.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ESTAGIARIOTI\\Documents\\LearningApi\\Phoenix\\Phoenix.Domain\\Phoenix.Domain.csproj",
+        "projectName": "Phoenix.Domain",
+        "projectPath": "C:\\Users\\ESTAGIARIOTI\\Documents\\LearningApi\\Phoenix\\Phoenix.Domain\\Phoenix.Domain.csproj",
+        "packagesPath": "C:\\Users\\ESTAGIARIOTI\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ESTAGIARIOTI\\Documents\\LearningApi\\Phoenix\\Phoenix.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ESTAGIARIOTI\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\ESTAGIARIOTI\\Documents\\LearningApi\\Phoenix\\Phoenix.Infrastructure\\Phoenix.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ESTAGIARIOTI\\Documents\\LearningApi\\Phoenix\\Phoenix.Infrastructure\\Phoenix.Infrastructure.csproj",
+        "projectName": "Phoenix.Infrastructure",
+        "projectPath": "C:\\Users\\ESTAGIARIOTI\\Documents\\LearningApi\\Phoenix\\Phoenix.Infrastructure\\Phoenix.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\ESTAGIARIOTI\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ESTAGIARIOTI\\Documents\\LearningApi\\Phoenix\\Phoenix.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ESTAGIARIOTI\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\ESTAGIARIOTI\\Documents\\LearningApi\\Phoenix\\Phoenix.Domain\\Phoenix.Domain.csproj": {
+                "projectPath": "C:\\Users\\ESTAGIARIOTI\\Documents\\LearningApi\\Phoenix\\Phoenix.Domain\\Phoenix.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "None",
+              "target": "Package",
+              "version": "[8.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.4, )"
+            },
+            "Pomelo.EntityFrameworkCore.MySql": {
+              "target": "Package",
+              "version": "[8.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

@@ -1,0 +1,16 @@
+C:\Users\ESTAGIARIOTI\Documents\LearningApi\Phoenix\Phoenix.Application\bin\Debug\net8.0\Phoenix.Application.deps.json
+C:\Users\ESTAGIARIOTI\Documents\LearningApi\Phoenix\Phoenix.Application\bin\Debug\net8.0\Phoenix.Application.dll
+C:\Users\ESTAGIARIOTI\Documents\LearningApi\Phoenix\Phoenix.Application\bin\Debug\net8.0\Phoenix.Application.pdb
+C:\Users\ESTAGIARIOTI\Documents\LearningApi\Phoenix\Phoenix.Application\bin\Debug\net8.0\Phoenix.Domain.dll
+C:\Users\ESTAGIARIOTI\Documents\LearningApi\Phoenix\Phoenix.Application\bin\Debug\net8.0\Phoenix.Domain.pdb
+C:\Users\ESTAGIARIOTI\Documents\LearningApi\Phoenix\Phoenix.Application\obj\Debug\net8.0\Phoenix.Application.csproj.AssemblyReference.cache
+C:\Users\ESTAGIARIOTI\Documents\LearningApi\Phoenix\Phoenix.Application\obj\Debug\net8.0\Phoenix.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ESTAGIARIOTI\Documents\LearningApi\Phoenix\Phoenix.Application\obj\Debug\net8.0\Phoenix.Application.AssemblyInfoInputs.cache
+C:\Users\ESTAGIARIOTI\Documents\LearningApi\Phoenix\Phoenix.Application\obj\Debug\net8.0\Phoenix.Application.AssemblyInfo.cs
+C:\Users\ESTAGIARIOTI\Documents\LearningApi\Phoenix\Phoenix.Application\obj\Debug\net8.0\Phoenix.Application.csproj.CoreCompileInputs.cache
+C:\Users\ESTAGIARIOTI\Documents\LearningApi\Phoenix\Phoenix.Application\obj\Debug\net8.0\Phoenix.Application.sourcelink.json
+C:\Users\ESTAGIARIOTI\Documents\LearningApi\Phoenix\Phoenix.Application\obj\Debug\net8.0\Phoenix..DBF2C3F0.Up2Date
+C:\Users\ESTAGIARIOTI\Documents\LearningApi\Phoenix\Phoenix.Application\obj\Debug\net8.0\Phoenix.Application.dll
+C:\Users\ESTAGIARIOTI\Documents\LearningApi\Phoenix\Phoenix.Application\obj\Debug\net8.0\refint\Phoenix.Application.dll
+C:\Users\ESTAGIARIOTI\Documents\LearningApi\Phoenix\Phoenix.Application\obj\Debug\net8.0\Phoenix.Application.pdb
+C:\Users\ESTAGIARIOTI\Documents\LearningApi\Phoenix\Phoenix.Application\obj\Debug\net8.0\ref\Phoenix.Application.dll

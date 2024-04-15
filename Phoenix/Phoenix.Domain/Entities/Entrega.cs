@@ -17,6 +17,11 @@ namespace Phoenix.Domain.Entities
         public RotaEntrega RotaEntrega { get; private set; }
         public int RotaEntregaId { get; private set; }
 
+        public Entrega()
+        {
+            
+        }
+
         public Entrega(Venda venda, RotaEntrega rotaEntrega) {
             Venda = venda;
             RotaEntrega = rotaEntrega;

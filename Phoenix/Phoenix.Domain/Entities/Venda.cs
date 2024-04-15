@@ -7,38 +7,36 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Phoenix.Domain.Entities
-{
+namespace Phoenix.Domain.Entities {
     public class Venda : Entity {
 
         public StatusVendaEnum Status { get; private set; }
         public DateTime DataVenda { get; private set; }
         public Cliente? Cliente { get; private set; }
         public int ClienteId { get; private set; }
-        public ICollection<VendaProduto>? VendaProdutos { get; private set; }
+        public ICollection<Produto> Produtos { get; private set; }
+
+        public Venda() {
+
+        }
 
         public Venda(int clienteId, IEnumerable<Produto> produtos) {
 
-
-            ValidateDomain(clienteId, produtos);
-            VendaProdutos = new List<VendaProduto>();
-        }
-
-        private void ValidateDomain(int clienteId, IEnumerable<Produto> produtos) {
-
-            Status = StatusVendaEnum.Finalizada;
             ClienteId = clienteId;
+            Produtos = produtos.ToList();
+        }
 
-            foreach (Produto produto in produtos) {
+        public void SaleCancel() {
 
-                VendaProduto vendaProduto = new VendaProduto(this, produto);
-                VendaProdutos?.Add(vendaProduto);
-
-            }
-
-
+            this.Status = StatusVendaEnum.Cancelada;
 
         }
+
+
+
+
+
+
 
     }
 }

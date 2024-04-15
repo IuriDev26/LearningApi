@@ -3,20 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\ESTAGIARIOTI\\Documents\\LearningApi\\Phoenix\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C1AB6B59-F0FA-4F7C-9E58-EEEE5E097780}|Phoenix.Infrastructure\\Phoenix.Infrastructure.csproj|c:\\users\\estagiarioti\\documents\\learningapi\\phoenix\\phoenix.infrastructure\\entitiesconfiguration\\funcionarioconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C1AB6B59-F0FA-4F7C-9E58-EEEE5E097780}|Phoenix.Infrastructure\\Phoenix.Infrastructure.csproj|solutionrelative:phoenix.infrastructure\\entitiesconfiguration\\funcionarioconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C1AB6B59-F0FA-4F7C-9E58-EEEE5E097780}|Phoenix.Infrastructure\\Phoenix.Infrastructure.csproj|c:\\users\\estagiarioti\\documents\\learningapi\\phoenix\\phoenix.infrastructure\\repositories\\funcionariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1AB6B59-F0FA-4F7C-9E58-EEEE5E097780}|Phoenix.Infrastructure\\Phoenix.Infrastructure.csproj|solutionrelative:phoenix.infrastructure\\repositories\\funcionariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DFE732B7-CEFD-4D8F-A393-900274DAC939}|Phoenix.Domain\\Phoenix.Domain.csproj|c:\\users\\estagiarioti\\documents\\learningapi\\phoenix\\phoenix.domain\\entities\\relationshipentities\\funcionarioatividade.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DFE732B7-CEFD-4D8F-A393-900274DAC939}|Phoenix.Domain\\Phoenix.Domain.csproj|solutionrelative:phoenix.domain\\entities\\relationshipentities\\funcionarioatividade.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DFE732B7-CEFD-4D8F-A393-900274DAC939}|Phoenix.Domain\\Phoenix.Domain.csproj|c:\\users\\estagiarioti\\documents\\learningapi\\phoenix\\phoenix.domain\\entities\\enums\\statusfuncionarioenum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DFE732B7-CEFD-4D8F-A393-900274DAC939}|Phoenix.Domain\\Phoenix.Domain.csproj|solutionrelative:phoenix.domain\\entities\\enums\\statusfuncionarioenum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DFE732B7-CEFD-4D8F-A393-900274DAC939}|Phoenix.Domain\\Phoenix.Domain.csproj|c:\\users\\estagiarioti\\documents\\learningapi\\phoenix\\phoenix.domain\\entities\\funcionario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DFE732B7-CEFD-4D8F-A393-900274DAC939}|Phoenix.Domain\\Phoenix.Domain.csproj|solutionrelative:phoenix.domain\\entities\\funcionario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DFE732B7-CEFD-4D8F-A393-900274DAC939}|Phoenix.Domain\\Phoenix.Domain.csproj|c:\\users\\estagiarioti\\documents\\learningapi\\phoenix\\phoenix.domain\\entities\\relationshipentities\\cargoatividade.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DFE732B7-CEFD-4D8F-A393-900274DAC939}|Phoenix.Domain\\Phoenix.Domain.csproj|solutionrelative:phoenix.domain\\entities\\relationshipentities\\cargoatividade.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DFE732B7-CEFD-4D8F-A393-900274DAC939}|Phoenix.Domain\\Phoenix.Domain.csproj|c:\\users\\estagiarioti\\documents\\learningapi\\phoenix\\phoenix.domain\\interfaces\\ifuncionariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DFE732B7-CEFD-4D8F-A393-900274DAC939}|Phoenix.Domain\\Phoenix.Domain.csproj|solutionrelative:phoenix.domain\\interfaces\\ifuncionariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1AB6B59-F0FA-4F7C-9E58-EEEE5E097780}|Phoenix.Infrastructure\\Phoenix.Infrastructure.csproj|c:\\users\\estagiarioti\\documents\\learningapi\\phoenix\\phoenix.infrastructure\\entitiesconfiguration\\clienteconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1AB6B59-F0FA-4F7C-9E58-EEEE5E097780}|Phoenix.Infrastructure\\Phoenix.Infrastructure.csproj|solutionrelative:phoenix.infrastructure\\entitiesconfiguration\\clienteconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DFE732B7-CEFD-4D8F-A393-900274DAC939}|Phoenix.Domain\\Phoenix.Domain.csproj|c:\\users\\estagiarioti\\documents\\learningapi\\phoenix\\phoenix.domain\\entities\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DFE732B7-CEFD-4D8F-A393-900274DAC939}|Phoenix.Domain\\Phoenix.Domain.csproj|solutionrelative:phoenix.domain\\entities\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,49 +34,83 @@
       "DocumentGroups": [
         {
           "DockedWidth": 1471,
-          "SelectedChildIndex": 10,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "CargoAtividade.cs",
-              "DocumentMoniker": "C:\\Users\\ESTAGIARIOTI\\Documents\\LearningApi\\Phoenix\\Phoenix.Domain\\Entities\\RelationshipEntities\\CargoAtividade.cs",
-              "RelativeDocumentMoniker": "Phoenix.Domain\\Entities\\RelationshipEntities\\CargoAtividade.cs",
-              "ToolTip": "C:\\Users\\ESTAGIARIOTI\\Documents\\LearningApi\\Phoenix\\Phoenix.Domain\\Entities\\RelationshipEntities\\CargoAtividade.cs",
-              "RelativeToolTip": "Phoenix.Domain\\Entities\\RelationshipEntities\\CargoAtividade.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-12T16:58:33.251Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "FuncionarioAtividade.cs",
-              "DocumentMoniker": "C:\\Users\\ESTAGIARIOTI\\Documents\\LearningApi\\Phoenix\\Phoenix.Domain\\Entities\\RelationshipEntities\\FuncionarioAtividade.cs",
-              "RelativeDocumentMoniker": "Phoenix.Domain\\Entities\\RelationshipEntities\\FuncionarioAtividade.cs",
-              "ToolTip": "C:\\Users\\ESTAGIARIOTI\\Documents\\LearningApi\\Phoenix\\Phoenix.Domain\\Entities\\RelationshipEntities\\FuncionarioAtividade.cs",
-              "RelativeToolTip": "Phoenix.Domain\\Entities\\RelationshipEntities\\FuncionarioAtividade.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAEwAoAAAA0AAAA",
+              "Title": "StatusFuncionarioEnum.cs",
+              "DocumentMoniker": "C:\\Users\\ESTAGIARIOTI\\Documents\\LearningApi\\Phoenix\\Phoenix.Domain\\Entities\\Enums\\StatusFuncionarioEnum.cs",
+              "RelativeDocumentMoniker": "Phoenix.Domain\\Entities\\Enums\\StatusFuncionarioEnum.cs",
+              "ToolTip": "C:\\Users\\ESTAGIARIOTI\\Documents\\LearningApi\\Phoenix\\Phoenix.Domain\\Entities\\Enums\\StatusFuncionarioEnum.cs",
+              "RelativeToolTip": "Phoenix.Domain\\Entities\\Enums\\StatusFuncionarioEnum.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAUAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-12T16:49:39.422Z",
+              "WhenOpened": "2024-04-15T17:18:56.824Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "FuncionarioConfiguration.cs",
-              "DocumentMoniker": "C:\\Users\\ESTAGIARIOTI\\Documents\\LearningApi\\Phoenix\\Phoenix.Infrastructure\\EntitiesConfiguration\\FuncionarioConfiguration.cs",
-              "RelativeDocumentMoniker": "Phoenix.Infrastructure\\EntitiesConfiguration\\FuncionarioConfiguration.cs",
-              "ToolTip": "C:\\Users\\ESTAGIARIOTI\\Documents\\LearningApi\\Phoenix\\Phoenix.Infrastructure\\EntitiesConfiguration\\FuncionarioConfiguration.cs",
-              "RelativeToolTip": "Phoenix.Infrastructure\\EntitiesConfiguration\\FuncionarioConfiguration.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAAAAAA",
+              "Title": "FuncionarioRepository.cs",
+              "DocumentMoniker": "C:\\Users\\ESTAGIARIOTI\\Documents\\LearningApi\\Phoenix\\Phoenix.Infrastructure\\Repositories\\FuncionarioRepository.cs",
+              "RelativeDocumentMoniker": "Phoenix.Infrastructure\\Repositories\\FuncionarioRepository.cs",
+              "ToolTip": "C:\\Users\\ESTAGIARIOTI\\Documents\\LearningApi\\Phoenix\\Phoenix.Infrastructure\\Repositories\\FuncionarioRepository.cs",
+              "RelativeToolTip": "Phoenix.Infrastructure\\Repositories\\FuncionarioRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACQAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-12T16:29:33.644Z",
+              "WhenOpened": "2024-04-15T17:04:33.87Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "FloatingWindowState": {
+        "Id": "bc4b3262-6784-4250-b443-b24f83af066a",
+        "Display": 0,
+        "X": 201,
+        "Y": 34,
+        "Width": 1553,
+        "Height": 792,
+        "WindowState": 2
+      },
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Cliente.cs",
+              "DocumentMoniker": "C:\\Users\\ESTAGIARIOTI\\Documents\\LearningApi\\Phoenix\\Phoenix.Domain\\Entities\\Cliente.cs",
+              "RelativeDocumentMoniker": "Phoenix.Domain\\Entities\\Cliente.cs",
+              "ToolTip": "C:\\Users\\ESTAGIARIOTI\\Documents\\LearningApi\\Phoenix\\Phoenix.Domain\\Entities\\Cliente.cs",
+              "RelativeToolTip": "Phoenix.Domain\\Entities\\Cliente.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAABAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-15T15:02:47.556Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ClienteConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\ESTAGIARIOTI\\Documents\\LearningApi\\Phoenix\\Phoenix.Infrastructure\\EntitiesConfiguration\\ClienteConfiguration.cs",
+              "RelativeDocumentMoniker": "Phoenix.Infrastructure\\EntitiesConfiguration\\ClienteConfiguration.cs",
+              "ToolTip": "C:\\Users\\ESTAGIARIOTI\\Documents\\LearningApi\\Phoenix\\Phoenix.Infrastructure\\EntitiesConfiguration\\ClienteConfiguration.cs",
+              "RelativeToolTip": "Phoenix.Infrastructure\\EntitiesConfiguration\\ClienteConfiguration.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAA/AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-15T15:04:54.759Z",
               "EditorCaption": ""
             }
           ]
@@ -79,19 +121,32 @@
       "Orientation": 0,
       "VerticalTabListWidth": 256,
       "FloatingWindowState": {
-        "Id": "f8f2fda8-813d-4880-ba33-e5bb0e5e1719",
+        "Id": "6c8d5a52-cbbf-4527-be92-8d6481c4ce05",
         "Display": 0,
-        "X": 785,
-        "Y": 0,
-        "Width": 1578,
-        "Height": 792,
+        "X": 341,
+        "Y": -35,
+        "Width": 1553,
+        "Height": 770,
         "WindowState": 2
       },
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IFuncionarioRepository.cs",
+              "DocumentMoniker": "C:\\Users\\ESTAGIARIOTI\\Documents\\LearningApi\\Phoenix\\Phoenix.Domain\\Interfaces\\IFuncionarioRepository.cs",
+              "RelativeDocumentMoniker": "Phoenix.Domain\\Interfaces\\IFuncionarioRepository.cs",
+              "ToolTip": "C:\\Users\\ESTAGIARIOTI\\Documents\\LearningApi\\Phoenix\\Phoenix.Domain\\Interfaces\\IFuncionarioRepository.cs",
+              "RelativeToolTip": "Phoenix.Domain\\Interfaces\\IFuncionarioRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-15T16:49:50.064Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 2,
@@ -100,9 +155,9 @@
               "RelativeDocumentMoniker": "Phoenix.Domain\\Entities\\Funcionario.cs",
               "ToolTip": "C:\\Users\\ESTAGIARIOTI\\Documents\\LearningApi\\Phoenix\\Phoenix.Domain\\Entities\\Funcionario.cs",
               "RelativeToolTip": "Phoenix.Domain\\Entities\\Funcionario.cs",
-              "ViewState": "AQIAAAoAAAAAAAAAAAAxwBIAAABAAAAA",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAAABQAAAAfAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-12T16:29:08.944Z",
+              "WhenOpened": "2024-04-15T17:04:17.506Z",
               "EditorCaption": ""
             }
           ]

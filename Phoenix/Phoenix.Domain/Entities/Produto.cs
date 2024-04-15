@@ -15,18 +15,26 @@ namespace Phoenix.Domain.Entities
         public decimal PrecoCompra { get; private set; }
         public int Estoque { get; private set; }
 
-        public ICollection<VendaProduto>? VendaProdutos { get; private set; }
-        public ICollection<CompraProduto>? CompraProdutos { get; private set; }
+        public ICollection<Venda>? Vendas { get; private set; }
+        public ICollection<Compra>? Compras { get; private set; }
         public Fornecedor? Fornecedor { get; private set; }
         public int FornecedorId { get; private set; }
 
         public DateTime DataCadastro { get; private set; }
+        
+        
+        
+        
+        public Produto() { }
 
+       
+        
+        
         public Produto(string? descricao, decimal precoVenda, decimal precoCompra, int estoque, Fornecedor fornecedor) {
             
             ValidateDomain(descricao, precoVenda, precoCompra, estoque, fornecedor);
-            VendaProdutos = new List<VendaProduto>();
-            CompraProdutos = new List<CompraProduto>();
+            Vendas = new List<Venda>();
+            Compras = new List<Compra>();
         }
 
 
@@ -51,5 +59,7 @@ namespace Phoenix.Domain.Entities
             Fornecedor = fornecedor;
 
         }
+
+
     }
 }

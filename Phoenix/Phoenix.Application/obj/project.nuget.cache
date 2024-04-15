@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ZR/OHcXHy+ClQz9lxP/eeBu84fkuxVtrZ0pCQI2wm/JpXM34rii6wab6GDiXeXkxx9z4aPivGqg40RL/dncZ5Q==",
+  "dgSpecHash": "AlAe2LRIKcGgA3C1Q4p2CjKrYrY69LnWm6ZZCH5DfQx95fWliWuQTlO/STf9xBODkol6xX9O7g7xou46WXScTQ==",
   "success": true,
-  "projectFilePath": "/home/iuridev26/Development/Framework.NET/WebAPI/LearningAPI/Phoenix/Phoenix.Application/Phoenix.Application.csproj",
+  "projectFilePath": "C:\\Users\\ESTAGIARIOTI\\Documents\\LearningApi\\Phoenix\\Phoenix.Application\\Phoenix.Application.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

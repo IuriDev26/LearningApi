@@ -12,6 +12,10 @@ namespace Phoenix.Domain.Entities {
         public Venda VendaDevolvida { get; private set; }
         public int VendaId { get; private set; }
 
+        public DevolucaoVenda() {
+
+        }
+
         public DevolucaoVenda(string motivo, DateTime dataDevolucao, Venda vendaDevolvida) {
             Motivo = motivo;
             DataDevolucao = dataDevolucao;

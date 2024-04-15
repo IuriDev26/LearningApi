@@ -13,12 +13,13 @@ namespace Phoenix.Infrastructure.EntitiesConfiguration {
 
             builder.HasKey(x => x.Id);
             builder.Property( p => p.Cep ).HasMaxLength(8).IsFixedLength().IsRequired();
-            builder.Property( p => p.CPF ).HasMaxLength(8).IsRequired();
+            builder.Property( p => p.CPF ).HasMaxLength(11).IsRequired();
             builder.Property( p => p.DataCadastro ).HasDefaultValue(DateTime.UtcNow).IsRequired();
-            builder.Property( p => p.Email ).IsRequired();
-            builder.Property( p => p.Endereco).IsRequired();
-            builder.Property( p => p.Telefone);
+            builder.Property( p => p.Email ).HasMaxLength(50).IsRequired();
+            builder.Property( p => p.Endereco).HasMaxLength(100).IsRequired();
+            builder.Property( p => p.Telefone).HasMaxLength(9).IsRequired();
             builder.Property( p => p.ResidencialNumber);
+            builder.Property(p => p.Nome).HasMaxLength(50).IsRequired();
 
             
 

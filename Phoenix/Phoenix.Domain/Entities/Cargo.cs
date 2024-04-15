@@ -11,28 +11,21 @@ namespace Phoenix.Domain.Entities
 
         public string? Nome { get; private set; }
         public string? Descricao { get; private set; }
-        public ICollection<CargoAtividade> CargoAtividades { get; private set; }
-        public ICollection<FuncionarioCargo> FuncionarioCargos { get; private set; }
+        public ICollection<Atividade> Atividades { get; private set; }
+        public ICollection<Funcionario> Funcionarios { get; private set; }
 
-        public Cargo(string? nome, string? descricao) {
+        public Cargo(string? nome, string? descricao, List<Atividade> atividades) {
             
             Nome = nome;
             Descricao = descricao;
-            CargoAtividades = new List<CargoAtividade>();
-            FuncionarioCargos = new List<FuncionarioCargo>();
+            Atividades = atividades;
+            Funcionarios = new List<Funcionario>();
         }
 
-        public void AddAtividades(List<Atividade> atividades) {
-
-            foreach (Atividade atividade in atividades) {
-
-                CargoAtividade cargoAtividade = new CargoAtividade(this, atividade);
-                CargoAtividades.Add(cargoAtividade);
-
-            }
+        public Cargo() { }
 
 
-        }
+        
 
     }
 }

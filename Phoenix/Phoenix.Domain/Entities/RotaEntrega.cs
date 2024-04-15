@@ -15,6 +15,11 @@ namespace Phoenix.Domain.Entities
         public DateTime DataFinished { get; private set; }
         public StatusRotaEnum Status { get; private set; }
 
+        public RotaEntrega()
+        {
+            
+        }
+
         public RotaEntrega(ICollection<Entrega> entregas, DateTime dataStarted)
         {
 

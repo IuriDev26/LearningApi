@@ -1,4 +1,5 @@
-﻿using Phoenix.Domain.Entities.RelationshipEntities;
+﻿using Phoenix.Domain.Entities.Enums;
+using Phoenix.Domain.Entities.RelationshipEntities;
 using Phoenix.Domain.Validation;
 using System;
 using System.Collections.Generic;
@@ -14,9 +15,12 @@ namespace Phoenix.Domain.Entities {
         public int Idade { get; private set; }
         public DateTime Admissao { get; private set; }
         public DateTime Demissao { get; private set; }
-        public ICollection<FuncionarioCargo> FuncionarioCargos { get; private set; }
-        public ICollection<FuncionarioAtividade> FuncionarioAtividades { get; private set; }
+        public ICollection<Cargo> Cargos { get; private set; }
+        public ICollection<Atividade> Atividades { get; private set; }
         public ICollection<Compra> Compras { get; private set; }
+        public StatusFuncionarioEnum Status {  get; private set; }
+
+        public Funcionario() { }
 
 
         public Funcionario(string nome, int idade, DateTime admissao, DateTime demissao) {
@@ -24,8 +28,8 @@ namespace Phoenix.Domain.Entities {
             Idade = ValidateIdade(idade);
             Admissao = admissao;
             Demissao = demissao;
-            FuncionarioCargos = new List<FuncionarioCargo>();
-            FuncionarioAtividades = new List<FuncionarioAtividade>();
+            Cargos = new List<Cargo>();
+            Atividades = new List<Atividade>();
             Compras = new List<Compra>();
         }
 
@@ -42,24 +46,33 @@ namespace Phoenix.Domain.Entities {
 
         public void AddCargos(IEnumerable<Cargo> cargos) {
 
-            foreach (Cargo cargo in cargos) {
+            cargos = cargos.ToList();
+            Cargos.Concat(cargos);
+            
+            foreach ( Cargo cargo in cargos) {
 
-                var funcionarioCargo = new FuncionarioCargo(this, cargo);
-                FuncionarioCargos.Add(funcionarioCargo);
-
-                List<Atividade> atividades = cargo.CargoAtividades.Select(c => c.Atividade).ToList();
-                
-                foreach ( Atividade atividade in atividades) {
-
-                    var funcionarioAtividade = new FuncionarioAtividade(this, atividade);
-
-                }
-
+                Atividades.Concat(cargo.Atividades);
 
             }
 
-            
         }
+
+        public void Promote(Cargo novoCargo) {
+
+            this.Cargos = new List<Cargo>();
+            this.Cargos.Add(novoCargo);
+       
+        }
+
+
+        public void Resignation() {
+
+            this.Demissao = DateTime.UtcNow;
+
+        }
+
+            
+        
 
     }
 }
