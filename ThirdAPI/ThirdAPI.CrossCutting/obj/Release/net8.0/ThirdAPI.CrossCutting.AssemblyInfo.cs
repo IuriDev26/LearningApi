@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ThirdAPI.CrossCutting")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1378fd9a8ab6f35cd867f1dc1d02c8bb16feea1c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f42f25cd7beec8567f4b66129aa5b58c37a024c7")]
 [assembly: System.Reflection.AssemblyProductAttribute("ThirdAPI.CrossCutting")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ThirdAPI.CrossCutting")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

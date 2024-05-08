@@ -3,12 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\ESTAGIARIOTI\\Documents\\LearningApi\\FirstApi\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0C338BCD-8D6E-44E4-B83D-80CC637843FE}|FirstApi\\FirstApi.csproj|c:\\users\\estagiarioti\\documents\\learningapi\\firstapi\\firstapi\\repositories\\implementations\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0C338BCD-8D6E-44E4-B83D-80CC637843FE}|FirstApi\\FirstApi.csproj|solutionrelative:firstapi\\repositories\\implementations\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0C338BCD-8D6E-44E4-B83D-80CC637843FE}|FirstApi\\FirstApi.csproj|c:\\users\\estagiarioti\\documents\\learningapi\\firstapi\\firstapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C338BCD-8D6E-44E4-B83D-80CC637843FE}|FirstApi\\FirstApi.csproj|solutionrelative:firstapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C338BCD-8D6E-44E4-B83D-80CC637843FE}|FirstApi\\FirstApi.csproj|c:\\users\\estagiarioti\\documents\\learningapi\\firstapi\\firstapi\\middlewares\\exceptionsmiddlewares\\apiexceptionsmiddlewaresextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C338BCD-8D6E-44E4-B83D-80CC637843FE}|FirstApi\\FirstApi.csproj|solutionrelative:firstapi\\middlewares\\exceptionsmiddlewares\\apiexceptionsmiddlewaresextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C338BCD-8D6E-44E4-B83D-80CC637843FE}|FirstApi\\FirstApi.csproj|c:\\users\\estagiarioti\\documents\\learningapi\\firstapi\\firstapi\\controllers\\categoriascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C338BCD-8D6E-44E4-B83D-80CC637843FE}|FirstApi\\FirstApi.csproj|solutionrelative:firstapi\\controllers\\categoriascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0C338BCD-8D6E-44E4-B83D-80CC637843FE}|FirstApi\\FirstApi.csproj|c:\\users\\estagiarioti\\documents\\learningapi\\firstapi\\firstapi\\repositories\\interfaces\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0C338BCD-8D6E-44E4-B83D-80CC637843FE}|FirstApi\\FirstApi.csproj|solutionrelative:firstapi\\repositories\\interfaces\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C338BCD-8D6E-44E4-B83D-80CC637843FE}|FirstApi\\FirstApi.csproj|c:\\users\\estagiarioti\\documents\\learningapi\\firstapi\\firstapi\\repositories\\implementations\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C338BCD-8D6E-44E4-B83D-80CC637843FE}|FirstApi\\FirstApi.csproj|solutionrelative:firstapi\\repositories\\implementations\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0C338BCD-8D6E-44E4-B83D-80CC637843FE}|FirstApi\\FirstApi.csproj|c:\\users\\estagiarioti\\documents\\learningapi\\firstapi\\firstapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
@@ -34,7 +46,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -42,20 +54,58 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ApiExceptionsMiddlewaresExtensions.cs",
+              "DocumentMoniker": "C:\\Users\\ESTAGIARIOTI\\Documents\\LearningApi\\FirstApi\\FirstApi\\Middlewares\\ExceptionsMiddlewares\\ApiExceptionsMiddlewaresExtensions.cs",
+              "RelativeDocumentMoniker": "FirstApi\\Middlewares\\ExceptionsMiddlewares\\ApiExceptionsMiddlewaresExtensions.cs",
+              "ToolTip": "C:\\Users\\ESTAGIARIOTI\\Documents\\LearningApi\\FirstApi\\FirstApi\\Middlewares\\ExceptionsMiddlewares\\ApiExceptionsMiddlewaresExtensions.cs",
+              "RelativeToolTip": "FirstApi\\Middlewares\\ExceptionsMiddlewares\\ApiExceptionsMiddlewaresExtensions.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-26T13:20:46.972Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\ESTAGIARIOTI\\Documents\\LearningApi\\FirstApi\\FirstApi\\Program.cs",
+              "RelativeDocumentMoniker": "FirstApi\\Program.cs",
+              "ToolTip": "C:\\Users\\ESTAGIARIOTI\\Documents\\LearningApi\\FirstApi\\FirstApi\\Program.cs",
+              "RelativeToolTip": "FirstApi\\Program.cs",
+              "ViewState": "AQIAAFoAAAAAAAAAAAAAAG0AAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-26T13:20:26.947Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CategoriasController.cs",
+              "DocumentMoniker": "C:\\Users\\ESTAGIARIOTI\\Documents\\LearningApi\\FirstApi\\FirstApi\\Controllers\\CategoriasController.cs",
+              "RelativeDocumentMoniker": "FirstApi\\Controllers\\CategoriasController.cs",
+              "ToolTip": "C:\\Users\\ESTAGIARIOTI\\Documents\\LearningApi\\FirstApi\\FirstApi\\Controllers\\CategoriasController.cs",
+              "RelativeToolTip": "FirstApi\\Controllers\\CategoriasController.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAqwBoAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-18T16:23:32.566Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "Repository.cs",
               "DocumentMoniker": "C:\\Users\\ESTAGIARIOTI\\Documents\\LearningApi\\FirstApi\\FirstApi\\Repositories\\Implementations\\Repository.cs",
               "RelativeDocumentMoniker": "FirstApi\\Repositories\\Implementations\\Repository.cs",
               "ToolTip": "C:\\Users\\ESTAGIARIOTI\\Documents\\LearningApi\\FirstApi\\FirstApi\\Repositories\\Implementations\\Repository.cs",
               "RelativeToolTip": "FirstApi\\Repositories\\Implementations\\Repository.cs",
-              "ViewState": "AQIAAAsAAAAAAAAAAAAQwCIAAAAjAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAxAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-12T15:56:38.947Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-12T15:56:38.947Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "IRepository.cs",
               "DocumentMoniker": "C:\\Users\\ESTAGIARIOTI\\Documents\\LearningApi\\FirstApi\\FirstApi\\Repositories\\Interfaces\\IRepository.cs",
               "RelativeDocumentMoniker": "FirstApi\\Repositories\\Interfaces\\IRepository.cs",
@@ -63,12 +113,11 @@
               "RelativeToolTip": "FirstApi\\Repositories\\Interfaces\\IRepository.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAbAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-12T15:55:55.544Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-12T15:55:55.544Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "launchSettings.json",
               "DocumentMoniker": "C:\\Users\\ESTAGIARIOTI\\Documents\\LearningApi\\FirstApi\\FirstApi\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "FirstApi\\Properties\\launchSettings.json",
@@ -76,12 +125,11 @@
               "RelativeToolTip": "FirstApi\\Properties\\launchSettings.json",
               "ViewState": "AQIAAAkAAAAAAAAAAAAAABIAAAAvAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-04-10T14:26:42.962Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-10T14:26:42.962Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "GetUnitTests.cs",
               "DocumentMoniker": "C:\\Users\\ESTAGIARIOTI\\Documents\\LearningApi\\FirstApi\\FirstApixUnitTestes\\ProdutosControllerUnitTest\\GetUnitTests.cs",
               "RelativeDocumentMoniker": "FirstApixUnitTestes\\ProdutosControllerUnitTest\\GetUnitTests.cs",
@@ -93,7 +141,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 8,
               "Title": "ProdutoUnitTesteController.cs",
               "DocumentMoniker": "C:\\Users\\ESTAGIARIOTI\\Documents\\LearningApi\\FirstApi\\FirstApixUnitTestes\\ProdutosControllerUnitTest\\ProdutoUnitTesteController.cs",
               "RelativeDocumentMoniker": "FirstApixUnitTestes\\ProdutosControllerUnitTest\\ProdutoUnitTesteController.cs",
@@ -105,7 +153,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "ProdutosController.cs",
               "DocumentMoniker": "C:\\Users\\ESTAGIARIOTI\\Documents\\LearningApi\\FirstApi\\FirstApi\\Controllers\\ProdutosController.cs",
               "RelativeDocumentMoniker": "FirstApi\\Controllers\\ProdutosController.cs",
